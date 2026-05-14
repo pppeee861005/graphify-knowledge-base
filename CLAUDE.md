@@ -1,0 +1,176 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+---
+
+## 倉庫概述
+
+這是一個個人知識庫，使用 **Graphify** 工具建立。倉庫主要包含：
+- 技術文章和深度分析文檔（Markdown 格式）
+- 學習筆記和知識摘要
+- 個人博客文章系列
+- 知識圖譜相關的工具指南
+
+**核心工具：[Graphify](https://github.com/pppeee861005/graphify)** — 將混亂的文件、代碼、論文轉化為可查詢的知識圖譜。
+
+---
+
+## 常見工作流
+
+### 寫日誌
+```bash
+寫日誌
+```
+產出日誌檔案（如 `日誌260513.md`）。
+
+### 學習新主題
+```bash
+學習 [主題]
+```
+
+### 寫文章（橋樑敘事法）
+```bash
+寫文章 [主題]
+```
+
+### 查詢知識圖譜
+```bash
+查圖譜 [關鍵字]
+```
+執行 `graphify query` 來搜尋知識圖譜。
+
+### 將流程存為技能
+```bash
+建技能 [名稱]
+```
+
+---
+
+## 文件結構與內容分類
+
+### 📡 科技趨勢與前沿
+- `AI_醫療時代的三大趨勢報告.md`
+- `軟體3.0時代.md`
+- `計算革命.md`
+- `robotaxi.md`
+- `軟體的工業化轉型.md`
+- `軟體開發的本質革命.md`
+
+### 🧠 創意寫作與連載系列
+- `從毒癮到創造者_系列文章計劃.md` — 系列規劃文件
+- `第一篇_你不是沉迷你是被設計成沉迷的.md`
+- `第二篇_你被偷走了什麼.md`
+- `第三篇_引力轉移為什麼創造比消費更上癮.md`
+- `發布版_第一篇_Substack_20260517.md` — 發布版本
+- `發布策略_從毒癮到創造者系列.md` — 發布策略
+
+### 🛠️ 工具與技術指南
+- `graphify.MD` — Graphify 核心概念與工作流
+- `hermes_graphify.md` — Hermes 與 Graphify 整合
+- `Hermes_CubeSandbox_Integration_Guide_zh.md` — 詳細整合指南
+- `hermes_openrouter_models_fb.md`
+- `ollama_openwebui.md` — Ollama 部署指南
+- `vps上的ollama.md` — VPS 上的 Ollama 配置
+
+### 📖 閱讀與學習
+- `今日學習備忘錄_20260429.md`
+- `多環境記意同步方案.md`
+- `學習進度skill.md`
+- `muti_practice.md`
+- `NotebookLM 筆記本教學.md`
+- `致未來年輕人的信.md`
+
+### ⚙️ 技術與概念
+- `llm_list.md` — 大語言模型清單
+- `agent_os.md` — Agent OS 架構
+- `agent_os_remastered.md` — 重構版本
+- `錯誤處理機制.md` — 系統錯誤處理設計
+- `chatbot_3角色.md` — 聊天機器人角色設計
+- `py-futu-api.md` — Python API 整合
+
+### 📊 分析與報告
+- `ai_creation_trends_report_alliance.md` — AI 創作趨勢報告
+- `三大趨勢報告.md`
+- `swarm_agents_deep_dive_draft.md` — Swarm Agents 深度分析
+- `swarm_agents_four_layer_strategy.md` — 四層策略框架
+- `swarm-agent-article-1.md`
+- `swarm_agent_part2_adaptability.md` — 適應性設計
+- `swarm_agent_part3_decoupling.md` — 解耦設計
+- `swarm_agent_series_plan.md` — 系列規劃
+
+### 其他
+- `豪力風神身份架構圖.md` — 人物設定檔
+- `記憶體（memory）與 Graphify 的區別.md` — 概念區分
+- `自然語言驅動的瀏覽器自動化開發指南.md`
+- `是否生成一次性.md` — 決策分析
+- `每日日誌建議範本.md` — 日誌模板
+- `多環境記意同步方案.md` — 同步方案
+
+---
+
+## Graphify 核心概念
+
+### 雙通道提取機制
+Graphify 採用兩輪提取將混亂資料轉化為知識圖譜：
+
+1. **AST 解析（代碼部分）**
+   - 透過抽象語法樹（AST）精確提取代碼結構
+   - 不消耗 Token，提取類、函數、調用關係等
+
+2. **AI 語義提取（文檔部分）**
+   - 利用大模型（Claude/OpenAI）理解文檔語義
+   - 推斷概念間的隱含聯繫，提取實體與關係
+
+### 圖譜構建與應用
+- **社區發現算法**：自動識別系統核心模塊
+- **持久化存儲**：圖譜保存為文件，提升查詢效率，降低 Token 消耗
+- **多模態導航**：連結理論與實現，實現精確搜索
+
+### 應用場景
+- 快速上手大型老項目（標記核心模塊與風險點）
+- 科研輔助（識別論文間的隱性聯繫）
+- 知識管理與導出（支援 Obsidian 等工具）
+
+---
+
+## 編輯與查詢建議
+
+### 編輯文檔時
+- 保持 Markdown 格式清晰
+- 使用層級標題幫助結構化
+- 在新增內容時考慮 Graphify 的語義提取效果
+
+### 查詢知識圖譜時
+- 使用 `graphify query` 命令進行精確搜索
+- 參考 `search_graphify.md` 了解查詢技巧
+- 定期運行 Graphify 重新生成圖譜（當新增大量文件時）
+
+---
+
+## Git 工作流
+
+- 倉庫為 `d:\數位資產\graphify個人知識庫` 的完整備份
+- 常規提交新文件或更新內容時，保持提交訊息清晰
+- 例如：`新增 [文章名稱]`、`更新 [主題] 內容`
+
+---
+
+## 語言設定
+
+- **使用繁體中文交流** — Claude 應一律用繁體中文(Traditional Chinese)回應
+- 除非明確要求使用其他語言
+
+---
+
+## Graphify 技能（/graphify）
+
+当用户输入 `/graphify` 時，会自动调用 Graphify 技能将任何输入（代码、文档、论文、图像）转换为知识图谱，生成 HTML、JSON 和审计报告。
+
+---
+
+## 相關資源
+
+- [Graphify GitHub](https://github.com/pppeee861005/graphify)
+- README.md — 知識庫概覽與使用方式說明
+- `常用指令.md` — 快速指令參考

@@ -7,13 +7,18 @@ Desktop.ini
 *.swp
 *.swo
 *~
+.vscode/
 .vscode/settings.json
+.idea/
+*.sublime-workspace
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 .env
+.env.local
+.env.*.local
 venv/
 .venv/
 
@@ -21,7 +26,32 @@ venv/
 node_modules/
 npm-debug.log*
 
-# Graphify generated files (if any)
+# 密鑰和憑證
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+secrets.json
+config/secrets/
+api_keys.json
+oauth_tokens
+auth_tokens.json
+
+# Claude Code
+.claude/
+.claude/hooks/
+
+# Substack & 外部服務
+.substack_credentials
+.substack_tokens
+
+# 資料庫
+*.sqlite
+*.db
+*.sqlite3
+
+# Graphify generated files
 *.graph.json
 *.graph.db
 

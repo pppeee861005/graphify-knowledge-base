@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "kling-video": {
+      "version": "1.0.4",
+      "installedAt": 1779013174164
+    },
+    "kling-image-generate": {
+      "version": "1.0.1",
+      "installedAt": 1779013482108
+    }
+  }
+}

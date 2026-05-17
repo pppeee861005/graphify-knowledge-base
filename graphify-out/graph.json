@@ -1,0 +1,137 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "creator-diagnostic-interactive.jsx",
+      "file_type": "code",
+      "source_file": "\u5c08\u6848\u898f\u5283\\project_html\\creator-diagnostic-interactive.jsx",
+      "id": "project_html_creator_diagnostic_interactive_jsx"
+    },
+    {
+      "label": "CreatorDiagnostic()",
+      "file_type": "code",
+      "source_file": "\u5c08\u6848\u898f\u5283\\project_html\\creator-diagnostic-interactive.jsx",
+      "id": "project_html_creator_diagnostic_interactive_creatordiagnostic"
+    },
+    {
+      "label": "\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005\u7cfb\u5217",
+      "file_type": "document",
+      "source_file": "\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005_\u7cfb\u5217\u6587\u7ae0\u8a08\u5283.md",
+      "id": "substack_from_addiction_to_creator"
+    },
+    {
+      "label": "\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684",
+      "file_type": "document",
+      "source_file": "\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/\u767c\u5e03\u7248_\u7b2c\u4e00\u7bc7_Substack_20260517.md",
+      "id": "substack_article_001_designed_addiction"
+    },
+    {
+      "label": "Agent OS\u7406\u8ad6\u6846\u67b6",
+      "file_type": "document",
+      "source_file": "\u6280\u8853\u6587\u7ae0/agent_os.md",
+      "id": "agent_os_concept"
+    },
+    {
+      "label": "\u8edf\u9ad43.0\u6642\u4ee3\u7bc4\u5f0f",
+      "file_type": "document",
+      "source_file": "\u6280\u8853\u6587\u7ae0/\u8edf\u9ad43.0\u6642\u4ee3.md",
+      "id": "software_30_paradigm"
+    },
+    {
+      "label": "\u6697\u77e5\u8b58\u6838\u5fc3\u6982\u5ff5",
+      "file_type": "document",
+      "source_file": "\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/\u6697\u77e5\u8b58\u7cfb\u5217\u898f\u5283.md",
+      "id": "dark_knowledge_concept"
+    },
+    {
+      "label": "\u9006\u5411\u8996\u89ba\u89e3\u69cb\u6838\u5fc3\u6982\u5ff5",
+      "file_type": "document",
+      "source_file": "\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/\u9006\u5411\u8996\u89ba\u89e3\u69cb\u767c\u5e03\u8a08\u5283_v2.md",
+      "id": "reverse_visual_concept"
+    },
+    {
+      "label": "\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae",
+      "file_type": "document",
+      "source_file": "\u51fa\u7248\u7ba1\u7406/\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae.md",
+      "id": "series_catalog"
+    },
+    {
+      "label": "\u767c\u5e03\u65e5\u7a0b\u8a08\u5283",
+      "file_type": "rationale",
+      "source_file": "\u51fa\u7248\u7ba1\u7406/\u767c\u5e03\u65e5\u7a0b\u8a08\u5283_2026\u5e745\u670818\u65e5-6\u670830\u65e5.md",
+      "id": "publishing_schedule"
+    },
+    {
+      "label": "Substack\u6210\u9577\u6578\u64da\u5206\u6790",
+      "file_type": "document",
+      "source_file": "iinput/\u8a02\u95b1\u6210\u9577\u66f2\u7dda\u6587\u5b57\u7248\u5831\u544a.md",
+      "id": "substack_growth_data"
+    },
+    {
+      "label": "\u8702\u7fa4Agent\u6280\u8853",
+      "file_type": "document",
+      "source_file": "\u6280\u8853\u6587\u7ae0/swarm_agent_series_plan.md",
+      "id": "swarm_agents"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0,
+      "source": "project_html_creator_diagnostic_interactive_jsx",
+      "target": "project_html_creator_diagnostic_interactive_creatordiagnostic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source": "substack_from_addiction_to_creator",
+      "target": "substack_article_001_designed_addiction"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source": "agent_os_concept",
+      "target": "software_30_paradigm"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source": "dark_knowledge_concept",
+      "target": "reverse_visual_concept"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source": "series_catalog",
+      "target": "substack_from_addiction_to_creator"
+    },
+    {
+      "relation": "supports_rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source": "publishing_schedule",
+      "target": "series_catalog"
+    },
+    {
+      "relation": "supports_rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source": "substack_growth_data",
+      "target": "publishing_schedule"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source": "swarm_agents",
+      "target": "agent_os_concept"
+    }
+  ]
+}

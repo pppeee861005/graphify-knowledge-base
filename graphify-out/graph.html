@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>AI指揮官筆記 - 知識圖譜</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: #0f0f1e;
+            color: #fff;
+            overflow: hidden;
+        }
+        #container { width: 100%; height: 100vh; display: flex; }
+        #graph { flex: 1; background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%); }
+        #sidebar { 
+            width: 320px; 
+            background: #1a1a2e; 
+            border-left: 1px solid #333;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        h1 { font-size: 1.4em; margin-bottom: 10px; }
+        .stat { margin: 8px 0; font-size: 0.9em; opacity: 0.8; }
+        .node-info { margin-top: 30px; }
+        .node-info h2 { font-size: 1.1em; margin-bottom: 8px; color: #4ECDC4; }
+        .node-detail { font-size: 0.85em; line-height: 1.6; opacity: 0.8; }
+        svg { width: 100%; height: 100%; }
+        .node-label { font-size: 10px; pointer-events: none; }
+        .link-label { font-size: 8px; fill: #999; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <svg id="graph"></svg>
+        <div id="sidebar">
+            <h1>📊 知識圖譜</h1>
+            <div class="stat">🔹 節點：12</div>
+            <div class="stat">🔗 連結：8</div>
+            <div class="stat">🏘️ 社區：4</div>
+            <div id="selection" class="node-info">
+                <h2>選擇節點查看詳情</h2>
+                <p class="node-detail">點擊圖上任意節點以顯示其詳細資訊</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        const nodeData = [{"id": "project_html_creator_diagnostic_interactive_jsx", "label": "creator-diagnostic-interactive.jsx", "type": "code", "color": "#45B7D1", "degree": 1}, {"id": "project_html_creator_diagnostic_interactive_creatordiagnostic", "label": "CreatorDiagnostic()", "type": "code", "color": "#45B7D1", "degree": 1}, {"id": "substack_from_addiction_to_creator", "label": "\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005\u7cfb\u5217", "type": "document", "color": "#FF6B6B", "degree": 2}, {"id": "substack_article_001_designed_addiction", "label": "\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684", "type": "document", "color": "#FF6B6B", "degree": 1}, {"id": "agent_os_concept", "label": "Agent OS\u7406\u8ad6\u6846\u67b6", "type": "document", "color": "#4ECDC4", "degree": 2}, {"id": "software_30_paradigm", "label": "\u8edf\u9ad43.0\u6642\u4ee3\u7bc4\u5f0f", "type": "document", "color": "#4ECDC4", "degree": 1}, {"id": "dark_knowledge_concept", "label": "\u6697\u77e5\u8b58\u6838\u5fc3\u6982\u5ff5", "type": "document", "color": "#FFA07A", "degree": 1}, {"id": "reverse_visual_concept", "label": "\u9006\u5411\u8996\u89ba\u89e3\u69cb\u6838\u5fc3\u6982\u5ff5", "type": "document", "color": "#FFA07A", "degree": 1}, {"id": "series_catalog", "label": "\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae", "type": "document", "color": "#FF6B6B", "degree": 2}, {"id": "publishing_schedule", "label": "\u767c\u5e03\u65e5\u7a0b\u8a08\u5283", "type": "rationale", "color": "#FF6B6B", "degree": 2}, {"id": "substack_growth_data", "label": "Substack\u6210\u9577\u6578\u64da\u5206\u6790", "type": "document", "color": "#FF6B6B", "degree": 1}, {"id": "swarm_agents", "label": "\u8702\u7fa4Agent\u6280\u8853", "type": "document", "color": "#4ECDC4", "degree": 1}];
+        
+        const linkData = [{"source": "project_html_creator_diagnostic_interactive_jsx", "target": "project_html_creator_diagnostic_interactive_creatordiagnostic", "relation": "contains", "confidence": "EXTRACTED", "confidence_score": 0}, {"source": "substack_from_addiction_to_creator", "target": "substack_article_001_designed_addiction", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0}, {"source": "agent_os_concept", "target": "software_30_paradigm", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.9}, {"source": "dark_knowledge_concept", "target": "reverse_visual_concept", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.85}, {"source": "series_catalog", "target": "substack_from_addiction_to_creator", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0}, {"source": "publishing_schedule", "target": "series_catalog", "relation": "supports_rationale_for", "confidence": "EXTRACTED", "confidence_score": 1.0}, {"source": "substack_growth_data", "target": "publishing_schedule", "relation": "supports_rationale_for", "confidence": "INFERRED", "confidence_score": 0.9}, {"source": "swarm_agents", "target": "agent_os_concept", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0}];
+
+        const width = document.getElementById('graph').clientWidth;
+        const height = window.innerHeight;
+        
+        const svg = d3.select('#graph')
+            .attr('width', width)
+            .attr('height', height);
+
+        const simulation = d3.forceSimulation(nodeData)
+            .force('link', d3.forceLink(linkData)
+                .id(d => d.id)
+                .distance(80)
+                .strength(0.1))
+            .force('charge', d3.forceManyBody().strength(-200))
+            .force('center', d3.forceCenter(width / 2, height / 2))
+            .force('collision', d3.forceCollide().radius(30));
+
+        const link = svg.append('g')
+            .selectAll('line')
+            .data(linkData)
+            .enter()
+            .append('line')
+            .attr('stroke', '#444')
+            .attr('stroke-width', 1.5)
+            .attr('opacity', 0.6);
+
+        const node = svg.append('g')
+            .selectAll('circle')
+            .data(nodeData)
+            .enter()
+            .append('circle')
+            .attr('r', d => 8 + d.degree * 2)
+            .attr('fill', d => d.color)
+            .attr('opacity', 0.85)
+            .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended))
+            .on('click', (e, d) => {
+                document.getElementById('selection').innerHTML = `
+                    <h2>${d.label}</h2>
+                    <div class="node-detail">
+                        <strong>類型：</strong> ${d.type}<br>
+                        <strong>度數：</strong> ${d.degree} 個連結<br>
+                        <strong>ID：</strong> ${d.id}
+                    </div>
+                `;
+                node.attr('opacity', node => node.id === d.id ? 1 : 0.3);
+                link.attr('opacity', link => (link.source.id === d.id || link.target.id === d.id) ? 0.8 : 0.1);
+            });
+
+        const labels = svg.append('g')
+            .selectAll('text')
+            .data(nodeData)
+            .enter()
+            .append('text')
+            .attr('class', 'node-label')
+            .attr('text-anchor', 'middle')
+            .attr('dy', '0.3em')
+            .text(d => d.label.substring(0, 10))
+            .attr('fill', '#fff');
+
+        simulation.on('tick', () => {
+            link
+                .attr('x1', d => d.source.x)
+                .attr('y1', d => d.source.y)
+                .attr('x2', d => d.target.x)
+                .attr('y2', d => d.target.y);
+
+            node
+                .attr('cx', d => d.x)
+                .attr('cy', d => d.y);
+
+            labels
+                .attr('x', d => d.x)
+                .attr('y', d => d.y);
+        });
+
+        function dragstarted(event, d) {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        // 點擊背景重置
+        svg.on('click', (e) => {
+            if (e.target === svg.node()) {
+                document.getElementById('selection').innerHTML = `
+                    <h2>選擇節點查看詳情</h2>
+                    <p class="node-detail">點擊圖上任意節點以顯示其詳細資訊</p>
+                `;
+                node.attr('opacity', 0.85);
+                link.attr('opacity', 0.6);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,647 @@
+
+<style>
+* { box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
+
+.alert-box {
+  background: var(--color-background-warning);
+  border: 0.5px solid var(--color-border-warning);
+  border-left: 2px solid var(--color-border-warning);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.alert-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-warning);
+  margin: 0 0 8px;
+}
+
+.alert-text {
+  font-size: 13px;
+  color: var(--color-text-warning);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 0.5rem;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin: 0 0 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  color: var(--color-text-primary);
+}
+
+.tab-btn.active {
+  color: var(--color-text-info);
+  border-bottom-color: var(--color-border-info);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.feature-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+  margin-bottom: 12px;
+  transition: all 0.2s;
+}
+
+.feature-card:hover {
+  border-color: var(--color-border-secondary);
+}
+
+.feature-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.feature-icon {
+  font-size: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.feature-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.feature-content {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.comp-cell {
+  padding: 10px;
+  border-radius: var(--border-radius-md);
+  font-size: 12px;
+  border-left: 2px solid;
+}
+
+.cc-cell {
+  background: rgba(55, 138, 221, 0.08);
+  border-color: var(--color-border-info);
+  color: var(--color-text-primary);
+}
+
+.kanban-cell {
+  background: rgba(29, 158, 117, 0.08);
+  border-color: var(--color-border-success);
+  color: var(--color-text-primary);
+}
+
+.cell-label {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
+
+.highlight-box {
+  background: var(--color-background-info);
+  border: 0.5px solid var(--color-border-info);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin: 1rem 0;
+}
+
+.highlight-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  margin: 0 0 8px;
+}
+
+.highlight-text {
+  font-size: 12px;
+  color: var(--color-text-info);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.discovery-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.discovery-item {
+  padding: 10px 12px;
+  background: var(--color-background-secondary);
+  border-left: 2px solid var(--color-border-info);
+  border-radius: var(--border-radius-md);
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+.revised-strategy {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 1.5rem 0;
+}
+
+.strategy-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+}
+
+.strategy-day {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.strategy-content {
+  font-size: 12px;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+.strategy-tools {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.tool-badge {
+  padding: 4px 10px;
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+  border-radius: var(--border-radius-md);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.verdict-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.verdict-card {
+  padding: 12px;
+  border-radius: var(--border-radius-md);
+  font-size: 11px;
+  font-weight: 500;
+  border: 0.5px solid;
+}
+
+.verdict-cc {
+  background: var(--color-background-info);
+  border-color: var(--color-border-info);
+  color: var(--color-text-info);
+}
+
+.verdict-kanban {
+  background: var(--color-background-success);
+  border-color: var(--color-border-success);
+  color: var(--color-text-success);
+}
+
+.key-insight {
+  background: rgba(29, 158, 117, 0.12);
+  border-left: 2px solid var(--color-border-success);
+  padding: 12px;
+  border-radius: var(--border-radius-md);
+  margin: 1rem 0;
+  font-size: 12px;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+.impact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin: 1rem 0;
+}
+
+.impact-table th {
+  background: var(--color-background-secondary);
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.impact-table td {
+  padding: 10px 8px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  color: var(--color-text-secondary);
+}
+
+.impact-table tr:hover {
+  background: var(--color-background-secondary);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.status-changed {
+  background: var(--color-background-warning);
+  color: var(--color-text-warning);
+}
+
+.status-new {
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+}
+
+</style>
+
+<div class="container">
+  <div class="alert-box">
+    <div class="alert-title">⚠️ 重大發現：Claude Code Agent View 已進化</div>
+    <div class="alert-text">
+      之前我們把 Agent View 當「單線程、無並行」的工具。但最新研究報告顯示，Claude Code v2.1.139+ 的 Agent View 現在支持「同時跑多個獨立 Session」，甚至可以「同時跑 10 個 AI」。這改變了整個 Kanban vs Agent View 的對比格局。
+    </div>
+  </div>
+
+  <h2 class="title">Claude Code Agent View 進化版分析</h2>
+  <p class="subtitle">用新功能重新評估暗知識寫作策略</p>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab(event, 'new-features')">新功能詳解</button>
+    <button class="tab-btn" onclick="showTab(event, 'comparison')">重新對比</button>
+    <button class="tab-btn" onclick="showTab(event, 'revised-strategy')">修訂策略</button>
+  </div>
+
+  <!-- TAB 1: NEW FEATURES -->
+  <div id="new-features" class="tab-content active">
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 1.5rem;">五大新能力</h3>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <div class="feature-icon"><i class="ti ti-layout-distribute" aria-hidden="true"></i></div>
+        <h4 class="feature-title">1. 多 Session 並行執行</h4>
+      </div>
+      <p class="feature-content">
+        <strong>之前：</strong> 一次只能開一個 Claude Code terminal，執行完才能執行下一個<br/>
+        <strong>現在：</strong> 可以同時啟動多個獨立的 Session（用 `claude agents` 進入主介面），每個 Session 並行執行，互不阻塞
+      </p>
+      <div class="comparison-grid">
+        <div class="comp-cell cc-cell">
+          <div class="cell-label">舊 Agent View</div>
+          任務 1 → 完成 → 任務 2
+        </div>
+        <div class="comp-cell cc-cell">
+          <div class="cell-label">新 Agent View</div>
+          任務 1、2、3、...10 同時跑
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <div class="feature-icon"><i class="ti ti-eye" aria-hidden="true"></i></div>
+        <h4 class="feature-title">2. Peek 快速預覽（無需進入）</h4>
+      </div>
+      <p class="feature-content">
+        選中任務 + 按<code>Space</code>，右側跳出 Peek Panel，看任務最近進度、是否需要回覆、有無開 PR，<strong>無需完整進入該對話</strong>。
+      </p>
+      <div class="key-insight">
+        這意味著：你可以同時監控 10 個任務，不用每次都 Attach 進去看細節
+      </div>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <div class="feature-icon"><i class="ti ti-status-change" aria-hidden="true"></i></div>
+        <h4 class="feature-title">3. 實時狀態顏色標記</h4>
+      </div>
+      <p class="feature-content">
+        <strong>旋轉圖示：</strong> 執行中<br/>
+        <strong>黃色：</strong> 需要你的輸入<br/>
+        <strong>綠色：</strong> 完成<br/>
+        <strong>紅色：</strong> 出錯<br/>
+        <strong>灰色：</strong> 你停止了<br/>
+        一眼掃過去，10 個任務的狀態一目了然
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <div class="feature-icon"><i class="ti ti-player-pause" aria-hidden="true"></i></div>
+        <h4 class="feature-title">4. 無縫暫停 + 後臺繼續</h4>
+      </div>
+      <p class="feature-content">
+        Attach 進某個 Session 看細節（按 Enter），改完指令或看完細節後，按 Ctrl + C 退出回 Agent View 主介面。該 Session <strong>仍會在後臺繼續運行</strong>。
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-header">
+        <div class="feature-icon"><i class="ti ti-background" aria-hidden="true"></i></div>
+        <h4 class="feature-title">5. 後臺啟動與短 ID 追蹤</h4>
+      </div>
+      <p class="feature-content">
+        用 `-b` 參數直接啟動背景任務：<code>claude -b "你的指令"</code><br/>
+        系統會返回一個短 ID，該任務馬上出現在 Agent View 中，無需手動管理。
+      </p>
+    </div>
+
+    <div class="highlight-box">
+      <div class="highlight-title">🔑 關鍵洞察</div>
+      <div class="highlight-text">
+        新的 Agent View 本質上是一個「輕量級的多 Agent 協調平臺」。它沒有 Kanban 那麼重（沒有 SQLite 持久化、沒有複雜的依賴鏈），但支持 10 個 AI 並行工作，而且反饋速度比 Kanban 的 60 秒 tick 快得多。
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 2: COMPARISON -->
+  <div id="comparison" class="tab-content">
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 1.5rem;">新 Agent View vs Kanban 重新對比</h3>
+
+    <table class="impact-table">
+      <thead>
+        <tr>
+          <th style="width: 30%;">維度</th>
+          <th style="width: 35%;">新 Agent View</th>
+          <th style="width: 35%;">Kanban</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>並行度</strong></td>
+          <td>⚡ 10 個 Session 同時跑 <span class="status-badge status-changed">已改進</span></td>
+          <td>✅ N 個 worker 並行</td>
+        </tr>
+        <tr>
+          <td><strong>反饋速度</strong></td>
+          <td>⚡ 實時（按 Space 看 Peek）<span class="status-badge status-changed">已改進</span></td>
+          <td>⏳ 60 秒 tick</td>
+        </tr>
+        <tr>
+          <td><strong>視覺化</strong></td>
+          <td>✅ Agent View 彩色狀態列</td>
+          <td>✅ Kanban board</td>
+        </tr>
+        <tr>
+          <td><strong>持久化</strong></td>
+          <td>❌ Session 記憶（不持久）</td>
+          <td>✅ SQLite 永久記錄</td>
+        </tr>
+        <tr>
+          <td><strong>依賴管理</strong></td>
+          <td>❌ 無自動 gate</td>
+          <td>✅ parents= 自動協調</td>
+        </tr>
+        <tr>
+          <td><strong>人類靈活度</strong></td>
+          <td>✅ 極高（任何時候 Attach）<span class="status-badge status-changed">已改進</span></td>
+          <td>✅ /unblock，/update</td>
+        </tr>
+        <tr>
+          <td><strong>審計追蹤</strong></td>
+          <td>❌ 無官方 log</td>
+          <td>✅ 完整 event log</td>
+        </tr>
+        <tr>
+          <td><strong>除錯難度</strong></td>
+          <td>✅ 可完整進入看細節</td>
+          <td>❌ 後臺看不到細節</td>
+        </tr>
+        <tr>
+          <td><strong>網路中斷保護</strong></td>
+          <td>❌ 斷了就斷了</td>
+          <td>✅ 自動恢復</td>
+        </tr>
+        <tr>
+          <td><strong>學習成本</strong></td>
+          <td>✅ 低（直觀）</td>
+          <td>❌ 高（parents=、gate 邏輯）</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box">
+      <div class="highlight-title">📊 新格局</div>
+      <div class="highlight-text">
+        新 Agent View 已經大幅縮小與 Kanban 的差距。在「並行度」和「反饋速度」上幾乎已經持平，甚至在某些維度（靈活度、除錯）上更有優勢。唯一的劣勢是沒有持久化和自動依賴 gate。
+      </div>
+    </div>
+
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 1.5rem 0 1rem;">何時用哪個？</h3>
+
+    <div class="verdict-section">
+      <div class="verdict-card verdict-cc">
+        <strong>用新 Agent View 當：</strong><br/>
+        ✅ 任務互相獨立（無依賴）<br/>
+        ✅ 需要實時除錯<br/>
+        ✅ 並行數 &lt; 10<br/>
+        ✅ 流程不複雜<br/>
+        ✅ 你可能在中途改指令
+      </div>
+      <div class="verdict-card verdict-kanban">
+        <strong>用 Kanban 當：</strong><br/>
+        ✅ 任務有複雜依賴鏈<br/>
+        ✅ 需要完整審計日誌<br/>
+        ✅ 網路不穩定<br/>
+        ✅ 流程是標準化的<br/>
+        ✅ 想讓機器完全自動化
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 3: REVISED STRATEGY -->
+  <div id="revised-strategy" class="tab-content">
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 1.5rem;">暗知識 S1E02 修訂策略</h3>
+
+    <div class="alert-box" style="background: var(--color-background-info); border-color: var(--color-border-info);">
+      <div class="alert-title" style="color: var(--color-text-info);">💡 策略調整</div>
+      <div class="alert-text" style="color: var(--color-text-info);">
+        根據新 Agent View 的能力，你其實可以<strong>完全用 Agent View 替代 Day 2 的 Kanban</strong>，同時保留更好的視覺化和靈活性。
+      </div>
+    </div>
+
+    <div class="revised-strategy">
+      <div class="strategy-card">
+        <div class="strategy-day">Day 1：探索（Agent View）</div>
+        <div class="strategy-content">
+          在 Claude Code 裡：
+          <ul style="margin: 0.5rem 0; padding-left: 18px;">
+            <li>Task 1.1: <code>graphify query '黑箱 三層次 工具論'</code></li>
+            <li>Task 1.2: <code>graphify query '主權 AI 人類介入'</code></li>
+            <li>Task 1.3: 手寫初版大綱</li>
+          </ul>
+          ✓ 不變
+        </div>
+        <div class="strategy-tools">
+          <div class="tool-badge">Agent View</div>
+        </div>
+      </div>
+
+      <div class="strategy-card">
+        <div class="strategy-day">Day 2：執行（改用新 Agent View 而非 Kanban）</div>
+        <div class="strategy-content">
+          在 Claude Code Agent View 中用 `claude agents` 主介面：
+          <ul style="margin: 0.5rem 0; padding-left: 18px;">
+            <li>Session 1: <code>graphify update .</code></li>
+            <li>Session 2: 讀 E01 草稿，抓敘事風格（並行）</li>
+            <li>Session 3: 讀大綱（並行）</li>
+            <li>Session 4: 讀支援節點_技術黑箱（並行）</li>
+            <li>Session 5: 讀支援節點_認知黑箱（並行）</li>
+            <li>Session 6: 讀支援節點_主權黑箱（並行）</li>
+            <li>Session 7: <code>graphify query</code>（在 1-6 都完後手動跑）</li>
+          </ul>
+          按 Space 看每個 Session 的進度，按 Enter Attach 進去看細節或改指令
+        </div>
+        <div class="strategy-tools">
+          <div class="tool-badge">新 Agent View</div>
+          <div class="tool-badge">6 個並行</div>
+        </div>
+      </div>
+
+      <div class="strategy-card">
+        <div class="strategy-day">Day 2.5：親自寫作</div>
+        <div class="strategy-content">
+          Session 7 完成後（graphify query 返回結果），回到 Claude Code Editor
+          <ul style="margin: 0.5rem 0; padding-left: 18px;">
+            <li>整理 Session 1-7 的輸出</li>
+            <li>用 Agent View 的 Peek 面板快速瀏覽各 Session 的摘要</li>
+            <li>親自寫 Task 2.7（正文 3000-4000 字）</li>
+          </ul>
+        </div>
+        <div class="strategy-tools">
+          <div class="tool-badge">Agent View</div>
+          <div class="tool-badge">Claude Code</div>
+        </div>
+      </div>
+
+      <div class="strategy-card">
+        <div class="strategy-day">Day 3：驗收（Agent View）</div>
+        <div class="strategy-content">
+          完全不變：
+          <ul style="margin: 0.5rem 0; padding-left: 18px;">
+            <li>Task 3.1: 打開草稿讀一遍</li>
+            <li>Task 3.2: Claude Code editor 編輯微調</li>
+            <li>Task 3.3: <code>graphify update .</code>（最終更新）</li>
+            <li>Task 3.4: 存檔確認</li>
+          </ul>
+        </div>
+        <div class="strategy-tools">
+          <div class="tool-badge">Agent View</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="background: rgba(29, 158, 117, 0.12); border-color: var(--color-border-success);">
+      <div class="highlight-title" style="color: var(--color-text-success);">✅ 修訂策略的優勢</div>
+      <div class="highlight-text" style="color: var(--color-text-primary);">
+        <strong>1. 工具統一：</strong> 從頭到尾都在 Claude Code，無需在多個平臺之間切換<br/>
+        <strong>2. 反饋更快：</strong> Peek 面板實時看，比 Kanban 的 60 秒 tick 快<br/>
+        <strong>3. 靈活度更高：</strong> 隨時 Attach 進任何 Session 改指令，不用 /unblock<br/>
+        <strong>4. 除錯清楚：</strong> 按 Enter 直接看 terminal 輸出，知道發生了什麼<br/>
+        <strong>5. 學習成本低：</strong> 不用理解 Kanban 的 parents= 依賴邏輯
+      </div>
+    </div>
+
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 1.5rem 0 1rem;">新策略的一個折扣</h3>
+
+    <div class="key-insight">
+      <strong>Session 之間沒有自動的依賴 gate：</strong><br/>
+      Session 7（graphify query）必須手動等 1-6 都完了再跑。但這不是大問題，因為：<br/>
+      • 你可以隨時按 Space Peek 一下哪些完了<br/>
+      • 完了就按一下執行 Session 7<br/>
+      • 花 10 秒鐘，遠比 Kanban 的「自動 gate 但反饋慢 60 秒」更爽快
+    </div>
+
+    <h3 style="font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 1.5rem 0 1rem;">何時用 Kanban vs 新 Agent View？</h3>
+
+    <ul class="discovery-list">
+      <li>
+        <strong>用新 Agent View：</strong><br/>
+        暗知識系列（獨立任務，需要靈活改指令）、程式碼修改（6-8 個並行 PR）、內容實驗（Day 1 探索）
+      </li>
+      <li>
+        <strong>用 Kanban：</strong><br/>
+        大規模批處理（20+ 個任務）、生產環境需要審計日誌、任務高度相依（複雜 DAG）、網路不穩定需要自動恢復
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+function showTab(event, tabName) {
+  const contents = document.querySelectorAll('.tab-content');
+  contents.forEach(c => c.classList.remove('active'));
+  
+  const btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(b => b.classList.remove('active'));
+  
+  document.getElementById(tabName).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>

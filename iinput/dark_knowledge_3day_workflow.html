@@ -1,0 +1,873 @@
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  color: #1a1a1a;
+}
+
+.workflow-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.workflow-container > div:first-child {
+  margin-bottom: 3rem;
+}
+
+.workflow-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  background: linear-gradient(120deg, #0e63cf 0%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.workflow-container > div:first-child p {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+}
+
+.day-section {
+  margin-bottom: 2.5rem;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.day-section:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-color: #d0d0d0;
+}
+
+.day-section[style*="background: var(--color-background-info)"] {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  border: 1px solid #bbdefb;
+}
+
+.day-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.day-badge {
+  background: linear-gradient(135deg, #0e63cf 0%, #3b82f6 100%);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 70px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(15, 99, 207, 0.2);
+}
+
+.day-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.day-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin: 4px 0 0 0;
+  font-weight: 400;
+}
+
+.phase-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.task-card {
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.task-card:hover {
+  border-color: #0e63cf;
+  background: white;
+  box-shadow: 0 2px 10px rgba(14, 99, 207, 0.1);
+}
+
+.task-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.task-icon {
+  font-size: 20px;
+  color: #0e63cf;
+  margin-top: 1px;
+  flex-shrink: 0;
+}
+
+.task-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.task-details {
+  margin-left: 32px;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.task-details strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.code-snippet {
+  background: #1e1e1e;
+  border-left: 3px solid #0e63cf;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Courier New', monospace;
+  font-size: 13px;
+  color: #e8e8e8;
+  margin: 10px 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.expected-output {
+  background: #f0f7ff;
+  border-left: 3px solid #0e63cf;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #0c5aa0;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2rem 0;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.timeline-item {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.timeline-item.active .timeline-dot {
+  background: linear-gradient(135deg, #10b981 0%, #34d399 100%);
+  border-color: #10b981;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.3);
+}
+
+.timeline-dot {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #0e63cf;
+  border-radius: 50%;
+  background: #e3f2fd;
+  margin: 0 auto 10px;
+  transition: all 0.3s ease;
+}
+
+.timeline-label {
+  font-size: 13px;
+  color: #555;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.timeline-connector {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0e63cf 0%, transparent 100%);
+  z-index: -1;
+}
+
+.success-badge {
+  display: inline-block;
+  background: #d1fae5;
+  color: #065f46;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.summary-box {
+  background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.summary-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.summary-content {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.summary-content strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.summary-content p {
+  margin: 0 0 1rem;
+}
+
+.summary-content ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #555;
+}
+
+.summary-content li {
+  margin-bottom: 0.5rem;
+}
+
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 14px;
+  margin-top: 1.2rem;
+}
+
+.kpi-card {
+  background: linear-gradient(135deg, #0e63cf 0%, #3b82f6 100%);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(14, 99, 207, 0.2);
+  transition: all 0.3s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(14, 99, 207, 0.3);
+}
+
+.kpi-value {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.kpi-label {
+  font-size: 12px;
+  margin-top: 6px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+/* 知識飛輪特殊樣式 */
+.day-section[style*="color-background-info"] h3,
+.day-section[style*="color-background-info"] p,
+.day-section[style*="color-background-info"] ul {
+  color: #0c5aa0 !important;
+}
+
+/* 實操提示網格 */
+.day-section > div[style*="display: grid; grid-template-columns: 1fr 1fr"] {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 14px !important;
+}
+
+.day-section > div[style*="display: grid"] > div {
+  background: white !important;
+  border: 1px solid #e0e0e0 !important;
+  border-left: 4px solid #0e63cf !important;
+  padding: 14px !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+
+.day-section > div[style*="display: grid"] > div:hover {
+  border-left-color: #6366f1 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 列表樣式統一 */
+ul {
+  line-height: 1.7;
+}
+
+ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+  .workflow-container {
+    padding: 2rem 1rem;
+  }
+
+  .day-section {
+    padding: 1.5rem;
+  }
+
+  .workflow-container h2 {
+    font-size: 24px;
+  }
+
+  .kpi-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+</style>
+
+<div class="workflow-container">
+  <div>
+    <h2>暗知識系列 S1E02 — 三天工作流程</h2>
+    <p>從探索 → 執行 → 驗收的完整工作流程</p>
+  </div>
+
+  <div class="timeline" style="margin-bottom: 2rem;">
+    <div class="timeline-item active">
+      <div class="timeline-dot"></div>
+      <div class="timeline-label">Day 1<br/>探索</div>
+    </div>
+    <div class="timeline-connector"></div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-label">Day 2<br/>執行</div>
+    </div>
+    <div class="timeline-connector"></div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-label">Day 3<br/>驗收</div>
+    </div>
+  </div>
+
+  <!-- DAY 1 -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-badge">Day 1</div>
+      <div>
+        <h3 class="day-title">Agent View 探索</h3>
+        <p class="day-subtitle">用 Claude Code 快速試驗 graphify 查詢</p>
+      </div>
+    </div>
+
+    <div class="phase-grid">
+      <!-- Task 1.1 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-search"></i></div>
+          <div>
+            <p class="task-title">Task 1.1：試驗 graphify query（第一個查詢）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>目標：</strong>查看「黑箱 三層次 工具論」的關聯網絡<br/>
+          <strong>執行時間：</strong>5-10 分鐘<br/>
+          <strong>在哪執行：</strong>Claude Code Terminal
+        </div>
+        <div class="code-snippet">$ graphify query '黑箱 三層次 工具論'</div>
+        <div class="expected-output">
+          ✓ 預期輸出：相關文章、概念節點、共現頻率圖
+        </div>
+      </div>
+
+      <!-- Task 1.2 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-search"></i></div>
+          <div>
+            <p class="task-title">Task 1.2：試驗 graphify query（第二個查詢）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>目標：</strong>查看「主權 AI 人類介入」的關聯網絡<br/>
+          <strong>執行時間：</strong>5-10 分鐘<br/>
+          <strong>在哪執行：</strong>Claude Code Terminal
+        </div>
+        <div class="code-snippet">$ graphify query '主權 AI 人類介入'</div>
+        <div class="expected-output">
+          ✓ 預期輸出：跨越多篇文章的語義連接、新視角
+        </div>
+      </div>
+
+      <!-- Task 1.3 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-edit"></i></div>
+          <div>
+            <p class="task-title">Task 1.3：手寫初版大綱</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>目標：</strong>基於兩個查詢結果，在 Claude Code 編輯器寫出 E02 的大綱<br/>
+          <strong>執行時間：</strong>15-20 分鐘<br/>
+          <strong>在哪執行：</strong>Claude Code Editor<br/>
+          <strong>輸出物：</strong>初版大綱（Markdown）
+        </div>
+        <div class="expected-output">
+          ✓ 輸出：一個有 5-7 個核心章節的故事框架
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-box">
+      <div class="summary-title">Day 1 小結</div>
+      <div class="summary-content">
+        <p style="margin: 0;">
+          <strong>你的角色：</strong>探索者。快速發現「黑箱」和「主權」之間的關聯，看看 graphify 返回了什麼有趣的想法。<br/>
+          <strong>產出物：</strong>初版大綱（可以不完美）<br/>
+          <strong>下一步輸入：</strong>這份大綱 → 丟給 Day 2 的 Kanban 任務
+        </p>
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-value">2</div>
+          <div class="kpi-label">graphify 查詢</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">1</div>
+          <div class="kpi-label">初版大綱</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">30 min</div>
+          <div class="kpi-label">時間投入</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DAY 2 -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-badge">Day 2</div>
+      <div>
+        <h3 class="day-title">Kanban 執行</h3>
+        <p class="day-subtitle">後臺並行採集素材、構思框架、準備寫作</p>
+      </div>
+    </div>
+
+    <div class="phase-grid">
+      <!-- Task 2.0 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-refresh"></i></div>
+          <div>
+            <p class="task-title">Task 2.0：graphify update</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>無（獨立）<br/>
+          <strong>狀態：</strong>todo<br/>
+          <strong>目標：</strong>重新掃描整個系列文章目錄，更新知識圖譜<br/>
+          <strong>執行時間：</strong>2-5 分鐘
+        </div>
+        <div class="code-snippet">$ graphify update .</div>
+        <div class="expected-output">
+          ✓ 圖譜已更新，包含 DK_S01E01 + 支援節點
+        </div>
+      </div>
+
+      <!-- Task 2.1 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-text"></i></div>
+          <div>
+            <p class="task-title">Task 2.1：讀 E01 草稿，抓敘事風格</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.0（完成後執行）<br/>
+          <strong>狀態：</strong>in_progress<br/>
+          <strong>目標：</strong>Hermes 自動讀 DK_S01E01_暗知識的誕生_draft.md，提取敘事特徵<br/>
+          <strong>輸出：</strong>敘事風格分析（tone、節奏、論證方式）
+        </div>
+        <div class="expected-output">
+          ✓ 風格清單：「引入式開場」「三層推進」「哲學反思結尾」等
+        </div>
+      </div>
+
+      <!-- Task 2.2 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-text"></i></div>
+          <div>
+            <p class="task-title">Task 2.2：讀 W2 大綱</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.0<br/>
+          <strong>狀態：</strong>in_progress<br/>
+          <strong>目標：</strong>Hermes 讀 DK_系列規劃.md 中 W2 的章節結構<br/>
+          <strong>輸出：</strong>官方大綱 + 你 Day 1 的初版大綱對比分析
+        </div>
+        <div class="expected-output">
+          ✓ 對齊結果：「你的框架 vs 官方計畫的落差」
+        </div>
+      </div>
+
+      <!-- Task 2.3 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-text"></i></div>
+          <div>
+            <p class="task-title">Task 2.3：讀三個支援節點（技術黑箱）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.0<br/>
+          <strong>狀態：</strong>in_progress<br/>
+          <strong>目標：</strong>Hermes 讀 DK_W2_支援_技術黑箱.md 並標記重點<br/>
+          <strong>輸出：</strong>技術黑箱素材庫
+        </div>
+        <div class="expected-output">
+          ✓ 3-5 個核心案例、引用、數據點
+        </div>
+      </div>
+
+      <!-- Task 2.4 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-text"></i></div>
+          <div>
+            <p class="task-title">Task 2.4：讀支援節點（認知黑箱）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.0<br/>
+          <strong>狀態：</strong>in_progress<br/>
+          <strong>目標：</strong>Hermes 讀 DK_W2_支援_認知黑箱.md<br/>
+          <strong>輸出：</strong>認知黑箱素材庫
+        </div>
+        <div class="expected-output">
+          ✓ 心理學、認知科學案例
+        </div>
+      </div>
+
+      <!-- Task 2.5 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-text"></i></div>
+          <div>
+            <p class="task-title">Task 2.5：讀支援節點（主權黑箱與 AI 權利）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.0<br/>
+          <strong>狀態：</strong>in_progress<br/>
+          <strong>目標：</strong>Hermes 讀 DK_W2_支援_主權黑箱與AI權利.md<br/>
+          <strong>輸出：</strong>主權與倫理素材庫
+        </div>
+        <div class="expected-output">
+          ✓ 哲學、治理、人權相關論點
+        </div>
+      </div>
+
+      <!-- Task 2.6 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-search"></i></div>
+          <div>
+            <p class="task-title">Task 2.6：graphify query 找關聯網絡</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.1-2.5（全部完成後執行）<br/>
+          <strong>狀態：</strong>blocked（等待三個支援節點）<br/>
+          <strong>目標：</strong>Hermes 跑複合查詢：「黑箱 三層次 工具論 主權論」<br/>
+          <strong>輸出：</strong>精製的關聯圖譜（第二層推理）
+        </div>
+        <div class="expected-output">
+          ✓ 跨文件概念地圖、論證脈絡、新發現
+        </div>
+      </div>
+
+      <!-- Task 2.7 -->
+      <div class="task-card" style="border-color: var(--color-border-info); border-width: 1px;">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-edit"></i></div>
+          <div>
+            <p class="task-title" style="color: var(--color-text-info);">Task 2.7：寫正文（你親自動手）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>父任務：</strong>Task 2.1, 2.2, 2.6<br/>
+          <strong>狀態：</strong>todo → 你執行時變 in_progress<br/>
+          <strong>角色轉換：</strong>Kanban 委託變回你的 Claude Code Agent View<br/>
+          <strong>目標：</strong>用你的筆，基於 Hermes 準備好的素材，寫出 3000-4000 字正文<br/>
+          <strong>執行方式：</strong>Claude Code Editor 實時編輯，反覆迭代
+        </div>
+        <div class="expected-output">
+          ✓ DK_S01E02_黑箱的三個層次_draft.md（完成版）
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-box">
+      <div class="summary-title">Day 2 架構</div>
+      <div class="summary-content">
+        <p style="margin: 0 0 1rem;">
+          <strong>並行階段（Task 2.0-2.5）：</strong> Hermes 同時跑 6 個任務，你去睡覺或做別的。<br/>
+          <strong>等待階段（Task 2.6）：</strong> Task 2.6 被 Task 2.1-2.5 gate 了，自動等待。<br/>
+          <strong>人類親自階段（Task 2.7）：</strong> 當 Hermes 準備好所有素材，你上場寫正文。
+        </p>
+        <strong>關鍵點：</strong>如果你在寫到一半想改大綱（比如「第二層加一個小節」），直接在 Claude Code 裡改，不用回 Kanban 重來。
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-value">7</div>
+          <div class="kpi-label">Kanban 任務</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">6/7</div>
+          <div class="kpi-label">並行可達</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">2-4 h</div>
+          <div class="kpi-label">你的寫作時間</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DAY 3 -->
+  <div class="day-section">
+    <div class="day-header">
+      <div class="day-badge">Day 3</div>
+      <div>
+        <h3 class="day-title">Agent View 驗收</h3>
+        <p class="day-subtitle">讀稿、調整措辭、最後的知識圖譜更新</p>
+      </div>
+    </div>
+
+    <div class="phase-grid">
+      <!-- Task 3.1 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-edit"></i></div>
+          <div>
+            <p class="task-title">Task 3.1：打開草稿、讀一遍</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>執行環境：</strong>Claude Code Editor<br/>
+          <strong>目標：</strong>打開 DK_S01E02_黑箱的三個層次_draft.md，用 Agent View 讀全文<br/>
+          <strong>執行時間：</strong>15-20 分鐘<br/>
+          <strong>檢查項目：</strong>
+          <ul style="margin: 6px 0; padding-left: 20px;">
+            <li>敘事連貫性（是否延續 E01 的風格）</li>
+            <li>論證完整性（三層黑箱是否足夠有說服力）</li>
+            <li>有無重複或冗餘段落</li>
+          </ul>
+        </div>
+        <div class="expected-output">
+          ✓ 讀稿完畢，列出修改清單
+        </div>
+      </div>
+
+      <!-- Task 3.2 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-edit"></i></div>
+          <div>
+            <p class="task-title">Task 3.2：編輯與微調</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>執行環境：</strong>Claude Code Editor 的 inline editing<br/>
+          <strong>目標：</strong>
+          <ul style="margin: 6px 0; padding-left: 20px;">
+            <li>修改句式（更流暢的措辭）</li>
+            <li>補充例子（如果三層黑箱的某層舉例不夠具體）</li>
+            <li>刪除冗餘（如發現重複論點）</li>
+          </ul>
+          <strong>執行時間：</strong>20-30 分鐘
+        </div>
+        <div class="expected-output">
+          ✓ 草稿 → 精製版
+        </div>
+      </div>
+
+      <!-- Task 3.3 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-refresh"></i></div>
+          <div>
+            <p class="task-title">Task 3.3：graphify update（最終更新）</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>執行環境：</strong>Claude Code Terminal<br/>
+          <strong>目標：</strong>新文章 E02 寫完了，把它加入圖譜<br/>
+          <strong>執行時間：</strong>2-5 分鐘
+        </div>
+        <div class="code-snippet">$ graphify update .</div>
+        <div class="expected-output">
+          ✓ 圖譜已更新，E02 現在被索引，下次 query 會找到它的關聯
+        </div>
+      </div>
+
+      <!-- Task 3.4 -->
+      <div class="task-card">
+        <div class="task-header">
+          <div class="task-icon"><i class="ti ti-file-check"></i></div>
+          <div>
+            <p class="task-title">Task 3.4：存檔確認</p>
+          </div>
+        </div>
+        <div class="task-details">
+          <strong>檔案位置：</strong>系列文章/暗知識系列/DK_S01E02_黑箱的三個層次_draft.md<br/>
+          <strong>檢查項：</strong>
+          <ul style="margin: 6px 0; padding-left: 20px;">
+            <li>字數是否在 3000-4000 字</li>
+            <li>繁體中文編碼是否正確</li>
+            <li>markdown 格式無誤</li>
+          </ul>
+        </div>
+        <div class="expected-output">
+          ✓ E02 完成，可交付
+        </div>
+      </div>
+    </div>
+
+    <div class="summary-box">
+      <div class="summary-title">Day 3 小結與知識飛輪</div>
+      <div class="summary-content">
+        <p style="margin: 0 0 1rem;">
+          <strong>你的角色：</strong>編輯器。從作者變成編輯，讀、改、定版。<br/>
+          <strong>Kanban 的角色：</strong>退場。Day 3 不再需要後臺任務，只有你的實時決策。<br/>
+          <strong>知識飛輪啟動：</strong>
+        </p>
+        <ul style="margin: 0; padding-left: 20px;">
+          <li>S1E01 寫完 → graphify update</li>
+          <li>S1E02 寫完 → graphify update</li>
+          <li>下次寫 S1E03 時，graphify query 會返回 E01 + E02 的關聯</li>
+          <li>敘事連貫性自動提升 ✨</li>
+        </ul>
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-card">
+          <div class="kpi-value">4</div>
+          <div class="kpi-label">驗收任務</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">3000-4000</div>
+          <div class="kpi-label">字數達成</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-value">3天</div>
+          <div class="kpi-label">全流程</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 知識飛輪示意 -->
+  <div class="day-section" style="background: linear-gradient(135deg, #eff6ff 0%, #f3e8ff 100%); border: 2px solid #3b82f6; border-left: 6px solid #0e63cf;">
+    <h3 style="font-size: 18px; font-weight: 600; color: #0c5aa0; margin: 0 0 1.5rem;">💫 知識飛輪：下一輪的加速</h3>
+    <div style="font-size: 14px; color: #0c5aa0; line-height: 2;">
+      <p style="margin: 0 0 1rem;">
+        <strong style="color: #0e63cf;">S1E02 完成後 →</strong> graphify 掃描新文章 → 知識圖譜變深
+      </p>
+      <p style="margin: 0 0 1rem; text-align: center; opacity: 0.7;">↓</p>
+      <p style="margin: 0 0 1rem;">
+        <strong style="color: #0e63cf;">S1E03 寫作時 →</strong> graphify query 會自動發現「E01、E02 都提過『主權』這個概念」
+      </p>
+      <p style="margin: 0 0 1rem; text-align: center; opacity: 0.7;">↓</p>
+      <p style="margin: 0 0 1rem;">
+        <strong style="color: #0e63cf;">你的敘事 →</strong> 自動避免重複，更能構建「三層黑箱→主權論」的遞進式敘事
+      </p>
+      <p style="margin: 0; text-align: center; opacity: 0.7;">↓</p>
+      <p style="margin: 1rem 0 0; text-align: center;">
+        <strong style="color: #0e63cf;">結果：</strong> 每一篇都比上一篇更連貫、更深層次 ✨
+      </p>
+    </div>
+  </div>
+
+  <!-- 實操提示 -->
+  <div class="day-section">
+    <h3 style="font-size: 18px; font-weight: 600; color: #1a1a1a; margin: 0 0 1.5rem;">🚀 實操提示</h3>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+      <div>
+        <p style="font-size: 13px; font-weight: 600; color: #10b981; margin: 0 0 8px;">✅ Day 1 快速檢查清單</p>
+        <ul style="font-size: 13px; color: #555; margin: 0; padding-left: 20px; line-height: 1.7;">
+          <li>graphify 有無誤</li>
+          <li>初版大綱 5+ 小節</li>
+          <li>存檔格式 .md</li>
+        </ul>
+      </div>
+      <div>
+        <p style="font-size: 13px; font-weight: 600; color: #0e63cf; margin: 0 0 8px;">📋 Day 2 Kanban 懶人包</p>
+        <ul style="font-size: 13px; color: #555; margin: 0; padding-left: 20px; line-height: 1.7;">
+          <li>一次性提交 7 個 task</li>
+          <li>parents= 用上，不怕複雜</li>
+          <li>Task 2.7 親自動手時刪除其他</li>
+        </ul>
+      </div>
+      <div>
+        <p style="font-size: 13px; font-weight: 600; color: #f97316; margin: 0 0 8px;">✏️ Day 3 編輯模式</p>
+        <ul style="font-size: 13px; color: #555; margin: 0; padding-left: 20px; line-height: 1.7;">
+          <li>先讀完全文再改</li>
+          <li>不要邊讀邊改</li>
+          <li>最後 graphify update</li>
+        </ul>
+      </div>
+      <div>
+        <p style="font-size: 13px; font-weight: 600; color: #8b5cf6; margin: 0 0 8px;">⚡ 進階玩法</p>
+        <ul style="font-size: 13px; color: #555; margin: 0; padding-left: 20px; line-height: 1.7;">
+          <li>Task 2.1 的敘事風格報告可存檔參考</li>
+          <li>graphify 返回的圖譜可視化截圖</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+

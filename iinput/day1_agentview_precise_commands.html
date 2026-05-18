@@ -1,0 +1,646 @@
+
+<style>
+* { box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 1.5rem 0 1rem;
+}
+
+.section-subtitle {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 1rem 0 0.5rem;
+}
+
+.instruction-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.instruction-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.step-number {
+  min-width: 32px;
+  height: 32px;
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.instruction-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.instruction-content {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.code-block {
+  background: var(--color-background-secondary);
+  border-left: 2px solid var(--color-border-info);
+  padding: 12px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-primary);
+  margin: 10px 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.note-box {
+  background: var(--color-background-warning);
+  border-left: 2px solid var(--color-border-warning);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-warning);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.success-box {
+  background: var(--color-background-success);
+  border-left: 2px solid var(--color-border-success);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-success);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.expected-output {
+  background: var(--color-background-info);
+  border-left: 2px solid var(--color-border-info);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-info);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.tips-section {
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.tips-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+
+.tip-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.tip-icon {
+  font-size: 14px;
+  flex-shrink: 0;
+  color: var(--color-text-info);
+}
+
+.tip-text {
+  color: var(--color-text-secondary);
+}
+
+.quick-ref {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 11px;
+}
+
+.quick-ref-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 1rem;
+}
+
+.quick-ref-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  gap: 12px;
+}
+
+.quick-ref-row:last-child {
+  border-bottom: none;
+}
+
+.quick-ref-key {
+  font-family: var(--font-mono);
+  color: var(--color-text-info);
+  font-weight: 500;
+}
+
+.quick-ref-value {
+  color: var(--color-text-secondary);
+}
+
+.task-summary {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 1.5rem 0;
+}
+
+.task-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+}
+
+.task-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  margin: 0 0 6px;
+}
+
+.task-detail {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.phase-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.alert-danger {
+  background: var(--color-background-danger);
+  border-left: 2px solid var(--color-border-danger);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-danger);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 12px;
+}
+
+.timeline-dot {
+  min-width: 24px;
+  height: 24px;
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 500;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.timeline-desc {
+  font-size: 12px;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+.highlight {
+  background: var(--color-background-info);
+  border: 0.5px solid var(--color-border-info);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.highlight-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  margin: 0 0 8px;
+}
+
+.highlight-text {
+  font-size: 12px;
+  color: var(--color-text-info);
+  line-height: 1.6;
+  margin: 0;
+}
+
+</style>
+
+<div class="container">
+  <div style="margin-bottom: 2rem;">
+    <h2 style="font-size: 22px; font-weight: 500; margin: 0 0 0.5rem; color: var(--color-text-primary);">Day 1：探索 — 精準指令清單</h2>
+    <p style="font-size: 13px; color: var(--color-text-secondary); margin: 0;">
+      三個任務，三組精確的 Claude Code terminal 指令，搭配 Agent View 的操作步驟
+    </p>
+  </div>
+
+  <div class="highlight">
+    <div class="highlight-title">⚡ 先決條件</div>
+    <div class="highlight-text">
+      • Claude Code 版本 ≥ 2.1.139（查看版本：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 2px;">claude --version</code>）<br/>
+      • 系列文章目錄已建立：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 2px;">系列文章/暗知識系列/</code><br/>
+      • E01 草稿存在：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 2px;">DK_S01E01_暗知識的誕生_draft.md</code><br/>
+      • 支援文檔存在（3 份）
+    </div>
+  </div>
+
+  <!-- MAIN TIMELINE -->
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot">①</div>
+      <div class="timeline-content">
+        <div class="timeline-label">Task 1.1：第一個 graphify 查詢</div>
+        <div class="timeline-desc">執行時間：5-10 分鐘 | 方式：synchronous（同步執行）</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot">②</div>
+      <div class="timeline-content">
+        <div class="timeline-label">Task 1.2：第二個 graphify 查詢</div>
+        <div class="timeline-desc">執行時間：5-10 分鐘 | 方式：synchronous（同步執行）</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot">③</div>
+      <div class="timeline-content">
+        <div class="timeline-label">Task 1.3：手寫初版大綱</div>
+        <div class="timeline-desc">執行時間：15-20 分鐘 | 方式：Claude Code Editor 實時編輯</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 1.1 -->
+  <h3 class="section-title">Task 1.1：第一個 graphify 查詢</h3>
+  <p class="section-subtitle">目標：探索「黑箱 三層次 工具論」的關聯網絡</p>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">1</div>
+      <div>
+        <h4 class="instruction-title">打開 Claude Code terminal</h4>
+        <p class="instruction-content">在你的機器上打開 Claude Code，準備執行指令</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">2</div>
+      <div>
+        <h4 class="instruction-title">進入暗知識系列目錄</h4>
+        <p class="instruction-content">先切到正確的目錄</p>
+      </div>
+    </div>
+    <div class="code-block">cd ~/系列文章/暗知識系列</div>
+    <div class="note-box">
+      💡 如果路徑不同，改成你實際存放暗知識文章的位置
+    </div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">3</div>
+      <div>
+        <h4 class="instruction-title">執行第一個 graphify 查詢</h4>
+        <p class="instruction-content">查詢「黑箱、三層次、工具論」這三個核心概念的關聯</p>
+      </div>
+    </div>
+    <div class="code-block">graphify query '黑箱 三層次 工具論'</div>
+    <div class="expected-output">
+      ✓ 預期輸出：<br/>
+      • 相關文件清單<br/>
+      • 概念節點及其出現頻率<br/>
+      • 概念之間的語義距離<br/>
+      • 建議的論述脈絡
+    </div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">4</div>
+      <div>
+        <h4 class="instruction-title">檢查輸出</h4>
+        <p class="instruction-content">截圖或複製結果，記下哪些文章被提及</p>
+      </div>
+    </div>
+    <div class="success-box">
+      ✓ Task 1.1 完成！你現在知道了「黑箱 三層次 工具論」在整個系列中的關聯
+    </div>
+  </div>
+
+  <!-- TASK 1.2 -->
+  <h3 class="section-title">Task 1.2：第二個 graphify 查詢</h3>
+  <p class="section-subtitle">目標：探索「主權 AI 人類介入」的關聯網絡</p>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">1</div>
+      <div>
+        <h4 class="instruction-title">執行第二個 graphify 查詢</h4>
+        <p class="instruction-content">查詢另一個核心角度：主權與人類決策權</p>
+      </div>
+    </div>
+    <div class="code-block">graphify query '主權 AI 人類介入'</div>
+    <div class="expected-output">
+      ✓ 預期輸出：<br/>
+      • 涉及「主權」的文章<br/>
+      • 涉及「人類介入」的邏輯線<br/>
+      • 跨文章的倫理論述框架<br/>
+      • 與第一個查詢的交叉點
+    </div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">2</div>
+      <div>
+        <h4 class="instruction-title">對比兩個查詢結果</h4>
+        <p class="instruction-content">在 Claude Code 的 editor 裡開一個新文件，記下兩個查詢的共同點和差異</p>
+      </div>
+    </div>
+    <div class="code-block"># 在 editor 裡手寫一份比較：
+
+查詢 1：黑箱 三層次 工具論
+- 重點文檔：[列出]
+- 核心視角：[機制層面]
+
+查詢 2：主權 AI 人類介入
+- 重點文檔：[列出]
+- 核心視角：[倫理 & 權利層面]
+
+交叉點：
+- [共同出現的概念]
+- [可能的敘事連接]
+</div>
+    <div class="success-box">
+      ✓ Task 1.2 完成！你現在有了兩個切面的全景圖
+    </div>
+  </div>
+
+  <!-- TASK 1.3 -->
+  <h3 class="section-title">Task 1.3：手寫初版大綱</h3>
+  <p class="section-subtitle">目標：基於兩個查詢，構思 E02 的故事框架</p>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">1</div>
+      <div>
+        <h4 class="instruction-title">在 Claude Code editor 裡新建大綱文件</h4>
+        <p class="instruction-content">創建 <code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">DK_S01E02_初版大綱.md</code></p>
+      </div>
+    </div>
+    <div class="code-block"># 暗知識系列 S1E02：黑箱的三個層次 — 初版大綱
+
+## 開場（500 字）
+[延續 E01 的敘事風格，說明為什麼要深入「黑箱」]
+
+## 第一層：技術黑箱（700 字）
+[工具、算法、代碼層面的不透明性]
+
+## 第二層：認知黑箱（700 字）
+[人類理解、心智模型、感知偏差]
+
+## 第三層：主權黑箱（700 字）
+[誰有決策權、AI 與人類的權力邊界]
+
+## 結語（300 字）
+[三層黑箱如何匯聚成「新的人類困境」]
+
+## 註：
+- 字數目標：3000-4000 字
+- 風格：延續 E01 的「引入-深化-反思」模式
+- 素材來源：待 Day 2 補充
+</div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">2</div>
+      <div>
+        <h4 class="instruction-title">細化大綱的每個章節</h4>
+        <p class="instruction-content">在編輯器裡逐一展開，寫出每個章節的 3-5 個核心論點</p>
+      </div>
+    </div>
+    <div class="code-block"># 第一層：技術黑箱 — 細化
+
+## 1.1 什麼是技術黑箱？
+- 定義：我們使用的工具（AI、算法、應用）的內部機制不可見
+- 例子：[你決定在這裡加什麼例子？]
+
+## 1.2 技術黑箱的三個表現
+- a) 代碼黑箱
+- b) 模型黑箱
+- c) 組織黑箱
+
+## 1.3 我們面臨什麼問題？
+- [從日常體驗出發]
+
+## 1.4 小結
+- [承上啟下]
+</div>
+  </div>
+
+  <div class="instruction-card">
+    <div class="instruction-header">
+      <div class="step-number">3</div>
+      <div>
+        <h4 class="instruction-title">保存初版大綱</h4>
+        <p class="instruction-content">存成 Markdown 檔案，為 Day 2 準備</p>
+      </div>
+    </div>
+    <div class="code-block">系列文章/暗知識系列/DK_S01E02_初版大綱.md</div>
+    <div class="success-box">
+      ✓ Task 1.3 完成！初版大綱已完成，可進入 Day 2
+    </div>
+  </div>
+
+  <!-- QUICK REFERENCE -->
+  <div class="quick-ref">
+    <div class="quick-ref-title">⚡ Day 1 快速查詢表</div>
+    <div class="quick-ref-row">
+      <div class="quick-ref-key">查詢 1</div>
+      <div class="quick-ref-value">graphify query '黑箱 三層次 工具論'</div>
+    </div>
+    <div class="quick-ref-row">
+      <div class="quick-ref-key">查詢 2</div>
+      <div class="quick-ref-value">graphify query '主權 AI 人類介入'</div>
+    </div>
+    <div class="quick-ref-row">
+      <div class="quick-ref-key">新建大綱</div>
+      <div class="quick-ref-value">cat > DK_S01E02_初版大綱.md</div>
+    </div>
+    <div class="quick-ref-row">
+      <div class="quick-ref-key">檢查進度</div>
+      <div class="quick-ref-value">ls -la *.md | grep DK</div>
+    </div>
+    <div class="quick-ref-row">
+      <div class="quick-ref-key">日期時間</div>
+      <div class="quick-ref-value">預計 30-40 分鐘完成</div>
+    </div>
+  </div>
+
+  <!-- TIPS -->
+  <div class="tips-section">
+    <div class="tips-title">💡 實戰小貼士</div>
+    <div class="tip-item">
+      <div class="tip-icon"><i class="ti ti-search"></i></div>
+      <div class="tip-text">
+        <strong>如果查詢結果很長：</strong> 不用全讀，重點看「推薦的論述脈絡」和「出現頻率最高的概念」
+      </div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-icon"><i class="ti ti-edit"></i></div>
+      <div class="tip-text">
+        <strong>寫大綱時：</strong> 不要完美，只要清晰。目標是「Day 2 有個框架可以填」
+      </div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-icon"><i class="ti ti-copy"></i></div>
+      <div class="tip-text">
+        <strong>如果想改 graphify 的查詢詞：</strong> 試試「黑箱 工具」、「AI 人類決策」等變體，看不同角度的結果
+      </div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-icon"><i class="ti ti-file"></i></div>
+      <div class="tip-text">
+        <strong>保存結果：</strong> Terminal 的查詢結果可以 Ctrl+A 全選 → Ctrl+C 複製 → 貼到編輯器裡保存
+      </div>
+    </div>
+    <div class="tip-item">
+      <div class="tip-icon"><i class="ti ti-alert"></i></div>
+      <div class="tip-text">
+        <strong>如果 graphify 報錯：</strong> 檢查你是否在正確的目錄（系列文章/暗知識系列/），以及 graphify 是否已安裝（which graphify）
+      </div>
+    </div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <h3 class="section-title">Day 1 完成檢查清單</h3>
+
+  <div class="task-summary">
+    <div class="task-card">
+      <div class="task-name">Task 1.1 完成</div>
+      <div class="task-detail">
+        ☐ 執行了 graphify query '黑箱 三層次 工具論'<br/>
+        ☐ 看到了相關文檔和概念清單<br/>
+        ☐ 記下了 3-5 個關鍵文檔名稱
+      </div>
+      <div class="phase-badge">Terminal 操作</div>
+    </div>
+
+    <div class="task-card">
+      <div class="task-name">Task 1.2 完成</div>
+      <div class="task-detail">
+        ☐ 執行了 graphify query '主權 AI 人類介入'<br/>
+        ☐ 在編輯器裡對比了兩個查詢的結果<br/>
+        ☐ 找到了「黑箱」和「主權」的交叉點
+      </div>
+      <div class="phase-badge">Editor + Terminal</div>
+    </div>
+
+    <div class="task-card">
+      <div class="task-name">Task 1.3 完成</div>
+      <div class="task-detail">
+        ☐ 新建了 DK_S01E02_初版大綱.md<br/>
+        ☐ 寫出了 5 個主要章節（開場 + 三層 + 結語）<br/>
+        ☐ 每個章節有 3-5 個細化論點<br/>
+        ☐ 存在正確目錄
+      </div>
+      <div class="phase-badge">Editor 編輯</div>
+    </div>
+  </div>
+
+  <!-- NEXT STEPS -->
+  <h3 class="section-title">Day 1 完成後 → Day 2 準備</h3>
+
+  <div style="background: var(--color-background-info); border: 0.5px solid var(--color-border-info); border-radius: var(--border-radius-lg); padding: 1.25rem; margin: 1.5rem 0;">
+    <p style="font-size: 12px; color: var(--color-text-info); margin: 0; line-height: 1.6;">
+      <strong>✅ 準備好了以下產出物：</strong><br/>
+      1. 兩個 graphify 查詢的結果（可保存為 .txt）<br/>
+      2. 初版大綱（DK_S01E02_初版大綱.md）<br/>
+      <br/>
+      <strong>🚀 Day 2 用新 Agent View 時：</strong><br/>
+      進入 <code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">claude agents</code> 主介面，啟動 6 個並行 Session 採集素材、讀支援文檔、執行更複雜的 graphify 查詢
+    </p>
+  </div>
+
+</div>

@@ -1,0 +1,1 @@
+用qwen3.6plus來寫暗知識第二篇，並且用hermes kanban模式。5/18

@@ -1,0 +1,730 @@
+
+<style>
+* { box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 0.5rem;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin: 0 0 1.5rem;
+}
+
+.alert-box {
+  background: var(--color-background-info);
+  border: 0.5px solid var(--color-border-info);
+  border-left: 2px solid var(--color-border-info);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.alert-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-info);
+  margin: 0 0 8px;
+}
+
+.alert-text {
+  font-size: 12px;
+  color: var(--color-text-info);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  color: var(--color-text-primary);
+}
+
+.tab-btn.active {
+  color: var(--color-text-info);
+  border-bottom-color: var(--color-border-info);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 1.5rem 0 1rem;
+}
+
+.step-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.step-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.step-number {
+  min-width: 32px;
+  height: 32px;
+  background: var(--color-background-info);
+  color: var(--color-text-info);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.step-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.step-desc {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  margin: 4px 0 0 0;
+}
+
+.code-block {
+  background: var(--color-background-secondary);
+  border-left: 2px solid var(--color-border-info);
+  padding: 12px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-primary);
+  margin: 10px 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.note-box {
+  background: var(--color-background-warning);
+  border-left: 2px solid var(--color-border-warning);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-warning);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.success-box {
+  background: var(--color-background-success);
+  border-left: 2px solid var(--color-border-success);
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--color-text-success);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.option-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.option-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem;
+}
+
+.option-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 0.5rem;
+}
+
+.option-content {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin: 1rem 0;
+}
+
+.comparison-table th {
+  background: var(--color-background-secondary);
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.comparison-table td {
+  padding: 10px 8px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  color: var(--color-text-secondary);
+}
+
+.comparison-table tr:hover {
+  background: var(--color-background-secondary);
+}
+
+.auth-method {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+.auth-method-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0 0 0.75rem;
+}
+
+.auth-method-content {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.checklist-item {
+  padding: 8px 12px;
+  background: var(--color-background-secondary);
+  border-left: 2px solid var(--color-border-info);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: var(--color-text-primary);
+}
+
+.warning-box {
+  background: var(--color-background-warning);
+  border: 0.5px solid var(--color-border-warning);
+  border-left: 2px solid var(--color-border-warning);
+  border-radius: var(--border-radius-lg);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+.warning-title {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text-warning);
+  margin: 0 0 0.5rem;
+}
+
+.warning-text {
+  font-size: 11px;
+  color: var(--color-text-warning);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.highlight-yellow {
+  background: var(--color-background-warning);
+  border-color: var(--color-border-warning);
+}
+
+</style>
+
+<div class="container">
+  <h2 class="title">Vultr 上的 Claude Code 認證完全指南</h2>
+  <p class="subtitle">三種認證方式，詳細步驟，安全硬化清單</p>
+
+  <div class="alert-box">
+    <div class="alert-title">✅ 好消息：Vultr 已確認支持</div>
+    <div class="alert-text">
+      多位用戶已在 Vultr 上成功部署 Claude Code。該平臺不會阻止資料中心 IP，支持 headless（無瀏覽器）認證。本指南基於 2025-2026 年的實際部署經驗。
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab(event, 'prerequisites')">先決條件</button>
+    <button class="tab-btn" onclick="showTab(event, 'auth-methods')">認證方式</button>
+    <button class="tab-btn" onclick="showTab(event, 'detailed-setup')">詳細設定</button>
+    <button class="tab-btn" onclick="showTab(event, 'security')">安全加固</button>
+  </div>
+
+  <!-- TAB 1: PREREQUISITES -->
+  <div id="prerequisites" class="tab-content active">
+    <h3 class="section-title">系統要求與環境準備</h3>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div>
+          <h4 class="step-title">選擇合適的 Vultr 計畫</h4>
+          <p class="step-desc">Claude Code 資源需求</p>
+        </div>
+      </div>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>規格</th>
+            <th>最低要求</th>
+            <th>推薦</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CPU 核心</td>
+            <td>2 core</td>
+            <td>4 core</td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td>4 GB</td>
+            <td>8 GB</td>
+          </tr>
+          <tr>
+            <td>儲存</td>
+            <td>50 GB NVMe</td>
+            <td>100+ GB NVMe</td>
+          </tr>
+          <tr>
+            <td>月費（Vultr）</td>
+            <td>$12-18</td>
+            <td>$24-36</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="note-box">
+        💡 Vultr 計費按小時計算，如果只想試驗，可選 $0.29/hr 的按需方案
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div>
+          <h4 class="step-title">選擇作業系統</h4>
+          <p class="step-desc">Claude Code 官方支援</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="checklist-item">✅ Ubuntu 22.04 LTS（推薦）</li>
+        <li class="checklist-item">✅ Ubuntu 24.04 LTS（最新）</li>
+        <li class="checklist-item">✅ Debian 10+</li>
+        <li class="checklist-item">⚠️ Alpine Linux（需額外安裝 libgcc, libstdc++）</li>
+      </ul>
+      <div class="success-box">
+        ✓ 選 Ubuntu 22.04 LTS，最穩定
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div>
+          <h4 class="step-title">付款和帳戶要求</h4>
+          <p class="step-desc">Claude Code 使用先決條件</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li class="checklist-item">✅ Claude Pro / Max 訂閱（推薦用於 VPS）</li>
+        <li class="checklist-item">✅ Anthropic Console 帳戶 + API Key（按使用量付費）</li>
+        <li class="checklist-item">❌ 免費 Claude.ai 方案不支持</li>
+      </ul>
+      <div class="note-box">
+        💡 平均每日使用成本約 $6 USD（根據任務複雜度）
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 2: AUTH METHODS -->
+  <div id="auth-methods" class="tab-content">
+    <h3 class="section-title">三種認證方式對比</h3>
+
+    <div class="option-grid" style="grid-template-columns: 1fr;">
+      <div class="option-card">
+        <h4 class="option-title">方式 1️⃣：API Key 方式（最簡單，推薦）</h4>
+        <p class="option-content">
+          適合：Console 帳戶、自動化流程、無瀏覽器環境<br/>
+          難度：⭐ 最簡單<br/>
+          速度：⚡ 最快（3 分鐘）<br/>
+          缺點：需管理 API Key 安全
+        </p>
+      </div>
+    </div>
+
+    <div class="option-grid" style="grid-template-columns: 1fr;">
+      <div class="option-card">
+        <h4 class="option-title">方式 2️⃣：OAuth Token 方式（中等）</h4>
+        <p class="option-content">
+          適合：Claude Pro/Max 訂閱、有本地機器<br/>
+          難度：⭐⭐ 中等<br/>
+          速度：⏱️ 10 分鐘（包含本地步驟）<br/>
+          優點：一年有效，不用經常重新認證
+        </p>
+      </div>
+    </div>
+
+    <div class="option-grid" style="grid-template-columns: 1fr;">
+      <div class="option-card">
+        <h4 class="option-title">方式 3️⃣：互動式登入（舊方式，不推薦）</h4>
+        <p class="option-content">
+          適合：本地開發機器<br/>
+          難度：⭐⭐⭐ 複雜（在 headless 環境麻煩）<br/>
+          速度：❌ 需要本地瀏覽器<br/>
+          缺點：VPS 無法直接用（需要本地瀏覽器）
+        </p>
+      </div>
+    </div>
+
+    <div class="warning-box" style="margin-top: 1.5rem;">
+      <div class="warning-title">🎯 我推薦方式 1（API Key）用於 Vultr</div>
+      <div class="warning-text">
+        最直接、最快、最適合 headless VPS 環境。以下詳細步驟都是針對 API Key 方式。
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 3: DETAILED SETUP -->
+  <div id="detailed-setup" class="tab-content">
+    <h3 class="section-title">詳細設定步驟（API Key 方式）</h3>
+
+    <h4 style="font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-top: 1.5rem; margin-bottom: 1rem;">第一部分：本地機器上的準備</h4>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div>
+          <h4 class="step-title">登入 Anthropic Console</h4>
+          <p class="step-desc">生成 API Key</p>
+        </div>
+      </div>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0.5rem 0;">
+        訪問 <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 2px;">console.anthropic.com</code>
+      </p>
+      <div class="code-block">https://console.anthropic.com</div>
+      <div class="note-box">
+        需要 Anthropic Console 帳戶。如果只有 Claude Pro，需要升級到 Console（按使用量付費）
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div>
+          <h4 class="step-title">建立 API Key</h4>
+          <p class="step-desc">左邊選單 → API Keys → Create Key</p>
+        </div>
+      </div>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0.5rem 0;">
+        複製產生的 Key，格式應該是：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">sk-ant-api03-...</code>
+      </p>
+      <div class="success-box">
+        ✓ 保存這個 Key 到安全的地方（密碼管理器或加密檔案）
+      </div>
+    </div>
+
+    <h4 style="font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-top: 1.5rem; margin-bottom: 1rem;">第二部分：Vultr VPS 上的設定</h4>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div>
+          <h4 class="step-title">SSH 進入 Vultr VPS</h4>
+          <p class="step-desc">用 root 或你的 SSH 密鑰</p>
+        </div>
+      </div>
+      <div class="code-block">ssh root@your-vultr-ip</div>
+      <div class="note-box">
+        💡 將 <code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">your-vultr-ip</code> 替換為你的實際 IP
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <div>
+          <h4 class="step-title">更新系統</h4>
+          <p class="step-desc">確保所有軟體包是最新的</p>
+        </div>
+      </div>
+      <div class="code-block">apt update && apt upgrade -y</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">5</div>
+        <div>
+          <h4 class="step-title">安裝 Node.js（如果用 npm 方式）</h4>
+          <p class="step-desc">原生安裝器不需要，但建議裝以防萬一</p>
+        </div>
+      </div>
+      <div class="code-block">curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs</div>
+      <div class="success-box">
+        ✓ 驗證：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">node --version</code>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">6</div>
+        <div>
+          <h4 class="step-title">安裝 Claude Code</h4>
+          <p class="step-desc">原生安裝器方式</p>
+        </div>
+      </div>
+      <div class="code-block">curl -o- https://api.claude.sh/install.sh | bash</div>
+      <div class="note-box">
+        💡 安裝器會把 claude 放在 ~/.local/bin/claude
+      </div>
+      <div class="success-box">
+        ✓ 驗證：<code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">claude --version</code>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">7</div>
+        <div>
+          <h4 class="step-title">設定 API Key 環境變數</h4>
+          <p class="step-desc">最簡單和推薦的方式</p>
+        </div>
+      </div>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 0.5rem 0;">
+        <strong>臨時設定（此 session 有效）：</strong>
+      </p>
+      <div class="code-block">export ANTHROPIC_API_KEY="sk-ant-api03-your-actual-key-here"</div>
+      <p style="font-size: 12px; color: var(--color-text-secondary); margin: 1rem 0 0.5rem 0;">
+        <strong>永久設定（建議，加到 ~/.bashrc）：</strong>
+      </p>
+      <div class="code-block">echo 'export ANTHROPIC_API_KEY="sk-ant-api03-your-actual-key-here"' >> ~/.bashrc
+source ~/.bashrc</div>
+      <div class="warning-box">
+        ⚠️ 重要：用你從 Console 生成的實際 API Key，不要用示例文字
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">8</div>
+        <div>
+          <h4 class="step-title">驗證認證</h4>
+          <p class="step-desc">運行診斷工具</p>
+        </div>
+      </div>
+      <div class="code-block">claude doctor</div>
+      <div class="success-box">
+        ✓ 你應該看到：<br/>
+        Authentication: ✓ Complete<br/>
+        Node.js version: ✓ v22.x.x<br/>
+        System: ✓ Linux Ubuntu 22.04
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">9</div>
+        <div>
+          <h4 class="step-title">測試 Claude Code</h4>
+          <p class="step-desc">運行一個簡單命令確認工作</p>
+        </div>
+      </div>
+      <div class="code-block">cd ~
+claude -p "What's the current date and time?"</div>
+      <div class="success-box">
+        ✓ 如果看到 Claude 的回覆，認證成功！
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 4: SECURITY -->
+  <div id="security" class="tab-content">
+    <h3 class="section-title">安全加固清單（必做）</h3>
+
+    <div class="warning-box">
+      <div class="warning-title">⚠️ VPS 會在上線後數分鐘內遭到掃描</div>
+      <div class="warning-text">
+        如果沒做安全加固，風險非常高。以下步驟 5 分鐘完成，極大降低被攻擊的機率。
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">1</div>
+        <div>
+          <h4 class="step-title">建立非 root 使用者</h4>
+          <p class="step-desc">不要用 root 執行 Claude Code</p>
+        </div>
+      </div>
+      <div class="code-block">adduser claude
+usermod -aG sudo claude</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">2</div>
+        <div>
+          <h4 class="step-title">設定 SSH 密鑰認證</h4>
+          <p class="step-desc">禁用密碼認證</p>
+        </div>
+      </div>
+      <div class="code-block">mkdir -p /home/claude/.ssh
+# 從你的本地機器複製公鑰：
+ssh-copy-id claude@your-vultr-ip</div>
+      <div class="note-box">
+        💡 在你的本地機器上運行，假設你有 SSH 密鑰對
+      </div>
+      <div class="code-block"># 禁用密碼認證
+sudo sed -i 's/PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+sudo systemctl restart sshd</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">3</div>
+        <div>
+          <h4 class="step-title">啟用防火牆（UFW）</h4>
+          <p class="step-desc">允許 SSH，其他全部阻擋</p>
+        </div>
+      </div>
+      <div class="code-block">sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow OpenSSH
+sudo ufw enable</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">4</div>
+        <div>
+          <h4 class="step-title">安裝 Fail2Ban（自動擋暴力攻擊）</h4>
+          <p class="step-desc">自動封禁多次失敗登入的 IP</p>
+        </div>
+      </div>
+      <div class="code-block">sudo apt install fail2ban -y
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">5</div>
+        <div>
+          <h4 class="step-title">API Key 安全儲存</h4>
+          <p class="step-desc">不要在代碼或 .bash_history 中洩露</p>
+        </div>
+      </div>
+      <div class="code-block"># 建立安全的配置檔案
+sudo mkdir -p /etc/claude-code
+sudo tee /etc/claude-code/.env > /dev/null << 'EOF'
+ANTHROPIC_API_KEY="sk-ant-api03-your-key"
+EOF
+sudo chmod 600 /etc/claude-code/.env
+sudo chown claude:claude /etc/claude-code/.env</div>
+      <div class="code-block"># 在 ~/.bashrc 中引用（不要直接寫 key）
+source /etc/claude-code/.env</div>
+    </div>
+
+    <div class="step-card">
+      <div class="step-header">
+        <div class="step-number">6</div>
+        <div>
+          <h4 class="step-title">使用 tmux 保持會話（可選但推薦）</h4>
+          <p class="step-desc">SSH 斷線後 Claude Code 繼續運行</p>
+        </div>
+      </div>
+      <div class="code-block">sudo apt install tmux -y
+
+# 啟動新的 tmux session
+tmux new -s claude-session
+
+# 在 tmux 內執行 Claude Code
+cd ~/my-project
+claude
+
+# 分離（Ctrl+B，然後 D）
+# 重新連接：
+tmux attach -t claude-session</div>
+    </div>
+
+    <h3 class="section-title">安全驗證檢查清單</h3>
+
+    <ul class="checklist">
+      <li class="checklist-item">☐ SSH 密鑰認證已設定，密碼認證已禁用</li>
+      <li class="checklist-item">☐ UFW 防火牆已啟用，僅允許 OpenSSH</li>
+      <li class="checklist-item">☐ Fail2Ban 已安裝並執行</li>
+      <li class="checklist-item">☐ API Key 儲存在 /etc/claude-code/.env（600 權限）</li>
+      <li class="checklist-item">☐ 非 root 使用者已建立，具有 sudo 權限</li>
+      <li class="checklist-item">☐ 運行 <code style="background: rgba(0,0,0,0.1); padding: 2px 4px;">claude doctor</code> 確認一切正常</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+function showTab(event, tabName) {
+  const contents = document.querySelectorAll('.tab-content');
+  contents.forEach(c => c.classList.remove('active'));
+  
+  const btns = document.querySelectorAll('.tab-btn');
+  btns.forEach(b => b.classList.remove('active'));
+  
+  document.getElementById(tabName).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>

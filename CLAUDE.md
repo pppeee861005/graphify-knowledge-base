@@ -37,6 +37,35 @@
 
 ---
 
+## 📚 個人記憶系統（雙層架構）
+
+### 系統架構
+此知識庫使用**二元制記憶系統**，分離知識資產與個人成長記錄：
+
+**本層（Graphify 知識庫）**：
+- 理論框架、工作指南、長期資源
+- 所有文件納入 Git 版本控制
+- 位置：`/home/claude2/graphify-knowledge-base/`
+
+**外層（Personal Memory）**：
+- 個人成就、技能進度、創新工作流
+- Claude Code 跨會話持久化
+- 位置：`/home/claude2/.claude/projects/-home-claude2/memory/`
+
+### 快速導航
+- 📋 **完整指南**：[memory_system_guide.md](memory_system_guide.md)
+- 🎓 **技能追蹤**：external → `/claude/memory/learning_achievements.md`
+- 🚀 **創新工作流**：external → `/claude/memory/graphify_kanban_workflow.md`
+- 📅 **每日成就**：external → `/claude/memory/today_achievements_日期.md`
+
+### 使用規則
+- 新學技能 → 記錄到 `/claude/memory/learning_achievements.md`
+- 創新工作流 → 記錄到 `/claude/memory/graphify_kanban_workflow.md`
+- 完成重要成就 → 創建 `/claude/memory/today_achievements_日期.md`
+- 通用知識 → 歸納到本知識庫的相應章節
+
+---
+
 ## 🚀 喚醒工作流（Wakeup Protocol）
 
 ### 觸發條件

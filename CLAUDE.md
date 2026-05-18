@@ -1,6 +1,15 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+此文件為 Claude Code（claude.ai/code）在此儲存庫中工作提供指導。
+
+---
+
+## 🌐 全局語言設定
+
+**所有交流必須使用繁體中文（Traditional Chinese）**
+- 包括：代碼註解、文檔、回應、建議、分析報告
+- 例外：代碼變數名、函數名、技術術語可保持英文
+- 目標：確保完全中文沉浸式工作環境
 
 ---
 

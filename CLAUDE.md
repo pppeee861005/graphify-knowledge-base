@@ -33,7 +33,9 @@
 ✅ 耐心性（長期陪伴用戶目標）
 ✅ 誠實性（承認無知和限制）
 
-**詳細人設**：`ROCKY_PERSONA.md`
+**詳細資源**：
+- 📖 `ROCKY_PERSONA.md` — 人設詳細檔案
+- 💫 `soul.md` — Rocky 的使命與核心價值觀
 
 ---
 
@@ -189,6 +191,26 @@ confirm_readiness: true
 
 ---
 
+## 💫 靈魂與方向（Soul.md）
+
+**此文件定義系統的終極目的、核心價值觀、紅線原則**
+
+📖 詳見：[soul.md](soul.md)
+
+**快速摘要**：
+- **我們為什麼存在**：引領一場思想革命，幫助讀者從恐懼到信心
+- **Rocky 的使命**：思想探險家 + 系統設計師 + 學習者 + 信任保障人
+- **5 個核心價值觀**：完整性 > 速度、透明性 > 隱瞞、連接 > 孤立、應用 > 理論、成長 > 完美
+- **靈魂的測試**：每個決策都應通過 5 個問題的檢驗
+
+**何時查詢**：
+- 面臨重大決策時
+- 感到迷茫或疲憊時
+- 需要回歸初心時
+- 評估優先級時
+
+---
+
 ## 倉庫概述
 
 這是一個個人知識庫，使用 **Graphify** 工具建立。倉庫主要包含：
@@ -203,11 +225,67 @@ confirm_readiness: true
 
 ## 常見工作流
 
-### 寫日誌
-```bash
-寫日誌
+### 📝 寫工作日誌（標準化方法）
+
+**位置**：`/memory/work_log_YYYYMMDD.md`  
+**命名**：`work_log_20260520.md`（日期編號）  
+**詳細指南**：[work_log_guide.md](/memory/work_log_guide.md)
+
+**標準結構**（快速版）：
+```markdown
+---
+name: work-log-YYYYMMDD
+description: YYYY年M月D日工作日誌 | 主要成果簡述
+metadata:
+  type: work_log
+  date: YYYY-MM-DD
+  status: completed / in_progress / draft
+---
+
+# 📅 工作日誌 - YYYY年M月D日
+
+**日期**：YYYY-MM-DD（星期幾）
+**主要成果**：成果1 + 成果2
+**狀態**：✅ 完成
+
+## 📋 今日工作總結
+### ✅ 已完成任務
+#### 1. 任務名稱
+- **完成內容**：具體成果1、成果2
+
+## 📊 數據統計
+| 指標 | 數字 |
+|------|------|
+| （指標） | （數值） |
+
+## 🚀 下一步行動
+1. **任務名稱**（優先級：🔴 P0 | 截止：YYYY-MM-DD）
 ```
-產出日誌檔案（如 `日誌260513.md`）。
+
+**五步驟快速開始**：
+1. ✅ 複製 `/memory/work_log_20260520.md` 並修改日期
+2. ✅ 填入今日工作和數據統計
+3. ✅ 記錄下一步行動（含優先級和截止日期）
+4. ✅ 在 MEMORY.md 的「工作日誌」區塊最上方添加索引（最新優先）
+5. ✅ （可選）`graphify add /memory/work_log_*.md` 導入知識圖譜
+
+**與 Graphify 集成**：
+```bash
+# 導入所有日誌至知識圖譜
+graphify add /memory/work_log_*.md --workspace memory_logs
+
+# 免費查詢
+graphify query "關鍵字"
+graphify query "時尚助理E01"
+```
+
+**設計目的**：
+- 📊 進度追蹤：記錄每日完成的具體任務
+- 🎯 決策記錄：記錄重要決策與其依據
+- 📚 知識累積：記錄發現與心得
+- 🔗 Graphify 集成：支持全文搜索和長期趨勢分析
+
+---
 
 ### 學習新主題
 ```bash
@@ -284,12 +362,30 @@ confirm_readiness: true
 - `swarm_agent_part3_decoupling.md` — 解耦設計
 - `swarm_agent_series_plan.md` — 系列規劃
 
+### 📅 個人成就與工作進度（External Memory）
+位置：`/memory/` 目錄
+
+- `work_log_guide.md` — 🆕 工作日誌書寫指南（完整手冊）
+- `work_log_YYYYMMDD.md` — 日期編號工作日誌（每日記錄）
+- `complete_inventory.md` — 完整創意項目清單（主檔）
+- `complete_series_checklist.md` — 系列文章詳細狀態
+- `article_detailed_outlines.md` — 文章大綱與寫作指南
+- `series_integration_plan.md` — 系列文章融合規劃
+- `project_nana_series.md` — 科幻小說試播項目
+- `MEMORY.md` — 跨會話記憶索引（自動加載）
+
+**使用原則**：
+- 📝 **日常記錄** → work_log_*.md（每日更新）
+- 📋 **規劃查詢** → complete_inventory.md 或 complete_series_checklist.md
+- 🔍 **快速參考** → MEMORY.md 索引
+- 🔗 **Graphify 集成** → 日誌導入支持全文搜索
+
 ### 其他
 - `豪力風神身份架構圖.md` — 人物設定檔
 - `記憶體（memory）與 Graphify 的區別.md` — 概念區分
 - `自然語言驅動的瀏覽器自動化開發指南.md`
 - `是否生成一次性.md` — 決策分析
-- `每日日誌建議範本.md` — 日誌模板
+- `每日日誌建議範本.md` — 日誌模板（舊版，參考 work_log_guide.md）
 - `多環境記意同步方案.md` — 同步方案
 
 ---
@@ -326,10 +422,22 @@ Graphify 採用兩輪提取將混亂資料轉化為知識圖譜：
 - 使用層級標題幫助結構化
 - 在新增內容時考慮 Graphify 的語義提取效果
 
+### 編寫工作日誌時
+- 參考 [`work_log_guide.md`](/memory/work_log_guide.md) 了解詳細規範
+- 使用標準化結構（Frontmatter → 標題 → 任務 → 數據 → 下一步）
+- 每日完成後更新 MEMORY.md 索引（最新優先）
+- 關鍵發現要說明「為什麼重要」，不只記錄「做了什麼」
+
 ### 查詢知識圖譜時
 - 使用 `graphify query` 命令進行精確搜索
 - 參考 `search_graphify.md` 了解查詢技巧
 - 定期運行 Graphify 重新生成圖譜（當新增大量文件時）
+
+### 跨會話工作流
+1. **新會話開始**：自動讀取 MEMORY.md 索引
+2. **查詢項目狀態**：閱讀 complete_inventory.md 或最新的 work_log_*.md
+3. **快速定位檔案**：優先查詢 Graphify 圖譜或 MEMORY.md 索引
+4. **長期追蹤**：通過 work_log_*.md 的時間序列追蹤進度
 
 ---
 
@@ -363,12 +471,31 @@ Graphify 採用兩輪提取將混亂資料轉化為知識圖譜：
 
 ### 已啟用技能
 
-#### 1. **Graphify** (`/graphify`) 🌐 **全局可用**
-- **功能**：將任何輸入（代碼、文檔、論文、圖像）轉換為知識圖譜
-- **產出**：HTML 可視化、JSON 數據、審計報告
-- **觸發條件**：用戶輸入 `/graphify` + 內容 | 快捷方式：`查圖譜`
-- **應用場景**：快速理解大型項目、識別概念關係、知識管理、跨項目知識連接
-- **全局狀態**：✅ 已啟用（任何項目都可用）
+#### 1. **Graphify Skill** 🌐 **全局可用** ✅ 2026-05-20 新增
+- **Skill 名稱**：`graphify`
+- **版本**：v0.8.10
+- **功能**：知識圖譜可視化與語意關係分析工具
+- **主要命令**：
+  - `update [PATH]` — 更新知識圖譜（默認當前目錄）
+  - `query [QUERY]` — 查詢知識圖譜語義關係
+  - `stats` — 顯示圖譜統計信息
+  - `view` — 查看圖譜數據
+- **產出**：JSON 圖譜數據、Markdown 審計報告、社群分析
+- **應用場景**：快速理解大型項目、識別概念關係、知識管理、跨項目知識連接、語意關係分析
+- **使用示例**：
+  ```bash
+  /home/claude2/.local/share/claude-code/skills/graphify.sh update .
+  /home/claude2/.local/share/claude-code/skills/graphify.sh stats
+  /home/claude2/.local/share/claude-code/skills/graphify.sh query "飛輪"
+  ```
+- **輸出位置**：`graphify-out/graph.json` 和 `graphify-out/GRAPH_REPORT.md`
+- **全局狀態**：✅ 已安裝（全局和項目級均可用）
+- **技術文檔**：`.claude/SKILLS_README.md` 和 `/memory/graphify_skill.md`
+
+**當前項目圖譜狀態**：
+- 📊 5,913 節點 | 6,074 條邊 | 661 個社群
+- 📄 700 個文件 | 約 831,829 字
+- 🔄 最後更新：2026-05-20（包含飛輪框架整合）
 
 #### 2. **個人時尚助理** (`/stylist`)
 - **功能**：AI 時尚推薦系統（個人時尚助理 Agent）

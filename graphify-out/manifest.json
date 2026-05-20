@@ -1,0 +1,3722 @@
+{
+  "/home/claude2/graphify-knowledge-base/test_error.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "cd51725995bf62eff04dda0ea4e46df2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_task_query.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "52458b3796c89d8ff88c4f13e5506804",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/check_which_key.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "6ff4a57cb230c20252b92db645c817be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_test_simple.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "04b1ece0a5828b6a372c780ac7106e1b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_task_explorer.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "87734b62ac9e959e76e35b57542a1213",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_with_secret_key.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "abf3a92c84f779e9ec24691ffe876f77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_jwt_validity.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "8bdab77a78d1c99d4c84ef7897bfc122",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_image_generation.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "a48239145abc81e15fe92d4b321f5001",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/query_resource_package.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "e32ac311b2d58c86159361d15c5b4b6e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/diagnose_kling_account.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "3a03a3dbe8056a8a9fbfb8767527872b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_with_key1.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "deb891f6991a5193d8b3d12b30b92c52",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/query_all_tasks.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "4b88ae0e196613550dbb4f52dd7b1bf1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_with_both_keys.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "0398d6d148993b982b3a6d73685032fd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/test_text_to_video.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "18aa9dd29305f2cfe4827a5d02cf6612",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/generate_jwt.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "61f6e4f8a650c1112b3c45ec2bf175ed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/retry_video_generation.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "dfadfccd61973dab1f66cbee010867af",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_nana_video.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "036505a732088ab116726dc74035b19d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_nana_video_final.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ecd33fa7b44fac0f11f3ab0a496c3263",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_check_tasks.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "8492fd393f3222222a3565aa54fec9ca",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_auth_tester.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "28d948118ecd36069f67ef017fd4359a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.clawhub/lock.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "332104398ac8dfe5d8513c82834b99c0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-video/_meta.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "cc840b86a1b6468e0cc4f5a54c4fbfed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-video/scripts/generate_video.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "e8883ba9a7254f2b00d406f0790aab15",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-video/.clawhub/origin.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "765e109aeff2f4e70f01d58c8bb2c04e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/_meta.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "42ac8969c1adda8211f295b3fbd53f19",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/expand_image.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "d5020fcf8a7e81c3e7a2895f8760dcd7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/query_task.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "5663c11a10c9ab6e9512e8aff3cfdb1d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/generate_omni_image.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "4e94b5fc604df395e1c289c364300764",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/generate_image_with_progress.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "adce7aae3c0567c4f6e7c1ef8ee74589",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/list_tasks.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "6aa822c8ed14cf0732025e9b8bba9d58",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/scripts/generate_image.py": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "c7e0a5a08785b34bf35ab4103061343c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/.clawhub/origin.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "189fe457a7294a6cad002bf368cad6c2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/generated_videos/kling_error.json": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "a00e02f2b17553be9a53b4b12e2abab1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/creator-diagnostic-interactive.jsx": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "34f36a56f666b55230fe4def3342f864",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_error.json": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "cd51725995bf62eff04dda0ea4e46df2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_task_query.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "52458b3796c89d8ff88c4f13e5506804",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/check_which_key.py": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "6ff4a57cb230c20252b92db645c817be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_test_simple.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "04b1ece0a5828b6a372c780ac7106e1b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_task_explorer.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "87734b62ac9e959e76e35b57542a1213",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_with_secret_key.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "abf3a92c84f779e9ec24691ffe876f77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_jwt_validity.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "8bdab77a78d1c99d4c84ef7897bfc122",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_image_generation.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "a48239145abc81e15fe92d4b321f5001",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/query_resource_package.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "e32ac311b2d58c86159361d15c5b4b6e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/diagnose_kling_account.py": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "3a03a3dbe8056a8a9fbfb8767527872b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_with_key1.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "deb891f6991a5193d8b3d12b30b92c52",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/query_all_tasks.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "4b88ae0e196613550dbb4f52dd7b1bf1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_with_both_keys.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "0398d6d148993b982b3a6d73685032fd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/test_text_to_video.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "18aa9dd29305f2cfe4827a5d02cf6612",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/generate_jwt.py": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "61f6e4f8a650c1112b3c45ec2bf175ed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/retry_video_generation.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "dfadfccd61973dab1f66cbee010867af",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_nana_video.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "036505a732088ab116726dc74035b19d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_nana_video_final.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ecd33fa7b44fac0f11f3ab0a496c3263",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_check_tasks.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "8492fd393f3222222a3565aa54fec9ca",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_auth_tester.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "28d948118ecd36069f67ef017fd4359a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/.clawhub/lock.json": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "332104398ac8dfe5d8513c82834b99c0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-video/_meta.json": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "cc840b86a1b6468e0cc4f5a54c4fbfed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-video/scripts/generate_video.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "e8883ba9a7254f2b00d406f0790aab15",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-video/.clawhub/origin.json": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "765e109aeff2f4e70f01d58c8bb2c04e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/_meta.json": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "42ac8969c1adda8211f295b3fbd53f19",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/expand_image.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "d5020fcf8a7e81c3e7a2895f8760dcd7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/query_task.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5663c11a10c9ab6e9512e8aff3cfdb1d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/generate_omni_image.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "4e94b5fc604df395e1c289c364300764",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/generate_image_with_progress.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "adce7aae3c0567c4f6e7c1ef8ee74589",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/list_tasks.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "6aa822c8ed14cf0732025e9b8bba9d58",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/scripts/generate_image.py": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "c7e0a5a08785b34bf35ab4103061343c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/.clawhub/origin.json": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "189fe457a7294a6cad002bf368cad6c2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/generated_videos/kling_error.json": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "a00e02f2b17553be9a53b4b12e2abab1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/creator-diagnostic-interactive.jsx": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "34f36a56f666b55230fe4def3342f864",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/.claude/settings.json": {
+    "mtime": 1779098968.352537,
+    "ast_hash": "09e1b30a7b3969b21d737b11c458e4d7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_error.json": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "cd51725995bf62eff04dda0ea4e46df2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_task_query.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "52458b3796c89d8ff88c4f13e5506804",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/check_which_key.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "6ff4a57cb230c20252b92db645c817be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_test_simple.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "04b1ece0a5828b6a372c780ac7106e1b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_task_explorer.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "87734b62ac9e959e76e35b57542a1213",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_with_secret_key.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "abf3a92c84f779e9ec24691ffe876f77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_jwt_validity.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "8bdab77a78d1c99d4c84ef7897bfc122",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_image_generation.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "a48239145abc81e15fe92d4b321f5001",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/query_resource_package.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "e32ac311b2d58c86159361d15c5b4b6e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/diagnose_kling_account.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "3a03a3dbe8056a8a9fbfb8767527872b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_with_key1.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "deb891f6991a5193d8b3d12b30b92c52",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/query_all_tasks.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "4b88ae0e196613550dbb4f52dd7b1bf1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_with_both_keys.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "0398d6d148993b982b3a6d73685032fd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/test_text_to_video.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "18aa9dd29305f2cfe4827a5d02cf6612",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/generate_jwt.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "61f6e4f8a650c1112b3c45ec2bf175ed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/retry_video_generation.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "dfadfccd61973dab1f66cbee010867af",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_nana_video.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "036505a732088ab116726dc74035b19d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_nana_video_final.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "ecd33fa7b44fac0f11f3ab0a496c3263",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_check_tasks.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "8492fd393f3222222a3565aa54fec9ca",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_auth_tester.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "28d948118ecd36069f67ef017fd4359a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/.clawhub/lock.json": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "332104398ac8dfe5d8513c82834b99c0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-video/_meta.json": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "cc840b86a1b6468e0cc4f5a54c4fbfed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-video/scripts/generate_video.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "e8883ba9a7254f2b00d406f0790aab15",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-video/.clawhub/origin.json": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "765e109aeff2f4e70f01d58c8bb2c04e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/_meta.json": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "42ac8969c1adda8211f295b3fbd53f19",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/expand_image.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "d5020fcf8a7e81c3e7a2895f8760dcd7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/query_task.py": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5663c11a10c9ab6e9512e8aff3cfdb1d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/generate_omni_image.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "4e94b5fc604df395e1c289c364300764",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/generate_image_with_progress.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "adce7aae3c0567c4f6e7c1ef8ee74589",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/list_tasks.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "6aa822c8ed14cf0732025e9b8bba9d58",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/scripts/generate_image.py": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "c7e0a5a08785b34bf35ab4103061343c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/.clawhub/origin.json": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "189fe457a7294a6cad002bf368cad6c2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/generated_videos/kling_error.json": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "a00e02f2b17553be9a53b4b12e2abab1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/creator-diagnostic-interactive.jsx": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "34f36a56f666b55230fe4def3342f864",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_error.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "cd51725995bf62eff04dda0ea4e46df2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_task_query.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "52458b3796c89d8ff88c4f13e5506804",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/check_which_key.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "6ff4a57cb230c20252b92db645c817be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_test_simple.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "04b1ece0a5828b6a372c780ac7106e1b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_task_explorer.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "87734b62ac9e959e76e35b57542a1213",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_with_secret_key.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "abf3a92c84f779e9ec24691ffe876f77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_jwt_validity.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "8bdab77a78d1c99d4c84ef7897bfc122",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_image_generation.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "a48239145abc81e15fe92d4b321f5001",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/query_resource_package.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "e32ac311b2d58c86159361d15c5b4b6e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/diagnose_kling_account.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "3a03a3dbe8056a8a9fbfb8767527872b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_with_key1.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "deb891f6991a5193d8b3d12b30b92c52",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/query_all_tasks.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "4b88ae0e196613550dbb4f52dd7b1bf1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_with_both_keys.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "0398d6d148993b982b3a6d73685032fd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/test_text_to_video.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "18aa9dd29305f2cfe4827a5d02cf6612",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/generate_jwt.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "61f6e4f8a650c1112b3c45ec2bf175ed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/retry_video_generation.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "dfadfccd61973dab1f66cbee010867af",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_nana_video.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "036505a732088ab116726dc74035b19d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_nana_video_final.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ecd33fa7b44fac0f11f3ab0a496c3263",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_check_tasks.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "8492fd393f3222222a3565aa54fec9ca",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_auth_tester.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "28d948118ecd36069f67ef017fd4359a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/.clawhub/lock.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "332104398ac8dfe5d8513c82834b99c0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-video/_meta.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "cc840b86a1b6468e0cc4f5a54c4fbfed",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-video/scripts/generate_video.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "e8883ba9a7254f2b00d406f0790aab15",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-video/.clawhub/origin.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "765e109aeff2f4e70f01d58c8bb2c04e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/_meta.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "42ac8969c1adda8211f295b3fbd53f19",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/expand_image.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "d5020fcf8a7e81c3e7a2895f8760dcd7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/query_task.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5663c11a10c9ab6e9512e8aff3cfdb1d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/generate_omni_image.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "4e94b5fc604df395e1c289c364300764",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/generate_image_with_progress.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "adce7aae3c0567c4f6e7c1ef8ee74589",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/list_tasks.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "6aa822c8ed14cf0732025e9b8bba9d58",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/scripts/generate_image.py": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "c7e0a5a08785b34bf35ab4103061343c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/.clawhub/origin.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "189fe457a7294a6cad002bf368cad6c2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/generated_videos/kling_error.json": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "a00e02f2b17553be9a53b4b12e2abab1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/creator-diagnostic-interactive.jsx": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "34f36a56f666b55230fe4def3342f864",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7761\u89ba\u9192\u4f86sop.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "aed16cce5e5c100591261fc59113ba65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u500b\u4eba\u6642\u5c1a\u52a9\u7406_\u5feb\u901f\u53c3\u8003.md": {
+    "mtime": 1779240457.4851086,
+    "ast_hash": "6cf3a8115f6f747ade03ff12bc540d66",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/agent.md": {
+    "mtime": 1779245158.2245557,
+    "ast_hash": "9252fafaaf88a1ad44ecdcd742a33518",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/README.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "3b31c4a26d3cc3f98f1a71fc1b0f2ec0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/CLAUDE.md": {
+    "mtime": 1779252332.5173345,
+    "ast_hash": "31705d89f48cb44ee6693478a0bd4a24",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/memory_system_guide.md": {
+    "mtime": 1779107068.356774,
+    "ast_hash": "64921e99ef3c998794886edc24d029a7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/ROCKY_PERSONA.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "d330c7b1cf5c658f5299e747177c61a9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/soul.md": {
+    "mtime": 1779245333.7888458,
+    "ast_hash": "0bcd5f6f3e3ead280d53c7fd54742190",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_video_solution.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "39911e055a75b18246f6ee256def16b5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/kling_setup_guide.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "7b051007a32b7addf17c32a100ab9622",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/Vultr_Claude_Code_\u8a8d\u8b49\u5b8c\u5168\u6307\u5357.md": {
+    "mtime": 1779106177.2530143,
+    "ast_hash": "c096abac5823040a85e05135f1d19765",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/git_push.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "f80ab6f90474b720ab11d988b16bf465",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/memory.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "f3af1f5759d81fbad50d8fdbcb8d2e60",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_W2_\u652f\u63f4_\u8a8d\u77e5\u9ed1\u7bb1.md": {
+    "mtime": 1779104497.7303808,
+    "ast_hash": "fbebc653846ba7a26bec1522b92dd82f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_W2_\u652f\u63f4_\u4e3b\u6b0a\u9ed1\u7bb1\u8207AI\u6b0a\u5229.md": {
+    "mtime": 1779104497.7303808,
+    "ast_hash": "ee3835ec7092741a3b2b685731fe53f6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E02_\u9ed1\u7bb1\u7684\u4e09\u500b\u5c64\u6b21_draft.md": {
+    "mtime": 1779104497.7303808,
+    "ast_hash": "5a6c406c34b949be8cd14e74363447f3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_\u7cfb\u5217\u898f\u5283.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "24922742c03932db983317c48443692e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_W2_\u652f\u63f4_\u6280\u8853\u9ed1\u7bb1.md": {
+    "mtime": 1779104497.7303808,
+    "ast_hash": "f7e9ccb01b5cc1afda5355453c8b5417",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E03_\u8ab0\u8a72\u70ba\u4f60\u770b\u4e0d\u61c2\u7684\u6f14\u7b97\u6cd5\u8ca0\u8cac_published.md": {
+    "mtime": 1779104707.4019127,
+    "ast_hash": "52198c0eec4b86486993e6ec0fd8881a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E01_\u6697\u77e5\u8b58\u7684\u8a95\u751f_draft.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "810f4d8f945bd15c860c4b84aff3027b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E04_\u4e94\u5206\u9418\u505a\u51fa\u4f60\u4eba\u751f\u7b2c\u4e00\u500bAI\u4f5c\u54c1_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "964a6ac000194a7b9af8534f783502f8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E03_\u5f15\u529b\u8f49\u79fb\u70ba\u4ec0\u9ebc\u5275\u9020\u6bd4\u6d88\u8cbb\u66f4\u4e0a\u766e_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "3ab4011dc716206336321b0412f1e11f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E02_\u4f60\u88ab\u5077\u8d70\u4e86\u4ec0\u9ebc_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "4d3a63958f1efa74c58315b1709e268a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u8a08\u5283.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "ab684fd7d660ba5a87b44c7e425190f3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u767c\u5e03\u7b56\u7565.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "5063aa4f2e3dfe03294106237e6c2d85",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E01_\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "95a3b0351446aa922739377b21e302f5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E03_Skill\u6a19\u6e96\u5316\u7684\u6642\u4ee3\u5fc5\u7136_plan.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "3ff32819f5b573c2b60d120d62d60724",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E01_\u6563\u6236\u57fa\u790e\u8a2d\u65bd_published.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "97e8702bb6a54777ad401c0050ceec96",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E02_\u5f9e\u5370\u5237\u6a5f\u5230AI\u4e2d\u9593\u5c64\u9769\u547d_published.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "cd5faae9171d6ac0bfaae3f69a69b7db",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "442718688dbec159dbafc05b2b336d40",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01_\u8a08\u5283.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "ffa2913459ba3e5777f9cf51a193c123",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E02_\u96b1\u6027\u77e5\u8b58\u7684\u672b\u65e5_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "c1d0054b4634c2cf9faedb361479077c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283_v2.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "0a5215ef03928d79164598af35e37894",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/season1_three_act_structure.html": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "bbd00ff780aae510db57ec46763d60e5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E01_\u4e00\u5f35\u7167\u7247\u6467\u6bc0\u8b77\u57ce\u6cb3_published.md": {
+    "mtime": 1779086630.8291976,
+    "ast_hash": "8c0a8777171a364c325720e63ec5f533",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E03_\u89e3\u8026\u54f2\u5b78Anthropic\u8a2d\u8a08\u8702\u7fa4_published.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "bc54250360c742493d8d2f65ae6f0ab2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E02_\u53ef\u9069\u61c9\u6027\u8702\u7fa4\u6c38\u4e0d\u88ab\u6dd8\u6c70_published.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "378167d100d409b6618d49997917e82b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E01_\u8702\u7fa4Agent\u662f\u4ec0\u9ebc_published.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "2b871e49ce8572a8bce479be23a0ceb0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_linkedin_swarm_agent_post.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "1ac32418537e11ed5f646252ad2c8279",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/openclaw_fb_post.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "60e871d041c6d042426450d6324b33be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_facebook_cn_swarm_agent_post.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "18d3677dee673ef76fda32ab6b9a505e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/facebook_swarm_agent_post.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "1bcddc14de143d8f9b72b57875442393",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/linkedin_swarm_agent_post.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "da029c081d18d915c62298d41d778d0e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/swarm_agents_deep_dive_draft.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "f057020a8f5626b7d690b0f59d66633d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/swarm_agent_series_plan.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "ff8051f7dc068bef0ea8084728b48dbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/agent_os.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "ce2f720aa97c5ffe3c3d24bfea85192d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u932f\u8aa4\u8655\u7406\u6a5f\u5236.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "0acddb9061d708a932ea6217142ca55d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "77f6e49504dcf161a0900e8d87cde340",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/swarm_agents_four_layer_strategy.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "d2eea98b8170e4584f1bbcada53db418",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/agent_os_remastered.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "69337acf24f32a7ff638bbebacda7501",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/muti_practice.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "c751262caf050d0d65eb1d02af496832",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u958b\u767c\u7684\u672c\u8cea\u9769\u547d.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "be5444e22cb933e975607817c98a597d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u5168\u6c11\u7de8\u7a0b\u65b0\u7d00\u5143.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "8020c4c6cae7c64f425e47b9b633d44b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/ai_creation_trends_report_alliance.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "35d170c41d353f06799e1f4c9fdaecb4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/llm_list.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "cf5fc274057a420007ca610406e85d78",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u8a08\u7b97\u9769\u547d.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "ebf98cadb41231fa7ed783a5bf30937e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/robotaxi.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "27d32d9a4af37bceb54a92480c2ade31",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/chatbot_3\u89d2\u8272.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "f53c5fcd93ff0ac183d08ab263b33573",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u7684\u5de5\u696d\u5316\u8f49\u578b.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "cf58a2c27bfc7d5e55a89cc2cfdab680",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/NES_Cartridge_vs_HTML_Game.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "09e4ce77d01d4084d5b2bc89d1745375",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/AI_\u91ab\u7642\u6642\u4ee3\u7684\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "043baa6f32d7cffabad720e71fada4d6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u8853\u6587\u7ae0/swarm_agent_architecture.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "d3c369e9f28afaab6de5fe3fbd4dfec6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u500b\u4eba\u8cc7\u6599/\u8c6a\u529b\u98a8\u795e\u8eab\u4efd\u67b6\u69cb\u5716.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ce446272ed301f6afe97cc0e8d507d54",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5176\u4ed6\u6587\u6a94/\u662f\u5426\u751f\u6210\u4e00\u6b21\u6027.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "8e8608f1783bd681ce5b10c61488532f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5176\u4ed6\u6587\u6a94/\u81f4\u672a\u4f86\u5e74\u8f15\u4eba\u7684\u4fe1.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ed56d43ea32409fc3ec5d0d71acd742f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5176\u4ed6\u6587\u6a94/\u51cd\u6f32\u6cb9\u96fb\u50f9.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "956d4e2fbfa92e1d231d0f7dbfd94a14",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5176\u4ed6\u6587\u6a94/Translate_Modelfile.txt": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ca5348f642d6550852effb166d051b25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-video/SKILL.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ddcd4266c7bfc865450c3752e1171baf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/SKILL.en.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "5ce79e80d14b1586d7e829e22f5442c7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/requirements.txt": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "8240580a8625c440a348e2f617e4d5ee",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/SKILL.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "4f22ccb2a0a45ebf740969ae378444b8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/references/api-reference.en.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "cd79302f4bb3c5d926ae679d55b09797",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/kling-image-generate/references/api-reference.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "fa0408210112c83eddd5aa574ad71abf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/skills/personal-stylist/SKILL.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "49dc8c3e12ee6f80701dcf0a788d3d92",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/hermes_vs_cubesandbox_analysis.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "3896bce01137c1478704ee3f42aa7c00",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/\u5e38\u7528\u6307\u4ee4.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "5aa9084aa87b3906d5e075334dd0b8cd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/serial-publication-playbook.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "4b49fd1a63980cc345554e9982b80ff8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/py-futu-api.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "53c6edecdb6371c8dd69ac4778074495",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/search_graphify.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "5d9d6577a656eb443a0ddc29cf373aad",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/claude_managed_agents_guide.md": {
+    "mtime": 1779242822.705378,
+    "ast_hash": "7025250ecee1483637f7bf1fd10ed3d6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/ollama_openwebui.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "5ebacefe6cf79c4f102ca5f8591a14be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/graphify.MD": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "6222fda274bd0e5ca0cdf99d2499f650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/hermes_openrouter_models_fb.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "1ca7f049d4e8411bc4ada5ab8cf79982",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/\u8a18\u61b6\u9ad4\uff08memory\uff09\u8207 Graphify \u7684\u5340\u5225.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "09f6c930267a3c6504712f63d5ec58d9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/\u81ea\u7136\u8a9e\u8a00\u9a45\u52d5\u7684\u700f\u89bd\u5668\u81ea\u52d5\u5316\u958b\u767c\u6307\u5357.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "8c6b593d70b9f0149c60c30b9cf5e2ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/vps\u4e0a\u7684ollama.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "56a3a651cb897eb5564f028a355c29f9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/hermes_kanban_architecture.md": {
+    "mtime": 1779242426.79337,
+    "ast_hash": "01428e703f54a2efc5da5165a1824ad3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/Hermes_CubeSandbox_Integration_Guide_zh.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "940564da51b0b7454d58df48d1ed5630",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/NotebookLM \u7b46\u8a18\u672c\u6559\u5b78.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "6b4c570614b04cd474ed0c7fea8897ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/hermes_graphify.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "34ab2f6d6b1ac381c5f48d67826fdd9b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/\u5b78\u7fd2\u9032\u5ea6skill.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "fbcdfd4aa425f2fb373c7ece14a566cc",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u6280\u80fd\u8207\u5de5\u5177/\u591a\u74b0\u5883\u8a18\u610f\u540c\u6b65\u65b9\u6848.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "75be86081679c46254273c2665bb3443",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/report_interactive.html": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "fc195f4ad994747c538534eb478cf632",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/\u7d9c\u5408\u767c\u5e03\u65e5\u7a0b\u8868_2026.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "1fa55a52c18131635903f6eea95fb80a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/\u70ba\u8b80\u8005\u958b\u4e00\u6247\u9580\u8a08\u5283\u66f8.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "d43ca782c1080265617c2a2ed4ecdf7e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/\u500b\u4eba\u6642\u5c1a\u52a9\u7406/README.md": {
+    "mtime": 1779240390.8501556,
+    "ast_hash": "354de0c2892bc840b2c441b177c22d49",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/\u500b\u4eba\u6642\u5c1a\u52a9\u7406/Phase1_\u5167\u5bb9\u9a57\u8b49/\u57f7\u884c\u6e05\u55ae.md": {
+    "mtime": 1779240409.3658628,
+    "ast_hash": "6f53c289084f427f8502aeadc55980e5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/dual-star-strategic-blueprint.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "f75fb8468881194d17146b54bd2ac6a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/this-week-priority-ranking.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "58c54829c53b8f2be910202f7a8cca3b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/dual-star-12week-execution-plan.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "848f1133a11736bfe1c25685afeb649d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/quick-deployment-guide-30min.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "ca9f73dc19bc92fb2a068fa8c953f318",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5c08\u6848\u898f\u5283/project_html/substack-optimization-checklist.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "95709ee91a66281e693eaa4a08b9de18",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u500b\u4eba\u6642\u5c1a\u52a9\u7406_\u5b8c\u6574\u898f\u5283.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "91cda58c4879c7b19c02ec5badf81886",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/Substack\u672c\u5730\u6620\u5c04\u8868_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "5f262bcff23e5566c2d222c8e91d0fe4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "7cb670dc244156009e0076e16455d5dd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "9e0d21f4e96ca47dc0a3582b4642be21",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u6587\u7ae0\u547d\u540d\u898f\u7bc4_\u6a19\u6e96\u5316\u7cfb\u7d71.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "7fb4c7be5d0370380de6e34a08285599",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u7b56\u7565\u8b8a\u66f4\u8a18\u9304_20260517.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "55af70579d5e4bf99ab85301d424725f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/ADDICT\u7cfb\u5217\u8907\u5be9\u5831\u544a_20260517.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "5592bdcb80ba9c53d3de13c8368bccab",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u767c\u5e03\u65e5\u7a0b\u8a08\u5283_2026\u5e745\u670818\u65e5-6\u670830\u65e5.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "e5ed056e763eb7659be16071b95fb3a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u6a94\u6848\u6e05\u55ae_\u5df2\u78ba\u7acb\u6a19\u6e96.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "5a6e2d3a633c692b53105999869ace28",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u77e5\u8b58\u8cea\u91cf\u6a19\u6e96_\u6838\u5fc3\u8cc7\u7522.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "60b5229e81490380a0693f33d1f9ca3d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u7206\u6b3e\u6587\u5fc3\u5f97\u63d0\u7149_5\u670817\u65e5.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "2a3add08e47f9bf9623ed82d9e531e7b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/Substack_\u6587\u7ae0\u767c\u5e03\u6578\u64da\u5831\u544a_V2.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "416b1229b06ea7d49addfe969cfde5b9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517_\u4e0b\u5348\u7248.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "1ffbe1f35eecdc1b6e75b9e15fa744f6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u5f15\u6d41\u6280\u5de7\u5eab_\u53c3\u8003\u6a94.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "82ff5d60f811d0b5bc80779562a789cb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/\u500b\u4eba\u6642\u5c1a\u52a9\u7406/\u9805\u76ee\u7d22\u5f15.md": {
+    "mtime": 1779240436.3894382,
+    "ast_hash": "a22b7bdea9036eb82920d59c92605586",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/Substack\u6578\u64da/2026\u5e745\u6708\u767c\u5e03\u6578\u64da\u6574\u5408\u5206\u6790.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "5beed074201588681df1f106da0609f0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5df2\u6392\u5b9a\u8a08\u5283.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "2125d2496e902b619376549951e16836",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/README.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "af525888bc462fe6d7941a44d4cede77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u8a02\u95b1\u6210\u9577\u66f2\u7dda\u6587\u5b57\u7248\u5831\u544a.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "fece5571eb9de7dcd12e2c41c82a5be9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5f9e\u5370\u5237\u6a5f\u5230 AI\uff1a\u6bcf\u4e00\u6b21\u4e2d\u9593\u5c64\u9769\u547d\uff0c\u90fd\u662f\u540c\u4e00\u5834\u6230\u722d.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "37bbb1983feea20a9917822d37727b32",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u7206\u6b3e\u6578\u64da.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "4d8f25f8f3bb018894c051951585bdaf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/Software 3.0 \u7684\u6563\u6236\u57fa\u790e\u8a2d\u65bd.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "9f726ef7b18d295717d4ab7c8a72d43d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u627e\u56de\u907a\u5931\u6587\u7ae0.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "c15dedc60dfb606557b576a09e837b50",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u5e02\u5834\u5206\u6790/\u6697\u8b66\u5206\u6790_\u53f0\u7063\u80a1\u5e02_20260516.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "0a7c2c3730a0b4b448c200edb3e54a01",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260518_Claude Code Agent\u5b78\u7fd2.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "5aac3f63a6d114742b57812df403f9f4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260518_\u5de5\u4f5c\u7e3d\u7d50.md": {
+    "mtime": 1779100295.5491385,
+    "ast_hash": "dfe547a64bf1143adea63a62124c881c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u6bcf\u65e5\u65e5\u8a8c\u5efa\u8b70\u7bc4\u672c.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "0ab6cb8a8ab30091e429cd34d1811731",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260517.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "08a631f2974f025eedd21c673e6e31e1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260516.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "b2f936cc049e168c2f57d121a2d864f2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260518.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "01932ece36496b6baa79bc9323d5c161",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260518_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "8b3cea53e570ac1cc721e1608020c2a7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u7a2e\u7530\u65e5\u8a18260516.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "625a9a06cd244db479c97ef280e1f83b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260429.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "866aec53a4287b37b1a6c4896030dfbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260513.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "f461bf201221c5cae8926efc18afacb3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u65e5\u8a8c/\u65e5\u8a8c260514.md": {
+    "mtime": 1779086630.821198,
+    "ast_hash": "e30bcc6125923132b19ece3a563e4e1a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u7cfb\u5217\u8a08\u756b.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "a98cb237c9f0d59b507af70b5d0f1da9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u8a66\u64ad\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "ea99c68635e8b920a2528548ca003d25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_S01_\u5927\u7db1_plan.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "98d8763862d8d95be1243a369d80490d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u5a1c\u5a1c.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "7233b20efe077fb47d0b53a9139d3dce",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272\u9020\u578b\u8a2d\u5b9a\u6a94.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "44ee22bf04f8d7b544d7911512dd73bb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u670d\u98fe\u8207LOGO\u8a2d\u8a08.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "e1bf30e0c046e40057d83e61bdd2d76c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb_v2.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "9f9b80b298a15a8ab7bdd689ec3e81c4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u8996\u89ba\u8a2d\u8a08Prompt\u6a94.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "1b714a9535664d1298522b46011c3d23",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "5cad2a343580dee62269ba4b5b0f472a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8996\u89ba\u8cc7\u6e90/NANA_\u96fb\u5f71\u9810\u544a\u6d77\u5831Prompt.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "20f09c47783426d650ec34a43f150d80",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u767c\u5e03\u7ba1\u7406/NANA_FB\u5f15\u6d41\u6587\u6848.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "682759d2ed48c86a82b8468a93c73689",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "5d01a47203de8419b7135804e5a77d79",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_draft.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "1f52f95be68de760c2bf6b5941d6d57f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_Substack\u7248.md": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "70937e29991da018bcfcc45feb2e6a66",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/hermes_kanban_3level_business_model.md": {
+    "mtime": 1779247954.1977265,
+    "ast_hash": "d7794fc4acdd4f64a43cadc03986c15a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/\u7cbe\u6e96\u6307\u4ee4.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "7d233afe5e274ae533b4a3450accc007",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/flywheel_integration_complete.md": {
+    "mtime": 1779252047.4994652,
+    "ast_hash": "7ad891843aae21d52157a2416be1f3e8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/kanban_comman.MD": {
+    "mtime": 1779106177.2530143,
+    "ast_hash": "83612ec7dfa65def54dc25b041db8e90",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/flywheel_series_plan.md": {
+    "mtime": 1779251815.5486221,
+    "ast_hash": "c415577bdcd8fd88635533cb361f95e4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/interest_flywheel.md": {
+    "mtime": 1779250055.8836515,
+    "ast_hash": "d5e708b6544b83ff0f68d22049ea2872",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/dvk.MD": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "5bd7b53453448c21bdffcd1b8d0f0650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/knowledge_flywheel.md": {
+    "mtime": 1779250516.2630455,
+    "ast_hash": "ee7c371c59fb8736cd274d1ff5c487ec",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/model_feel.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "2a82f1c23291b8add2b8f2fa0814919b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/my_note/ai_knowledge_exponential_flywheel.md": {
+    "mtime": 1779251345.4308329,
+    "ast_hash": "e70d53c35935da219d34390bd8b62120",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/story.md": {
+    "mtime": 1779086630.817198,
+    "ast_hash": "ea9524f840bf2fb40acd73a0141a1b65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/cc_agentview.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "e06628a2b256ca97da94389200aabe4d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/day1_agentview_precise_commands.html": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "2785236628cfe98503593cfa01c2c820",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/ed02.md": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "c7473b660432aa0259528cd137201d62",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/cc_agentview_vs_kanban_revised.html": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "5bfcc87bd5b65df5e738acb103812b08",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/kanban_flow.MD": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "4dedda4cf460265e03d5a6066c1426fb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/dark_knowledge_3day_workflow.html": {
+    "mtime": 1779098062.8001754,
+    "ast_hash": "98c95f34770ce6bb12b621adddf17583",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/iinput/vultr_claude_code_auth_guide.html": {
+    "mtime": 1779106177.2530143,
+    "ast_hash": "4cafdd2f7f0b147c91b3b2c35358b176",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7761\u89ba\u9192\u4f86sop.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "aed16cce5e5c100591261fc59113ba65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/agent.md": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "d9b8ebe4cdb4e9ce01ddca30e5b469d8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/README.md": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "3b31c4a26d3cc3f98f1a71fc1b0f2ec0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/CLAUDE.md": {
+    "mtime": 1779098978.5163922,
+    "ast_hash": "954c328069cd7781abfad5e49a3ab8c2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/ROCKY_PERSONA.md": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "d330c7b1cf5c658f5299e747177c61a9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/soul.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5b58ff4a8b59f09a985e01b0f04b0d0d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_video_solution.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "39911e055a75b18246f6ee256def16b5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/kling_setup_guide.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "7b051007a32b7addf17c32a100ab9622",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/git_push.md": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "f80ab6f90474b720ab11d988b16bf465",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/memory.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "f3af1f5759d81fbad50d8fdbcb8d2e60",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_\u7cfb\u5217\u898f\u5283.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "24922742c03932db983317c48443692e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E01_\u6697\u77e5\u8b58\u7684\u8a95\u751f_draft.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "810f4d8f945bd15c860c4b84aff3027b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E04_\u4e94\u5206\u9418\u505a\u51fa\u4f60\u4eba\u751f\u7b2c\u4e00\u500bAI\u4f5c\u54c1_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "964a6ac000194a7b9af8534f783502f8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E03_\u5f15\u529b\u8f49\u79fb\u70ba\u4ec0\u9ebc\u5275\u9020\u6bd4\u6d88\u8cbb\u66f4\u4e0a\u766e_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "3ab4011dc716206336321b0412f1e11f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E02_\u4f60\u88ab\u5077\u8d70\u4e86\u4ec0\u9ebc_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "4d3a63958f1efa74c58315b1709e268a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u8a08\u5283.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "ab684fd7d660ba5a87b44c7e425190f3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u767c\u5e03\u7b56\u7565.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "5063aa4f2e3dfe03294106237e6c2d85",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E01_\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "95a3b0351446aa922739377b21e302f5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E03_Skill\u6a19\u6e96\u5316\u7684\u6642\u4ee3\u5fc5\u7136_plan.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "3ff32819f5b573c2b60d120d62d60724",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E01_\u6563\u6236\u57fa\u790e\u8a2d\u65bd_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "97e8702bb6a54777ad401c0050ceec96",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E02_\u5f9e\u5370\u5237\u6a5f\u5230AI\u4e2d\u9593\u5c64\u9769\u547d_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "cd5faae9171d6ac0bfaae3f69a69b7db",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "442718688dbec159dbafc05b2b336d40",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01_\u8a08\u5283.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "ffa2913459ba3e5777f9cf51a193c123",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E02_\u96b1\u6027\u77e5\u8b58\u7684\u672b\u65e5_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "c1d0054b4634c2cf9faedb361479077c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283_v2.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "0a5215ef03928d79164598af35e37894",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/season1_three_act_structure.html": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "bbd00ff780aae510db57ec46763d60e5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E01_\u4e00\u5f35\u7167\u7247\u6467\u6bc0\u8b77\u57ce\u6cb3_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "8c0a8777171a364c325720e63ec5f533",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E03_\u89e3\u8026\u54f2\u5b78Anthropic\u8a2d\u8a08\u8702\u7fa4_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "bc54250360c742493d8d2f65ae6f0ab2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E02_\u53ef\u9069\u61c9\u6027\u8702\u7fa4\u6c38\u4e0d\u88ab\u6dd8\u6c70_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "378167d100d409b6618d49997917e82b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E01_\u8702\u7fa4Agent\u662f\u4ec0\u9ebc_published.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "2b871e49ce8572a8bce479be23a0ceb0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_linkedin_swarm_agent_post.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "1ac32418537e11ed5f646252ad2c8279",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/openclaw_fb_post.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "60e871d041c6d042426450d6324b33be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_facebook_cn_swarm_agent_post.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "18d3677dee673ef76fda32ab6b9a505e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/facebook_swarm_agent_post.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "1bcddc14de143d8f9b72b57875442393",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/linkedin_swarm_agent_post.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "da029c081d18d915c62298d41d778d0e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/swarm_agents_deep_dive_draft.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "f057020a8f5626b7d690b0f59d66633d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/swarm_agent_series_plan.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "ff8051f7dc068bef0ea8084728b48dbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/agent_os.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "ce2f720aa97c5ffe3c3d24bfea85192d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u932f\u8aa4\u8655\u7406\u6a5f\u5236.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "0acddb9061d708a932ea6217142ca55d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "77f6e49504dcf161a0900e8d87cde340",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/swarm_agents_four_layer_strategy.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "d2eea98b8170e4584f1bbcada53db418",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/agent_os_remastered.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "69337acf24f32a7ff638bbebacda7501",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/muti_practice.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "c751262caf050d0d65eb1d02af496832",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u958b\u767c\u7684\u672c\u8cea\u9769\u547d.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "be5444e22cb933e975607817c98a597d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u5168\u6c11\u7de8\u7a0b\u65b0\u7d00\u5143.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "8020c4c6cae7c64f425e47b9b633d44b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/ai_creation_trends_report_alliance.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "35d170c41d353f06799e1f4c9fdaecb4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/llm_list.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "cf5fc274057a420007ca610406e85d78",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u8a08\u7b97\u9769\u547d.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "ebf98cadb41231fa7ed783a5bf30937e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/robotaxi.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "27d32d9a4af37bceb54a92480c2ade31",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/chatbot_3\u89d2\u8272.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "f53c5fcd93ff0ac183d08ab263b33573",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u7684\u5de5\u696d\u5316\u8f49\u578b.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "cf58a2c27bfc7d5e55a89cc2cfdab680",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/NES_Cartridge_vs_HTML_Game.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "09e4ce77d01d4084d5b2bc89d1745375",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/AI_\u91ab\u7642\u6642\u4ee3\u7684\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "043baa6f32d7cffabad720e71fada4d6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u8853\u6587\u7ae0/swarm_agent_architecture.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "d3c369e9f28afaab6de5fe3fbd4dfec6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u500b\u4eba\u8cc7\u6599/\u8c6a\u529b\u98a8\u795e\u8eab\u4efd\u67b6\u69cb\u5716.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ce446272ed301f6afe97cc0e8d507d54",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5176\u4ed6\u6587\u6a94/\u662f\u5426\u751f\u6210\u4e00\u6b21\u6027.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "8e8608f1783bd681ce5b10c61488532f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5176\u4ed6\u6587\u6a94/\u81f4\u672a\u4f86\u5e74\u8f15\u4eba\u7684\u4fe1.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ed56d43ea32409fc3ec5d0d71acd742f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5176\u4ed6\u6587\u6a94/\u51cd\u6f32\u6cb9\u96fb\u50f9.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "956d4e2fbfa92e1d231d0f7dbfd94a14",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5176\u4ed6\u6587\u6a94/Translate_Modelfile.txt": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ca5348f642d6550852effb166d051b25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-video/SKILL.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ddcd4266c7bfc865450c3752e1171baf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/SKILL.en.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5ce79e80d14b1586d7e829e22f5442c7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/requirements.txt": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "8240580a8625c440a348e2f617e4d5ee",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/SKILL.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "4f22ccb2a0a45ebf740969ae378444b8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/references/api-reference.en.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "cd79302f4bb3c5d926ae679d55b09797",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/kling-image-generate/references/api-reference.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "fa0408210112c83eddd5aa574ad71abf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/skills/personal-stylist/SKILL.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "49dc8c3e12ee6f80701dcf0a788d3d92",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/hermes_vs_cubesandbox_analysis.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "3896bce01137c1478704ee3f42aa7c00",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/\u5e38\u7528\u6307\u4ee4.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "5aa9084aa87b3906d5e075334dd0b8cd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/serial-publication-playbook.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "4b49fd1a63980cc345554e9982b80ff8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/py-futu-api.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "53c6edecdb6371c8dd69ac4778074495",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/search_graphify.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "5d9d6577a656eb443a0ddc29cf373aad",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/ollama_openwebui.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "5ebacefe6cf79c4f102ca5f8591a14be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/graphify.MD": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "6222fda274bd0e5ca0cdf99d2499f650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/hermes_openrouter_models_fb.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "1ca7f049d4e8411bc4ada5ab8cf79982",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/\u8a18\u61b6\u9ad4\uff08memory\uff09\u8207 Graphify \u7684\u5340\u5225.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "09f6c930267a3c6504712f63d5ec58d9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/\u81ea\u7136\u8a9e\u8a00\u9a45\u52d5\u7684\u700f\u89bd\u5668\u81ea\u52d5\u5316\u958b\u767c\u6307\u5357.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "8c6b593d70b9f0149c60c30b9cf5e2ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/vps\u4e0a\u7684ollama.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "56a3a651cb897eb5564f028a355c29f9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/Hermes_CubeSandbox_Integration_Guide_zh.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "940564da51b0b7454d58df48d1ed5630",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/NotebookLM \u7b46\u8a18\u672c\u6559\u5b78.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "6b4c570614b04cd474ed0c7fea8897ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/hermes_graphify.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "34ab2f6d6b1ac381c5f48d67826fdd9b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/\u5b78\u7fd2\u9032\u5ea6skill.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "fbcdfd4aa425f2fb373c7ece14a566cc",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u6280\u80fd\u8207\u5de5\u5177/\u591a\u74b0\u5883\u8a18\u610f\u540c\u6b65\u65b9\u6848.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "75be86081679c46254273c2665bb3443",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/report_interactive.html": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "fc195f4ad994747c538534eb478cf632",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/\u7d9c\u5408\u767c\u5e03\u65e5\u7a0b\u8868_2026.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "1fa55a52c18131635903f6eea95fb80a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/\u70ba\u8b80\u8005\u958b\u4e00\u6247\u9580\u8a08\u5283\u66f8.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "d43ca782c1080265617c2a2ed4ecdf7e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/dual-star-strategic-blueprint.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "f75fb8468881194d17146b54bd2ac6a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/this-week-priority-ranking.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "58c54829c53b8f2be910202f7a8cca3b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/dual-star-12week-execution-plan.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "848f1133a11736bfe1c25685afeb649d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/quick-deployment-guide-30min.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "ca9f73dc19bc92fb2a068fa8c953f318",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5c08\u6848\u898f\u5283/project_html/substack-optimization-checklist.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "95709ee91a66281e693eaa4a08b9de18",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u500b\u4eba\u6642\u5c1a\u52a9\u7406_\u5b8c\u6574\u898f\u5283.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "91cda58c4879c7b19c02ec5badf81886",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/Substack\u672c\u5730\u6620\u5c04\u8868_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5f262bcff23e5566c2d222c8e91d0fe4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "7cb670dc244156009e0076e16455d5dd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "9e0d21f4e96ca47dc0a3582b4642be21",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u6587\u7ae0\u547d\u540d\u898f\u7bc4_\u6a19\u6e96\u5316\u7cfb\u7d71.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "7fb4c7be5d0370380de6e34a08285599",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u7b56\u7565\u8b8a\u66f4\u8a18\u9304_20260517.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "55af70579d5e4bf99ab85301d424725f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/ADDICT\u7cfb\u5217\u8907\u5be9\u5831\u544a_20260517.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5592bdcb80ba9c53d3de13c8368bccab",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u767c\u5e03\u65e5\u7a0b\u8a08\u5283_2026\u5e745\u670818\u65e5-6\u670830\u65e5.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "e5ed056e763eb7659be16071b95fb3a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u6a94\u6848\u6e05\u55ae_\u5df2\u78ba\u7acb\u6a19\u6e96.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "5a6e2d3a633c692b53105999869ace28",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u77e5\u8b58\u8cea\u91cf\u6a19\u6e96_\u6838\u5fc3\u8cc7\u7522.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "60b5229e81490380a0693f33d1f9ca3d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u7206\u6b3e\u6587\u5fc3\u5f97\u63d0\u7149_5\u670817\u65e5.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "2a3add08e47f9bf9623ed82d9e531e7b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/Substack_\u6587\u7ae0\u767c\u5e03\u6578\u64da\u5831\u544a_V2.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "416b1229b06ea7d49addfe969cfde5b9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517_\u4e0b\u5348\u7248.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "1ffbe1f35eecdc1b6e75b9e15fa744f6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/\u5f15\u6d41\u6280\u5de7\u5eab_\u53c3\u8003\u6a94.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "82ff5d60f811d0b5bc80779562a789cb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/Substack\u6578\u64da/2026\u5e745\u6708\u767c\u5e03\u6578\u64da\u6574\u5408\u5206\u6790.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5beed074201588681df1f106da0609f0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5df2\u6392\u5b9a\u8a08\u5283.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "2125d2496e902b619376549951e16836",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/README.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "af525888bc462fe6d7941a44d4cede77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u8a02\u95b1\u6210\u9577\u66f2\u7dda\u6587\u5b57\u7248\u5831\u544a.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "fece5571eb9de7dcd12e2c41c82a5be9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5f9e\u5370\u5237\u6a5f\u5230 AI\uff1a\u6bcf\u4e00\u6b21\u4e2d\u9593\u5c64\u9769\u547d\uff0c\u90fd\u662f\u540c\u4e00\u5834\u6230\u722d.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "37bbb1983feea20a9917822d37727b32",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u7206\u6b3e\u6578\u64da.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "4d8f25f8f3bb018894c051951585bdaf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/Software 3.0 \u7684\u6563\u6236\u57fa\u790e\u8a2d\u65bd.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "9f726ef7b18d295717d4ab7c8a72d43d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u627e\u56de\u907a\u5931\u6587\u7ae0.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "c15dedc60dfb606557b576a09e837b50",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u5e02\u5834\u5206\u6790/\u6697\u8b66\u5206\u6790_\u53f0\u7063\u80a1\u5e02_20260516.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "0a7c2c3730a0b4b448c200edb3e54a01",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260518_Claude Code Agent\u5b78\u7fd2.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "5aac3f63a6d114742b57812df403f9f4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u6bcf\u65e5\u65e5\u8a8c\u5efa\u8b70\u7bc4\u672c.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "0ab6cb8a8ab30091e429cd34d1811731",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260517.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "08a631f2974f025eedd21c673e6e31e1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260516.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "b2f936cc049e168c2f57d121a2d864f2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260518.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "01932ece36496b6baa79bc9323d5c161",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260518_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "8b3cea53e570ac1cc721e1608020c2a7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u7a2e\u7530\u65e5\u8a18260516.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "625a9a06cd244db479c97ef280e1f83b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260429.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "866aec53a4287b37b1a6c4896030dfbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260513.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "f461bf201221c5cae8926efc18afacb3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u65e5\u8a8c/\u65e5\u8a8c260514.md": {
+    "mtime": 1779098960.0726542,
+    "ast_hash": "e30bcc6125923132b19ece3a563e4e1a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u7cfb\u5217\u8a08\u756b.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "a98cb237c9f0d59b507af70b5d0f1da9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u8a66\u64ad\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "ea99c68635e8b920a2528548ca003d25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_S01_\u5927\u7db1_plan.md": {
+    "mtime": 1779098960.0766542,
+    "ast_hash": "98d8763862d8d95be1243a369d80490d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u5a1c\u5a1c.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "7233b20efe077fb47d0b53a9139d3dce",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272\u9020\u578b\u8a2d\u5b9a\u6a94.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "44ee22bf04f8d7b544d7911512dd73bb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u670d\u98fe\u8207LOGO\u8a2d\u8a08.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "e1bf30e0c046e40057d83e61bdd2d76c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb_v2.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "9f9b80b298a15a8ab7bdd689ec3e81c4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u8996\u89ba\u8a2d\u8a08Prompt\u6a94.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "1b714a9535664d1298522b46011c3d23",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "5cad2a343580dee62269ba4b5b0f472a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8996\u89ba\u8cc7\u6e90/NANA_\u96fb\u5f71\u9810\u544a\u6d77\u5831Prompt.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "20f09c47783426d650ec34a43f150d80",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u767c\u5e03\u7ba1\u7406/NANA_FB\u5f15\u6d41\u6587\u6848.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "682759d2ed48c86a82b8468a93c73689",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "5d01a47203de8419b7135804e5a77d79",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_draft.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "1f52f95be68de760c2bf6b5941d6d57f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_Substack\u7248.md": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "70937e29991da018bcfcc45feb2e6a66",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/my_note/\u7cbe\u6e96\u6307\u4ee4.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "7d233afe5e274ae533b4a3450accc007",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/my_note/dvk.MD": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "5bd7b53453448c21bdffcd1b8d0f0650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/my_note/model_feel.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "2a82f1c23291b8add2b8f2fa0814919b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/story.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "ea9524f840bf2fb40acd73a0141a1b65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/cc_agentview.md": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "e06628a2b256ca97da94389200aabe4d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/day1_agentview_precise_commands.html": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "2785236628cfe98503593cfa01c2c820",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/ed02.md": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "c7473b660432aa0259528cd137201d62",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/cc_agentview_vs_kanban_revised.html": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "5bfcc87bd5b65df5e738acb103812b08",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/kanban_flow.MD": {
+    "mtime": 1779098960.0686543,
+    "ast_hash": "4dedda4cf460265e03d5a6066c1426fb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/iinput/dark_knowledge_3day_workflow.html": {
+    "mtime": 1779098960.0646544,
+    "ast_hash": "98c95f34770ce6bb12b621adddf17583",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7761\u89ba\u9192\u4f86sop.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "aed16cce5e5c100591261fc59113ba65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/agent.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "d9b8ebe4cdb4e9ce01ddca30e5b469d8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/README.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "3b31c4a26d3cc3f98f1a71fc1b0f2ec0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/CLAUDE.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "479ee88bdc9e176c6384d9c36d7fb6c3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/ROCKY_PERSONA.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "d330c7b1cf5c658f5299e747177c61a9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/soul.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5b58ff4a8b59f09a985e01b0f04b0d0d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_video_solution.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "39911e055a75b18246f6ee256def16b5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/kling_setup_guide.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "7b051007a32b7addf17c32a100ab9622",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/git_push.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "f80ab6f90474b720ab11d988b16bf465",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/memory.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "f3af1f5759d81fbad50d8fdbcb8d2e60",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_\u7cfb\u5217\u898f\u5283.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "24922742c03932db983317c48443692e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E03_\u8ab0\u8a72\u70ba\u4f60\u770b\u4e0d\u61c2\u7684\u6f14\u7b97\u6cd5\u8ca0\u8cac_\u521d\u7248.md": {
+    "mtime": 1779090380.0631893,
+    "ast_hash": "52198c0eec4b86486993e6ec0fd8881a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E01_\u6697\u77e5\u8b58\u7684\u8a95\u751f_draft.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "810f4d8f945bd15c860c4b84aff3027b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E04_\u4e94\u5206\u9418\u505a\u51fa\u4f60\u4eba\u751f\u7b2c\u4e00\u500bAI\u4f5c\u54c1_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "964a6ac000194a7b9af8534f783502f8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E03_\u5f15\u529b\u8f49\u79fb\u70ba\u4ec0\u9ebc\u5275\u9020\u6bd4\u6d88\u8cbb\u66f4\u4e0a\u766e_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "3ab4011dc716206336321b0412f1e11f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E02_\u4f60\u88ab\u5077\u8d70\u4e86\u4ec0\u9ebc_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "4d3a63958f1efa74c58315b1709e268a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u8a08\u5283.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "ab684fd7d660ba5a87b44c7e425190f3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u767c\u5e03\u7b56\u7565.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "5063aa4f2e3dfe03294106237e6c2d85",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E01_\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "95a3b0351446aa922739377b21e302f5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E03_Skill\u6a19\u6e96\u5316\u7684\u6642\u4ee3\u5fc5\u7136_plan.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "3ff32819f5b573c2b60d120d62d60724",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E01_\u6563\u6236\u57fa\u790e\u8a2d\u65bd_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "97e8702bb6a54777ad401c0050ceec96",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E02_\u5f9e\u5370\u5237\u6a5f\u5230AI\u4e2d\u9593\u5c64\u9769\u547d_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "cd5faae9171d6ac0bfaae3f69a69b7db",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "442718688dbec159dbafc05b2b336d40",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01_\u8a08\u5283.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "ffa2913459ba3e5777f9cf51a193c123",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E02_\u96b1\u6027\u77e5\u8b58\u7684\u672b\u65e5_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "c1d0054b4634c2cf9faedb361479077c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283_v2.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "0a5215ef03928d79164598af35e37894",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/season1_three_act_structure.html": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "bbd00ff780aae510db57ec46763d60e5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E01_\u4e00\u5f35\u7167\u7247\u6467\u6bc0\u8b77\u57ce\u6cb3_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "8c0a8777171a364c325720e63ec5f533",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E03_\u89e3\u8026\u54f2\u5b78Anthropic\u8a2d\u8a08\u8702\u7fa4_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "bc54250360c742493d8d2f65ae6f0ab2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E02_\u53ef\u9069\u61c9\u6027\u8702\u7fa4\u6c38\u4e0d\u88ab\u6dd8\u6c70_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "378167d100d409b6618d49997917e82b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E01_\u8702\u7fa4Agent\u662f\u4ec0\u9ebc_published.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "2b871e49ce8572a8bce479be23a0ceb0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_linkedin_swarm_agent_post.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "1ac32418537e11ed5f646252ad2c8279",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/openclaw_fb_post.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "60e871d041c6d042426450d6324b33be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_facebook_cn_swarm_agent_post.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "18d3677dee673ef76fda32ab6b9a505e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/facebook_swarm_agent_post.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "1bcddc14de143d8f9b72b57875442393",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/linkedin_swarm_agent_post.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "da029c081d18d915c62298d41d778d0e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/swarm_agents_deep_dive_draft.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "f057020a8f5626b7d690b0f59d66633d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/swarm_agent_series_plan.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ff8051f7dc068bef0ea8084728b48dbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/agent_os.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ce2f720aa97c5ffe3c3d24bfea85192d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u932f\u8aa4\u8655\u7406\u6a5f\u5236.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "0acddb9061d708a932ea6217142ca55d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "77f6e49504dcf161a0900e8d87cde340",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/swarm_agents_four_layer_strategy.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "d2eea98b8170e4584f1bbcada53db418",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/agent_os_remastered.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "69337acf24f32a7ff638bbebacda7501",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/muti_practice.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "c751262caf050d0d65eb1d02af496832",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u958b\u767c\u7684\u672c\u8cea\u9769\u547d.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "be5444e22cb933e975607817c98a597d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u5168\u6c11\u7de8\u7a0b\u65b0\u7d00\u5143.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "8020c4c6cae7c64f425e47b9b633d44b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/ai_creation_trends_report_alliance.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "35d170c41d353f06799e1f4c9fdaecb4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/llm_list.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "cf5fc274057a420007ca610406e85d78",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u8a08\u7b97\u9769\u547d.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ebf98cadb41231fa7ed783a5bf30937e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/robotaxi.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "27d32d9a4af37bceb54a92480c2ade31",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/chatbot_3\u89d2\u8272.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "f53c5fcd93ff0ac183d08ab263b33573",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u7684\u5de5\u696d\u5316\u8f49\u578b.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "cf58a2c27bfc7d5e55a89cc2cfdab680",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/NES_Cartridge_vs_HTML_Game.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "09e4ce77d01d4084d5b2bc89d1745375",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/AI_\u91ab\u7642\u6642\u4ee3\u7684\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "043baa6f32d7cffabad720e71fada4d6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u8853\u6587\u7ae0/swarm_agent_architecture.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "d3c369e9f28afaab6de5fe3fbd4dfec6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u500b\u4eba\u8cc7\u6599/\u8c6a\u529b\u98a8\u795e\u8eab\u4efd\u67b6\u69cb\u5716.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ce446272ed301f6afe97cc0e8d507d54",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5176\u4ed6\u6587\u6a94/\u662f\u5426\u751f\u6210\u4e00\u6b21\u6027.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "8e8608f1783bd681ce5b10c61488532f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5176\u4ed6\u6587\u6a94/\u81f4\u672a\u4f86\u5e74\u8f15\u4eba\u7684\u4fe1.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ed56d43ea32409fc3ec5d0d71acd742f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5176\u4ed6\u6587\u6a94/\u51cd\u6f32\u6cb9\u96fb\u50f9.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "956d4e2fbfa92e1d231d0f7dbfd94a14",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5176\u4ed6\u6587\u6a94/Translate_Modelfile.txt": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ca5348f642d6550852effb166d051b25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-video/SKILL.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ddcd4266c7bfc865450c3752e1171baf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/SKILL.en.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "5ce79e80d14b1586d7e829e22f5442c7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/requirements.txt": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "8240580a8625c440a348e2f617e4d5ee",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/SKILL.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "4f22ccb2a0a45ebf740969ae378444b8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/references/api-reference.en.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "cd79302f4bb3c5d926ae679d55b09797",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/kling-image-generate/references/api-reference.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "fa0408210112c83eddd5aa574ad71abf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/skills/personal-stylist/SKILL.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "49dc8c3e12ee6f80701dcf0a788d3d92",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/hermes_vs_cubesandbox_analysis.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "3896bce01137c1478704ee3f42aa7c00",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/\u5e38\u7528\u6307\u4ee4.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5aa9084aa87b3906d5e075334dd0b8cd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/serial-publication-playbook.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "4b49fd1a63980cc345554e9982b80ff8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/py-futu-api.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "53c6edecdb6371c8dd69ac4778074495",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/search_graphify.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5d9d6577a656eb443a0ddc29cf373aad",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/ollama_openwebui.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5ebacefe6cf79c4f102ca5f8591a14be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/graphify.MD": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "6222fda274bd0e5ca0cdf99d2499f650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/hermes_openrouter_models_fb.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "1ca7f049d4e8411bc4ada5ab8cf79982",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/\u8a18\u61b6\u9ad4\uff08memory\uff09\u8207 Graphify \u7684\u5340\u5225.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "09f6c930267a3c6504712f63d5ec58d9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/\u81ea\u7136\u8a9e\u8a00\u9a45\u52d5\u7684\u700f\u89bd\u5668\u81ea\u52d5\u5316\u958b\u767c\u6307\u5357.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "8c6b593d70b9f0149c60c30b9cf5e2ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/vps\u4e0a\u7684ollama.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "56a3a651cb897eb5564f028a355c29f9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/Hermes_CubeSandbox_Integration_Guide_zh.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "940564da51b0b7454d58df48d1ed5630",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/NotebookLM \u7b46\u8a18\u672c\u6559\u5b78.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "6b4c570614b04cd474ed0c7fea8897ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/hermes_graphify.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "34ab2f6d6b1ac381c5f48d67826fdd9b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/\u5b78\u7fd2\u9032\u5ea6skill.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "fbcdfd4aa425f2fb373c7ece14a566cc",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u6280\u80fd\u8207\u5de5\u5177/\u591a\u74b0\u5883\u8a18\u610f\u540c\u6b65\u65b9\u6848.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "75be86081679c46254273c2665bb3443",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/report_interactive.html": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "fc195f4ad994747c538534eb478cf632",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/\u7d9c\u5408\u767c\u5e03\u65e5\u7a0b\u8868_2026.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "1fa55a52c18131635903f6eea95fb80a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/\u70ba\u8b80\u8005\u958b\u4e00\u6247\u9580\u8a08\u5283\u66f8.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "d43ca782c1080265617c2a2ed4ecdf7e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/dual-star-strategic-blueprint.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "f75fb8468881194d17146b54bd2ac6a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/this-week-priority-ranking.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "58c54829c53b8f2be910202f7a8cca3b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/dual-star-12week-execution-plan.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "848f1133a11736bfe1c25685afeb649d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/quick-deployment-guide-30min.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "ca9f73dc19bc92fb2a068fa8c953f318",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5c08\u6848\u898f\u5283/project_html/substack-optimization-checklist.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "95709ee91a66281e693eaa4a08b9de18",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u500b\u4eba\u6642\u5c1a\u52a9\u7406_\u5b8c\u6574\u898f\u5283.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "91cda58c4879c7b19c02ec5badf81886",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/Substack\u672c\u5730\u6620\u5c04\u8868_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5f262bcff23e5566c2d222c8e91d0fe4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "7cb670dc244156009e0076e16455d5dd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "9e0d21f4e96ca47dc0a3582b4642be21",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u6587\u7ae0\u547d\u540d\u898f\u7bc4_\u6a19\u6e96\u5316\u7cfb\u7d71.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "7fb4c7be5d0370380de6e34a08285599",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u7b56\u7565\u8b8a\u66f4\u8a18\u9304_20260517.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "55af70579d5e4bf99ab85301d424725f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/ADDICT\u7cfb\u5217\u8907\u5be9\u5831\u544a_20260517.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5592bdcb80ba9c53d3de13c8368bccab",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u767c\u5e03\u65e5\u7a0b\u8a08\u5283_2026\u5e745\u670818\u65e5-6\u670830\u65e5.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "e5ed056e763eb7659be16071b95fb3a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u6a94\u6848\u6e05\u55ae_\u5df2\u78ba\u7acb\u6a19\u6e96.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5a6e2d3a633c692b53105999869ace28",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u77e5\u8b58\u8cea\u91cf\u6a19\u6e96_\u6838\u5fc3\u8cc7\u7522.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "60b5229e81490380a0693f33d1f9ca3d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u7206\u6b3e\u6587\u5fc3\u5f97\u63d0\u7149_5\u670817\u65e5.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "2a3add08e47f9bf9623ed82d9e531e7b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/Substack_\u6587\u7ae0\u767c\u5e03\u6578\u64da\u5831\u544a_V2.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "416b1229b06ea7d49addfe969cfde5b9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517_\u4e0b\u5348\u7248.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "1ffbe1f35eecdc1b6e75b9e15fa744f6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/\u5f15\u6d41\u6280\u5de7\u5eab_\u53c3\u8003\u6a94.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "82ff5d60f811d0b5bc80779562a789cb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/Substack\u6578\u64da/2026\u5e745\u6708\u767c\u5e03\u6578\u64da\u6574\u5408\u5206\u6790.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "5beed074201588681df1f106da0609f0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5df2\u6392\u5b9a\u8a08\u5283.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "2125d2496e902b619376549951e16836",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/README.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "af525888bc462fe6d7941a44d4cede77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u8a02\u95b1\u6210\u9577\u66f2\u7dda\u6587\u5b57\u7248\u5831\u544a.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "fece5571eb9de7dcd12e2c41c82a5be9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5f9e\u5370\u5237\u6a5f\u5230 AI\uff1a\u6bcf\u4e00\u6b21\u4e2d\u9593\u5c64\u9769\u547d\uff0c\u90fd\u662f\u540c\u4e00\u5834\u6230\u722d.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "37bbb1983feea20a9917822d37727b32",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u7206\u6b3e\u6578\u64da.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "4d8f25f8f3bb018894c051951585bdaf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/Software 3.0 \u7684\u6563\u6236\u57fa\u790e\u8a2d\u65bd.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "9f726ef7b18d295717d4ab7c8a72d43d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u627e\u56de\u907a\u5931\u6587\u7ae0.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "c15dedc60dfb606557b576a09e837b50",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u5e02\u5834\u5206\u6790/\u6697\u8b66\u5206\u6790_\u53f0\u7063\u80a1\u5e02_20260516.md": {
+    "mtime": 1779090224.718185,
+    "ast_hash": "0a7c2c3730a0b4b448c200edb3e54a01",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u6bcf\u65e5\u65e5\u8a8c\u5efa\u8b70\u7bc4\u672c.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "0ab6cb8a8ab30091e429cd34d1811731",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260517.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "08a631f2974f025eedd21c673e6e31e1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260516.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "b2f936cc049e168c2f57d121a2d864f2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260518.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "01932ece36496b6baa79bc9323d5c161",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u7a2e\u7530\u65e5\u8a18260516.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "625a9a06cd244db479c97ef280e1f83b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260429.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "866aec53a4287b37b1a6c4896030dfbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260513.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "f461bf201221c5cae8926efc18afacb3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u65e5\u8a8c/\u65e5\u8a8c260514.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "e30bcc6125923132b19ece3a563e4e1a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u7cfb\u5217\u8a08\u756b.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "a98cb237c9f0d59b507af70b5d0f1da9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u8a66\u64ad\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "ea99c68635e8b920a2528548ca003d25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_S01_\u5927\u7db1_plan.md": {
+    "mtime": 1779090224.7221847,
+    "ast_hash": "98d8763862d8d95be1243a369d80490d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u5a1c\u5a1c.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "7233b20efe077fb47d0b53a9139d3dce",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272\u9020\u578b\u8a2d\u5b9a\u6a94.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "44ee22bf04f8d7b544d7911512dd73bb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u670d\u98fe\u8207LOGO\u8a2d\u8a08.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "e1bf30e0c046e40057d83e61bdd2d76c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb_v2.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "9f9b80b298a15a8ab7bdd689ec3e81c4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u8996\u89ba\u8a2d\u8a08Prompt\u6a94.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "1b714a9535664d1298522b46011c3d23",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "5cad2a343580dee62269ba4b5b0f472a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8996\u89ba\u8cc7\u6e90/NANA_\u96fb\u5f71\u9810\u544a\u6d77\u5831Prompt.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "20f09c47783426d650ec34a43f150d80",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u767c\u5e03\u7ba1\u7406/NANA_FB\u5f15\u6d41\u6587\u6848.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "682759d2ed48c86a82b8468a93c73689",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "5d01a47203de8419b7135804e5a77d79",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_draft.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "1f52f95be68de760c2bf6b5941d6d57f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_Substack\u7248.md": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "70937e29991da018bcfcc45feb2e6a66",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/iinput/story.md": {
+    "mtime": 1779090224.714185,
+    "ast_hash": "ea9524f840bf2fb40acd73a0141a1b65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7761\u89ba\u9192\u4f86sop.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "aed16cce5e5c100591261fc59113ba65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/agent.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "d9b8ebe4cdb4e9ce01ddca30e5b469d8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/README.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "3b31c4a26d3cc3f98f1a71fc1b0f2ec0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/CLAUDE.md": {
+    "mtime": 1779098917.001252,
+    "ast_hash": "c3fd8648507b1b0e9aa3b8116abf0401",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/ROCKY_PERSONA.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "d330c7b1cf5c658f5299e747177c61a9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/soul.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5b58ff4a8b59f09a985e01b0f04b0d0d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_video_solution.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "39911e055a75b18246f6ee256def16b5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/kling_setup_guide.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "7b051007a32b7addf17c32a100ab9622",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/git_push.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "f80ab6f90474b720ab11d988b16bf465",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/memory.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "f3af1f5759d81fbad50d8fdbcb8d2e60",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_\u7cfb\u5217\u898f\u5283.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "24922742c03932db983317c48443692e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u6697\u77e5\u8b58\u7cfb\u5217/DK_S01E01_\u6697\u77e5\u8b58\u7684\u8a95\u751f_draft.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "810f4d8f945bd15c860c4b84aff3027b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E04_\u4e94\u5206\u9418\u505a\u51fa\u4f60\u4eba\u751f\u7b2c\u4e00\u500bAI\u4f5c\u54c1_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "964a6ac000194a7b9af8534f783502f8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E03_\u5f15\u529b\u8f49\u79fb\u70ba\u4ec0\u9ebc\u5275\u9020\u6bd4\u6d88\u8cbb\u66f4\u4e0a\u766e_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "3ab4011dc716206336321b0412f1e11f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E02_\u4f60\u88ab\u5077\u8d70\u4e86\u4ec0\u9ebc_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "4d3a63958f1efa74c58315b1709e268a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u8a08\u5283.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "ab684fd7d660ba5a87b44c7e425190f3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_\u7cfb\u5217\u767c\u5e03\u7b56\u7565.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "5063aa4f2e3dfe03294106237e6c2d85",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u5f9e\u6bd2\u766e\u5230\u5275\u9020\u8005/ADDICT_S01E01_\u4f60\u4e0d\u662f\u6c89\u8ff7\u4f60\u662f\u88ab\u8a2d\u8a08\u6210\u6c89\u8ff7\u7684_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "95a3b0351446aa922739377b21e302f5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E03_Skill\u6a19\u6e96\u5316\u7684\u6642\u4ee3\u5fc5\u7136_plan.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "3ff32819f5b573c2b60d120d62d60724",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E01_\u6563\u6236\u57fa\u790e\u8a2d\u65bd_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "97e8702bb6a54777ad401c0050ceec96",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Software3.0\u7cfb\u5217/SW3_S01E02_\u5f9e\u5370\u5237\u6a5f\u5230AI\u4e2d\u9593\u5c64\u9769\u547d_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "cd5faae9171d6ac0bfaae3f69a69b7db",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "442718688dbec159dbafc05b2b336d40",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01_\u8a08\u5283.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "ffa2913459ba3e5777f9cf51a193c123",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E02_\u96b1\u6027\u77e5\u8b58\u7684\u672b\u65e5_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "c1d0054b4634c2cf9faedb361479077c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_\u7cfb\u5217\u767c\u5e03\u8a08\u5283_v2.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "0a5215ef03928d79164598af35e37894",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/season1_three_act_structure.html": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "bbd00ff780aae510db57ec46763d60e5",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/\u9006\u5411\u8996\u89ba\u89e3\u69cb/RVD_S01E01_\u4e00\u5f35\u7167\u7247\u6467\u6bc0\u8b77\u57ce\u6cb3_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "8c0a8777171a364c325720e63ec5f533",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E03_\u89e3\u8026\u54f2\u5b78Anthropic\u8a2d\u8a08\u8702\u7fa4_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "bc54250360c742493d8d2f65ae6f0ab2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E02_\u53ef\u9069\u61c9\u6027\u8702\u7fa4\u6c38\u4e0d\u88ab\u6dd8\u6c70_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "378167d100d409b6618d49997917e82b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u7cfb\u5217\u6587\u7ae0/Agent\u7cfb\u5217/AGENT_S01E01_\u8702\u7fa4Agent\u662f\u4ec0\u9ebc_published.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "2b871e49ce8572a8bce479be23a0ceb0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_linkedin_swarm_agent_post.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "1ac32418537e11ed5f646252ad2c8279",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/openclaw_fb_post.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "60e871d041c6d042426450d6324b33be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/short_facebook_cn_swarm_agent_post.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "18d3677dee673ef76fda32ab6b9a505e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/facebook_swarm_agent_post.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "1bcddc14de143d8f9b72b57875442393",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u793e\u4ea4\u5a92\u9ad4\u5167\u5bb9/linkedin_swarm_agent_post.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "da029c081d18d915c62298d41d778d0e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/swarm_agents_deep_dive_draft.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "f057020a8f5626b7d690b0f59d66633d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/swarm_agent_series_plan.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "ff8051f7dc068bef0ea8084728b48dbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/agent_os.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "ce2f720aa97c5ffe3c3d24bfea85192d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u932f\u8aa4\u8655\u7406\u6a5f\u5236.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "0acddb9061d708a932ea6217142ca55d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "77f6e49504dcf161a0900e8d87cde340",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/swarm_agents_four_layer_strategy.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "d2eea98b8170e4584f1bbcada53db418",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/agent_os_remastered.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "69337acf24f32a7ff638bbebacda7501",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/muti_practice.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "c751262caf050d0d65eb1d02af496832",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u958b\u767c\u7684\u672c\u8cea\u9769\u547d.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "be5444e22cb933e975607817c98a597d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u5168\u6c11\u7de8\u7a0b\u65b0\u7d00\u5143.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "8020c4c6cae7c64f425e47b9b633d44b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/ai_creation_trends_report_alliance.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "35d170c41d353f06799e1f4c9fdaecb4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/llm_list.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "cf5fc274057a420007ca610406e85d78",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u8a08\u7b97\u9769\u547d.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "ebf98cadb41231fa7ed783a5bf30937e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/robotaxi.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "27d32d9a4af37bceb54a92480c2ade31",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/chatbot_3\u89d2\u8272.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "f53c5fcd93ff0ac183d08ab263b33573",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/\u8edf\u9ad4\u7684\u5de5\u696d\u5316\u8f49\u578b.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "cf58a2c27bfc7d5e55a89cc2cfdab680",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/NES_Cartridge_vs_HTML_Game.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "09e4ce77d01d4084d5b2bc89d1745375",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/AI_\u91ab\u7642\u6642\u4ee3\u7684\u4e09\u5927\u8da8\u52e2\u5831\u544a.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "043baa6f32d7cffabad720e71fada4d6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u8853\u6587\u7ae0/swarm_agent_architecture.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "d3c369e9f28afaab6de5fe3fbd4dfec6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u500b\u4eba\u8cc7\u6599/\u8c6a\u529b\u98a8\u795e\u8eab\u4efd\u67b6\u69cb\u5716.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ce446272ed301f6afe97cc0e8d507d54",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5176\u4ed6\u6587\u6a94/\u662f\u5426\u751f\u6210\u4e00\u6b21\u6027.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "8e8608f1783bd681ce5b10c61488532f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5176\u4ed6\u6587\u6a94/\u81f4\u672a\u4f86\u5e74\u8f15\u4eba\u7684\u4fe1.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ed56d43ea32409fc3ec5d0d71acd742f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5176\u4ed6\u6587\u6a94/\u51cd\u6f32\u6cb9\u96fb\u50f9.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "956d4e2fbfa92e1d231d0f7dbfd94a14",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5176\u4ed6\u6587\u6a94/Translate_Modelfile.txt": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ca5348f642d6550852effb166d051b25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-video/SKILL.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ddcd4266c7bfc865450c3752e1171baf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/SKILL.en.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5ce79e80d14b1586d7e829e22f5442c7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/requirements.txt": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "8240580a8625c440a348e2f617e4d5ee",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/SKILL.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "4f22ccb2a0a45ebf740969ae378444b8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/references/api-reference.en.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "cd79302f4bb3c5d926ae679d55b09797",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/kling-image-generate/references/api-reference.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "fa0408210112c83eddd5aa574ad71abf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/skills/personal-stylist/SKILL.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "49dc8c3e12ee6f80701dcf0a788d3d92",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/hermes_vs_cubesandbox_analysis.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "3896bce01137c1478704ee3f42aa7c00",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/\u5e38\u7528\u6307\u4ee4.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "5aa9084aa87b3906d5e075334dd0b8cd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/serial-publication-playbook.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "4b49fd1a63980cc345554e9982b80ff8",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/py-futu-api.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "53c6edecdb6371c8dd69ac4778074495",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/search_graphify.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "5d9d6577a656eb443a0ddc29cf373aad",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/ollama_openwebui.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "5ebacefe6cf79c4f102ca5f8591a14be",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/graphify.MD": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "6222fda274bd0e5ca0cdf99d2499f650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/hermes_openrouter_models_fb.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "1ca7f049d4e8411bc4ada5ab8cf79982",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/\u8a18\u61b6\u9ad4\uff08memory\uff09\u8207 Graphify \u7684\u5340\u5225.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "09f6c930267a3c6504712f63d5ec58d9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/\u81ea\u7136\u8a9e\u8a00\u9a45\u52d5\u7684\u700f\u89bd\u5668\u81ea\u52d5\u5316\u958b\u767c\u6307\u5357.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "8c6b593d70b9f0149c60c30b9cf5e2ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/vps\u4e0a\u7684ollama.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "56a3a651cb897eb5564f028a355c29f9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/Hermes_CubeSandbox_Integration_Guide_zh.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "940564da51b0b7454d58df48d1ed5630",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/NotebookLM \u7b46\u8a18\u672c\u6559\u5b78.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "6b4c570614b04cd474ed0c7fea8897ea",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/hermes_graphify.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "34ab2f6d6b1ac381c5f48d67826fdd9b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/\u5b78\u7fd2\u9032\u5ea6skill.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "fbcdfd4aa425f2fb373c7ece14a566cc",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u6280\u80fd\u8207\u5de5\u5177/\u591a\u74b0\u5883\u8a18\u610f\u540c\u6b65\u65b9\u6848.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "75be86081679c46254273c2665bb3443",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/report_interactive.html": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "fc195f4ad994747c538534eb478cf632",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/\u7d9c\u5408\u767c\u5e03\u65e5\u7a0b\u8868_2026.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "1fa55a52c18131635903f6eea95fb80a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/\u70ba\u8b80\u8005\u958b\u4e00\u6247\u9580\u8a08\u5283\u66f8.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "d43ca782c1080265617c2a2ed4ecdf7e",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/dual-star-strategic-blueprint.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "f75fb8468881194d17146b54bd2ac6a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/this-week-priority-ranking.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "58c54829c53b8f2be910202f7a8cca3b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/dual-star-12week-execution-plan.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "848f1133a11736bfe1c25685afeb649d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/quick-deployment-guide-30min.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "ca9f73dc19bc92fb2a068fa8c953f318",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5c08\u6848\u898f\u5283/project_html/substack-optimization-checklist.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "95709ee91a66281e693eaa4a08b9de18",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u500b\u4eba\u6642\u5c1a\u52a9\u7406_\u5b8c\u6574\u898f\u5283.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "91cda58c4879c7b19c02ec5badf81886",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/Substack\u672c\u5730\u6620\u5c04\u8868_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5f262bcff23e5566c2d222c8e91d0fe4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "7cb670dc244156009e0076e16455d5dd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u7cfb\u5217\u6587\u7ae0\u6e05\u55ae.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "9e0d21f4e96ca47dc0a3582b4642be21",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u6587\u7ae0\u547d\u540d\u898f\u7bc4_\u6a19\u6e96\u5316\u7cfb\u7d71.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "7fb4c7be5d0370380de6e34a08285599",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u7b56\u7565\u8b8a\u66f4\u8a18\u9304_20260517.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "55af70579d5e4bf99ab85301d424725f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/ADDICT\u7cfb\u5217\u8907\u5be9\u5831\u544a_20260517.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5592bdcb80ba9c53d3de13c8368bccab",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u767c\u5e03\u65e5\u7a0b\u8a08\u5283_2026\u5e745\u670818\u65e5-6\u670830\u65e5.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "e5ed056e763eb7659be16071b95fb3a4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u6a94\u6848\u6e05\u55ae_\u5df2\u78ba\u7acb\u6a19\u6e96.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "5a6e2d3a633c692b53105999869ace28",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u77e5\u8b58\u8cea\u91cf\u6a19\u6e96_\u6838\u5fc3\u8cc7\u7522.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "60b5229e81490380a0693f33d1f9ca3d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u7206\u6b3e\u6587\u5fc3\u5f97\u63d0\u7149_5\u670817\u65e5.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "2a3add08e47f9bf9623ed82d9e531e7b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/Substack_\u6587\u7ae0\u767c\u5e03\u6578\u64da\u5831\u544a_V2.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "416b1229b06ea7d49addfe969cfde5b9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u5de5\u4f5c\u65e5\u8a8c_20260517_\u4e0b\u5348\u7248.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "1ffbe1f35eecdc1b6e75b9e15fa744f6",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/\u5f15\u6d41\u6280\u5de7\u5eab_\u53c3\u8003\u6a94.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "82ff5d60f811d0b5bc80779562a789cb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/Substack\u6578\u64da/2026\u5e745\u6708\u767c\u5e03\u6578\u64da\u6574\u5408\u5206\u6790.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5beed074201588681df1f106da0609f0",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5df2\u6392\u5b9a\u8a08\u5283.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "2125d2496e902b619376549951e16836",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/README.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "af525888bc462fe6d7941a44d4cede77",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u8a02\u95b1\u6210\u9577\u66f2\u7dda\u6587\u5b57\u7248\u5831\u544a.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "fece5571eb9de7dcd12e2c41c82a5be9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u5f9e\u5370\u5237\u6a5f\u5230 AI\uff1a\u6bcf\u4e00\u6b21\u4e2d\u9593\u5c64\u9769\u547d\uff0c\u90fd\u662f\u540c\u4e00\u5834\u6230\u722d.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "37bbb1983feea20a9917822d37727b32",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u7206\u6b3e\u6578\u64da.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "4d8f25f8f3bb018894c051951585bdaf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/Software 3.0 \u7684\u6563\u6236\u57fa\u790e\u8a2d\u65bd.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "9f726ef7b18d295717d4ab7c8a72d43d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u51fa\u7248\u7ba1\u7406/iinput_archive_20260517/\u627e\u56de\u907a\u5931\u6587\u7ae0.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "c15dedc60dfb606557b576a09e837b50",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u5e02\u5834\u5206\u6790/\u6697\u8b66\u5206\u6790_\u53f0\u7063\u80a1\u5e02_20260516.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "0a7c2c3730a0b4b448c200edb3e54a01",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260518_Claude Code Agent\u5b78\u7fd2.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "5aac3f63a6d114742b57812df403f9f4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u6bcf\u65e5\u65e5\u8a8c\u5efa\u8b70\u7bc4\u672c.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "0ab6cb8a8ab30091e429cd34d1811731",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260517.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "08a631f2974f025eedd21c673e6e31e1",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260516.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "b2f936cc049e168c2f57d121a2d864f2",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260518.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "01932ece36496b6baa79bc9323d5c161",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260518_\u5b8c\u6574\u7248.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "8b3cea53e570ac1cc721e1608020c2a7",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u7a2e\u7530\u65e5\u8a18260516.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "625a9a06cd244db479c97ef280e1f83b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260429.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "866aec53a4287b37b1a6c4896030dfbf",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260513.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "f461bf201221c5cae8926efc18afacb3",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u65e5\u8a8c/\u65e5\u8a8c260514.md": {
+    "mtime": 1779098906.0974,
+    "ast_hash": "e30bcc6125923132b19ece3a563e4e1a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u7cfb\u5217\u8a08\u756b.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "a98cb237c9f0d59b507af70b5d0f1da9",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_\u8a66\u64ad\u767c\u5e03\u8a08\u5283.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "ea99c68635e8b920a2528548ca003d25",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/NANA_S01_\u5927\u7db1_plan.md": {
+    "mtime": 1779098906.1014,
+    "ast_hash": "98d8763862d8d95be1243a369d80490d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u5a1c\u5a1c.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "7233b20efe077fb47d0b53a9139d3dce",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272\u9020\u578b\u8a2d\u5b9a\u6a94.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "44ee22bf04f8d7b544d7911512dd73bb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u670d\u98fe\u8207LOGO\u8a2d\u8a08.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "e1bf30e0c046e40057d83e61bdd2d76c",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb_v2.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "9f9b80b298a15a8ab7bdd689ec3e81c4",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u8996\u89ba\u8a2d\u8a08Prompt\u6a94.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "1b714a9535664d1298522b46011c3d23",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u89d2\u8272\u8a2d\u5b9a/NANA_\u89d2\u8272_\u611b\u99ac\u58eb.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "5cad2a343580dee62269ba4b5b0f472a",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8996\u89ba\u8cc7\u6e90/NANA_\u96fb\u5f71\u9810\u544a\u6d77\u5831Prompt.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "20f09c47783426d650ec34a43f150d80",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u767c\u5e03\u7ba1\u7406/NANA_FB\u5f15\u6d41\u6587\u6848.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "682759d2ed48c86a82b8468a93c73689",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "5d01a47203de8419b7135804e5a77d79",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_draft.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "1f52f95be68de760c2bf6b5941d6d57f",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/\u8a66\u64ad\u7a3f\u4ef6/NANA_S01E01_\u6436\u596a_Substack\u7248.md": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "70937e29991da018bcfcc45feb2e6a66",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/my_note/\u7cbe\u6e96\u6307\u4ee4.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "7d233afe5e274ae533b4a3450accc007",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/my_note/dvk.MD": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5bd7b53453448c21bdffcd1b8d0f0650",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/my_note/model_feel.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "2a82f1c23291b8add2b8f2fa0814919b",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/story.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "ea9524f840bf2fb40acd73a0141a1b65",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/cc_agentview.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "e06628a2b256ca97da94389200aabe4d",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/day1_agentview_precise_commands.html": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "2785236628cfe98503593cfa01c2c820",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/ed02.md": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "c7473b660432aa0259528cd137201d62",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/cc_agentview_vs_kanban_revised.html": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "5bfcc87bd5b65df5e738acb103812b08",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/kanban_flow.MD": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "4dedda4cf460265e03d5a6066c1426fb",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/iinput/dark_knowledge_3day_workflow.html": {
+    "mtime": 1779098906.0934,
+    "ast_hash": "98c95f34770ce6bb12b621adddf17583",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/image/ChatGPT Image 2026\u5e745\u670817\u65e5 \u4e0b\u534802_21_53.png": {
+    "mtime": 1779086630.825198,
+    "ast_hash": "c2f3e5bd4ee66ed8b1979260e0e71ddd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/setup-global-graphify/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/image/ChatGPT Image 2026\u5e745\u670817\u65e5 \u4e0b\u534802_21_53.png": {
+    "mtime": 1779098960.0806541,
+    "ast_hash": "c2f3e5bd4ee66ed8b1979260e0e71ddd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/dark-knowledge-ep3/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/image/ChatGPT Image 2026\u5e745\u670817\u65e5 \u4e0b\u534802_21_53.png": {
+    "mtime": 1779090224.7261846,
+    "ast_hash": "c2f3e5bd4ee66ed8b1979260e0e71ddd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/worktrees/add-global-chinese/\u79d1\u5e7b\u5c0f\u8aaa/\u9f8d\u8766\u5a1c\u5a1c\u7cfb\u5217/image/ChatGPT Image 2026\u5e745\u670817\u65e5 \u4e0b\u534802_21_53.png": {
+    "mtime": 1779098906.1053998,
+    "ast_hash": "c2f3e5bd4ee66ed8b1979260e0e71ddd",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/skills/graphify.sh": {
+    "mtime": 1779252282.7783926,
+    "ast_hash": "7a1cd379822725968a41988e524f9811",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/SKILLS_README.md": {
+    "mtime": 1779252295.2021277,
+    "ast_hash": "58b34c54c54a34c4e5735f3ec5591577",
+    "semantic_hash": ""
+  },
+  "/home/claude2/graphify-knowledge-base/.claude/GRAPHIFY_SKILL_SETUP.md": {
+    "mtime": 1779252354.5888662,
+    "ast_hash": "2c8bfd6a8d2eae4b1b3dd0f81a4ee9ce",
+    "semantic_hash": ""
+  }
+}

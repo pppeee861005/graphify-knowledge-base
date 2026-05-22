@@ -126,6 +126,26 @@ Evening（總結）
 | 進度更新 | complete_series_checklist.md | 週度 | Agent |
 | 記憶索引 | MEMORY.md | 每日 | Agent |
 | 任務進度 | Tasks | 實時 | Agent |
+| **框架與模型日誌** | **daily_framework_logs/** | **工作完成後** | **Agent** |
+
+### 📋 Framework Logs 快速指南
+
+**何時寫 daily_framework_logs**：
+- 使用特定框架（Antigravity、Agent 等）完成重要創作任務
+- 對比不同模型表現、發現有效工作流組合
+- 生成重要文章、代碼或規劃文檔
+
+**標準格式參考**：
+👉 **詳見** `daily_framework_logs/README.md`
+
+**日誌命名規則**：`YYYYMMDD_[框架名稱]_[主要模型].md`
+
+**五大板塊**：
+1. 今日使用情境（框架 + 模型）
+2. 內容摘要（簡述產出）
+3. 模型表現評價（對比與反思）
+4. 待辦事項與下一步
+5. 簽名與元數據
 
 ---
 
@@ -146,7 +166,7 @@ Evening（總結）
 
 ---
 
-## 📍 生態狀態（2026-05-20）
+## 📍 生態狀態（2026-05-22）
 
 ✅ **已建立**：
 - CLAUDE.md（工作指導）
@@ -155,11 +175,13 @@ Evening（總結）
 - complete_inventory.md（項目清單）
 - MEMORY.md（記憶索引）
 - Tasks 系統（#1-#3 進行中）
+- **daily_framework_logs/** 目錄 + README.md（框架與模型日誌系統）
 
 🟡 **準備中**：
 - 開始撰寫時尚助理 E01
 - 建立每日工作日誌習慣
 - Graphify 知識圖譜集成
+- Framework_logs 日常使用習慣
 
 ---
 

@@ -1,0 +1,18 @@
+
+
+- 罗斯柴爾德家族 (Rothschild family)
+- “鐵血宰相”俾斯麥的心腹摩林銀行家 (Molin banker, confidant of Otto von Bismarck)
+- 布雷斯勞的科隆的奧本海默家族 (Oppenheimer family of Cologne, Breslau)
+- 漢堡的沃伯格家族 (Woberge family of Hamburg)
+- 巴伐利亞出生的華爾街銀行家賽格利曼家族 (Segelman family, Wall Street banker from Bavaria)
+- 法蘭克福出生在美國成為大亨的席夫家族 (Sief family, Frankfurt-born, became a magnate in the US)
+- 漢堡起家、後來發展到倫敦和紐約的施羅德家族 (Schroder family, started in Hamburg, later expanded to London and New York)
+- 法蘭克福起家，在美國興起的斯佩爾家族 (Speller family, Frankfurt origins, rose in the US)
+- 柏林的老牌銀行家族蒙德爾頌家族 (Mundelsong family, historic Berlin banking family)
+- 十九世紀與罗斯柴爾德家族齊名的英國巴林家族 (Baron family, UK, contemporary with Rothschild)
+- 荷蘭阿姆斯特丹的霍普家族 (Hopp family of Amsterdam, Netherlands)
+- 法國皇室倚重的伏爾德家族 (Vold family, favored by French royalty)
+- 盤踞法蘭西銀行董事長達百年的馬利特家族 (Malitte family, chaired French banks for a century)
+- 挑戰罗斯柴爾德家族的動產信貸銀行創始人貝列拉家族 (Beller family, founder of movable property credit bank challenging Rothschild)
+- 瑞士銀行家的泰斗米拉波家族 (Mirlabo family, Swiss banking titan)
+- 原本是罗斯柴爾德家族門下，後借美國崛起而成為當今世界金融主導勢力的洛克菲勒家族和摩根家族 (Rockefeller and Morgan families, originally under Rothschild, now leading global finance)

@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080a0f" />
+      <stop offset="100%" stop-color="#101524" />
+    </linearGradient>
+
+    <!-- Stage 1 (Data Prep, Blue) -->
+    <linearGradient id="stage1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="stage1Border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+
+    <!-- Stage 2 (Validation, Rose/Red) -->
+    <linearGradient id="stage2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#881337" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="stage2Border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Stage 3 (Reasoning, Purple) -->
+    <linearGradient id="stage3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="stage3Border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Stage 4 (Notification, Emerald) -->
+    <linearGradient id="stage4Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="stage4Border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <!-- Human-in-the-Loop (Gold/Orange) -->
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="humanBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- Flow Arrow Marker -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#4b5563" />
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3b82f6" />
+    </marker>
+    <marker id="arrowRose" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#f43f5e" />
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#f59e0b" />
+    </marker>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 22px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #6b7280; letter-spacing: 0.5px; }
+    .stage-num { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 800; fill: #ffffff; opacity: 0.8; }
+    .stage-title { font-family: system-ui, -apple-system, sans-serif; font-size: 15px; font-weight: 700; fill: #ffffff; }
+    .stage-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9ca3af; }
+    .agent-box { fill: #111827; stroke: #374151; stroke-width: 1; }
+    .agent-title { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; font-weight: 600; fill: #e5e7eb; }
+    .agent-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #9ca3af; }
+    .flow-text { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; fill: #9ca3af; }
+    .tag-text { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; font-weight: 800; fill: #9ca3af; text-anchor: middle; }
+    .badge { rx: 4; fill-opacity: 0.15; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="700" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid overlay for tech aesthetic -->
+  <g opacity="0.03">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550 M 0,600 L 800,600 M 0,650 L 800,650" stroke="#ffffff" stroke-width="1"/>
+    <path d="M 50,0 L 50,700 M 100,0 L 100,700 M 150,0 L 150,700 M 200,0 L 200,700 M 250,0 L 250,700 M 300,0 L 300,700 M 350,0 L 350,700 M 400,0 L 400,700 M 450,0 L 450,700 M 500,0 L 500,700 M 550,0 L 550,700 M 600,0 L 600,700 M 650,0 L 650,700 M 700,0 L 700,700 M 750,0 L 750,700" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Title block -->
+  <g transform="translate(40, 45)">
+    <text x="0" y="0" class="title">Swarm Workflow 智慧請假審批流程編排</text>
+    <text x="0" y="22" class="subtitle">《AI 指揮官筆記》蜂群 Agent 系列 · S01E04 配圖</text>
+  </g>
+
+  <!-- ==================== STAGE 1 ==================== -->
+  <g transform="translate(200, 90)" filter="url(#shadow)">
+    <!-- Border & Container -->
+    <rect width="400" height="90" rx="10" fill="url(#stage1Grad)" stroke="url(#stage1Border)" stroke-width="1.5" />
+    <text x="15" y="25" class="stage-num" fill="#3b82f6">STAGE 01</text>
+    <text x="75" y="25" class="stage-title">DataCollection (資料整理)</text>
+    <text x="15" y="42" class="stage-desc">解析原始請假表單，將非結構化文字標準化</text>
+    
+    <!-- Inner Agent Card -->
+    <rect x="15" y="52" width="370" height="28" rx="4" class="agent-box" />
+    <path d="M 25,66 L 31,61 L 31,71 Z" fill="#3b82f6" />
+    <text x="38" y="70" class="agent-title">FormParserAgent</text>
+    <text x="150" y="70" class="agent-desc">| 提取姓名、請假天數、休假類型與請假事由</text>
+  </g>
+
+  <!-- Flow Connector: S1 to S2 -->
+  <g>
+    <path d="M 400,180 L 400,210" stroke="#3b82f6" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="410" y="200" class="flow-text" fill="#3b82f6">結構化 JSON 資料</text>
+  </g>
+
+  <!-- ==================== STAGE 2 (Parallel) ==================== -->
+  <g transform="translate(100, 215)" filter="url(#shadow)">
+    <!-- Container -->
+    <rect width="600" height="150" rx="10" fill="url(#stage2Grad)" stroke="url(#stage2Border)" stroke-width="1.5" />
+    <text x="15" y="25" class="stage-num" fill="#f43f5e">STAGE 02</text>
+    <text x="75" y="25" class="stage-title">PolicyValidation (合規校驗 - 並行)</text>
+    <text x="15" y="42" class="stage-desc">多個 Agent 獨立校驗不同的合規層次，進行對抗驗證</text>
+
+    <!-- Agent 2A (Left) -->
+    <g transform="translate(15, 55)">
+      <rect width="275" height="80" rx="6" class="agent-box" />
+      <circle cx="25" cy="22" r="6" fill="#f43f5e" fill-opacity="0.8" />
+      <text x="38" y="26" class="agent-title">CompanyPolicyAgent</text>
+      <text x="15" y="46" class="agent-desc">校驗公司內部規章 (例如：請特休天數</text>
+      <text x="15" y="61" class="agent-desc">是否超出該員工當前剩餘額度限制)</text>
+    </g>
+
+    <!-- Agent 2B (Right) -->
+    <g transform="translate(310, 55)">
+      <rect width="275" height="80" rx="6" class="agent-box" />
+      <circle cx="25" cy="22" r="6" fill="#ec4899" fill-opacity="0.8" />
+      <text x="38" y="26" class="agent-title">LegalComplianceAgent</text>
+      <text x="15" y="46" class="agent-desc">校驗勞基法等國家法規 (例如：生理假</text>
+      <text x="15" y="61" class="agent-desc">扣薪規定、事假連續天數限制)</text>
+    </g>
+  </g>
+
+  <!-- Flow Connectors from Stage 2 -->
+  <!-- Split: Normal Flow & Escalation Flow -->
+  <g>
+    <!-- Straight line (Normal flow) -->
+    <path d="M 400,365 L 400,430" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)" />
+    <rect x="340" y="380" width="120" height="20" rx="4" fill="#1f2937" stroke="#374151" stroke-width="1" />
+    <text x="400" y="394" class="flow-text" text-anchor="middle" fill="#10b981">一致無衝突</text>
+
+    <!-- Branch line (Escalation to HITL) -->
+    <path d="M 585,365 L 585,385 Q 585,400 620,400 L 635,400" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arrowGold)" />
+    <text x="590" y="394" class="flow-text" fill="#f59e0b">意見衝突</text>
+  </g>
+
+  <!-- ==================== HUMAN-IN-THE-LOOP ==================== -->
+  <g transform="translate(645, 360)" filter="url(#shadow)">
+    <!-- Container -->
+    <rect width="125" height="80" rx="8" fill="url(#humanGrad)" stroke="url(#humanBorder)" stroke-width="1.5" />
+    <text x="10" y="20" class="stage-num" fill="#f59e0b">HITL ESCALATION</text>
+    <text x="10" y="40" class="stage-title" style="font-size: 13px;">人工審查</text>
+    <text x="10" y="58" class="stage-desc" fill="#e5e7eb">由 HR 主管判定</text>
+    <text x="10" y="70" class="stage-desc" fill="#e5e7eb">解決規則衝突</text>
+
+    <!-- Return to Main Flow -->
+    <path d="M 645,420 L 595,420 Q 550,420 540,432" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2" />
+  </g>
+
+  <!-- ==================== STAGE 3 ==================== -->
+  <g transform="translate(200, 435)" filter="url(#shadow)">
+    <!-- Container -->
+    <rect width="400" height="90" rx="10" fill="url(#stage3Grad)" stroke="url(#stage3Border)" stroke-width="1.5" />
+    <text x="15" y="25" class="stage-num" fill="#8b5cf6">STAGE 03</text>
+    <text x="75" y="25" class="stage-title">ApprovalReasoning (審批決策)</text>
+    <text x="15" y="42" class="stage-desc">在事件日誌中累積先前狀態，整合生成最終審批建議</text>
+
+    <!-- Inner Agent Card -->
+    <rect x="15" y="52" width="370" height="28" rx="4" class="agent-box" />
+    <path d="M 25,66 L 31,61 L 31,71 Z" fill="#8b5cf6" />
+    <text x="38" y="70" class="agent-title">HRReasonerAgent (累積模式)</text>
+    <text x="185" y="70" class="agent-desc">| 評估部門請假人數、假期餘額</text>
+  </g>
+
+  <!-- Flow Connector: S3 to S4 -->
+  <g>
+    <path d="M 400,525 L 400,555" stroke="#10b981" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="410" y="544" class="flow-text" fill="#10b981">審批建議 &amp; 決策包</text>
+  </g>
+
+  <!-- ==================== STAGE 4 (Parallel) ==================== -->
+  <g transform="translate(100, 535)" filter="url(#shadow)">
+    <!-- Container -->
+    <rect width="600" height="140" rx="10" fill="url(#stage4Grad)" stroke="url(#stage4Border)" stroke-width="1.5" />
+    <text x="15" y="25" class="stage-num" fill="#10b981">STAGE 04</text>
+    <text x="75" y="25" class="stage-title">Notification (通知與歸檔 - 並行)</text>
+    <text x="15" y="42" class="stage-desc">發送審批請求郵件給主管，同時將整套</text>
+    <text x="15" y="55" class="stage-desc">審批日誌記錄存檔</text>
+
+    <!-- Agent 4A (Left) -->
+    <g transform="translate(15, 50)">
+      <rect width="275" height="50" rx="4" class="agent-box" stroke="#10b981" stroke-width="0.8" />
+      <path d="M 25,12 L 35,12 L 30,17 Z" fill="#10b981" />
+      <text x="40" y="28" class="agent-title">EmailNotificationAgent</text>
+      <text x="180" y="28" class="agent-desc">| 發送主管審核信</text>
+    </g>
+
+    <!-- Agent 4B (Right) -->
+    <g transform="translate(310, 50)">
+      <rect width="275" height="50" rx="4" class="agent-box" stroke="#34d399" stroke-width="0.8" />
+      <path d="M 320,12 L 330,12 L 325,17 Z" fill="#34d399" />
+      <text x="335" y="28" class="agent-title">GoogleSheetLoggerAgent</text>
+      <text x="480" y="28" class="agent-desc">| 寫入 Sheet 總控表</text>
+    </g>
+  </g>
+</svg>

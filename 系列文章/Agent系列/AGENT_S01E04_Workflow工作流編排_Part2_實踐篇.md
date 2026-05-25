@@ -245,6 +245,170 @@ const hrWorkflow = {
 * **核心概念**：線性順序執行。`A ──▶ B ──▶ C`。後一個 Stage 必須等待前一個 Stage 的輸出作為輸入。
 * **HR 應用場景**：**新員工入職流程**。資料審查 ──▶ 帳號創建 ──▶ 發放設備。前一步未完成，後一步絕不觸發。
 
+**動態視覺化：**
+
+```svg
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 8px;">
+  <defs>
+    <style>
+      @keyframes slideRight {
+        0% { offset-distance: 0%; }
+        100% { offset-distance: 100%; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+      }
+      @keyframes flowDot {
+        0% { offset-distance: 0%; opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { offset-distance: 100%; opacity: 0; }
+      }
+
+      .stage-box { fill: white; stroke: #2c3e50; stroke-width: 3; }
+      .stage-box.active { fill: #3498db; stroke: #2980b9; }
+      .stage-box.completed { fill: #2ecc71; stroke: #27ae60; }
+      .stage-title { font-size: 18px; font-weight: bold; fill: #2c3e50; text-anchor: middle; }
+      .stage-title.active { fill: white; }
+      .stage-title.completed { fill: white; }
+      .stage-subtitle { font-size: 13px; fill: #7f8c8d; text-anchor: middle; }
+      .stage-subtitle.active { fill: white; }
+      .stage-subtitle.completed { fill: white; }
+      .arrow-line { stroke: #34495e; stroke-width: 3; fill: none; }
+      .flow-dot { fill: #e74c3c; }
+      .pipeline-flow { stroke: #3498db; stroke-width: 2; fill: none; stroke-dasharray: 5,5; }
+      .label { font-size: 12px; fill: #7f8c8d; text-anchor: middle; }
+      .timeline { font-size: 14px; font-weight: bold; fill: #2c3e50; }
+    </style>
+
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#34495e"/>
+    </marker>
+    <marker id="arrowhead-flow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#e74c3c"/>
+    </marker>
+  </defs>
+
+  <!-- 背景標題 -->
+  <text x="600" y="35" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Pipeline（流水線）：新員工入職流程
+  </text>
+  <text x="600" y="60" font-size="13" text-anchor="middle" fill="#7f8c8d">
+    Stage 順序執行，前一步完成才能觸發下一步 | 無並行處理
+  </text>
+
+  <!-- 舞台容器分組 -->
+  <g id="stage1-group">
+    <!-- Stage 1: 資料審查 -->
+    <rect x="80" y="120" width="200" height="120" rx="10" class="stage-box"/>
+    <text x="180" y="170" class="stage-title">資料審查</text>
+    <text x="180" y="190" class="stage-subtitle">Verify Candidate</text>
+    <circle cx="180" cy="145" r="8" fill="#3498db" opacity="0"/>
+
+    <!-- 脈動效果指示燈（Stage 1 啟動時） -->
+    <circle cx="180" cy="145" r="12" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="12;20" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 箭頭 1 → 2 -->
+  <g id="arrow-1-2">
+    <line x1="280" y1="180" x2="360" y2="180" class="arrow-line" marker-end="url(#arrowhead)"/>
+
+    <!-- 流動點動畫 -->
+    <circle r="6" class="flow-dot" opacity="0">
+      <animateMotion dur="2s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1">
+        <mpath href="#path-1-2"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 隱形路徑用於流動點 -->
+  <path id="path-1-2" d="M 280 180 L 360 180" fill="none"/>
+
+  <g id="stage2-group">
+    <!-- Stage 2: 帳號創建 -->
+    <rect x="360" y="120" width="200" height="120" rx="10" class="stage-box"/>
+    <text x="460" y="170" class="stage-title">帳號創建</text>
+    <text x="460" y="190" class="stage-subtitle">Create Account</text>
+
+    <!-- 脈動效果指示燈（延遲啟動） -->
+    <circle cx="460" cy="145" r="12" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="12;20" dur="1s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 箭頭 2 → 3 -->
+  <g id="arrow-2-3">
+    <line x1="560" y1="180" x2="640" y2="180" class="arrow-line" marker-end="url(#arrowhead)"/>
+
+    <!-- 流動點動畫（延遲開始） -->
+    <circle r="6" class="flow-dot" opacity="0">
+      <animateMotion dur="2s" begin="2s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1">
+        <mpath href="#path-2-3"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 隱形路徑用於流動點 -->
+  <path id="path-2-3" d="M 560 180 L 640 180" fill="none"/>
+
+  <g id="stage3-group">
+    <!-- Stage 3: 發放設備 -->
+    <rect x="640" y="120" width="200" height="120" rx="10" class="stage-box"/>
+    <text x="740" y="170" class="stage-title">發放設備</text>
+    <text x="740" y="190" class="stage-subtitle">Allocate Equipment</text>
+
+    <!-- 脈動效果指示燈（延遲啟動） -->
+    <circle cx="740" cy="145" r="12" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0">
+      <animate attributeName="r" values="12;20" dur="1s" begin="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1s" begin="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- 底部時間軸與說明 -->
+  <g id="timeline">
+    <!-- 時間點 1 -->
+    <circle cx="180" cy="280" r="6" fill="#e74c3c"/>
+    <line x1="180" y1="286" x2="180" y2="310" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="180" y="330" class="timeline">T=0s</text>
+    <text x="180" y="350" font-size="12" text-anchor="middle" fill="#7f8c8d">啟動審查</text>
+
+    <!-- 時間點 2 -->
+    <circle cx="460" cy="280" r="6" fill="#f39c12"/>
+    <line x1="460" y1="286" x2="460" y2="310" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="460" y="330" class="timeline">T=2s</text>
+    <text x="460" y="350" font-size="12" text-anchor="middle" fill="#7f8c8d">創建帳號</text>
+
+    <!-- 時間點 3 -->
+    <circle cx="740" cy="280" r="6" fill="#27ae60"/>
+    <line x1="740" y1="286" x2="740" y2="310" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="740" y="330" class="timeline">T=4s</text>
+    <text x="740" y="350" font-size="12" text-anchor="middle" fill="#7f8c8d">分配設備</text>
+  </g>
+
+  <!-- 核心說明文字（右側） -->
+  <g id="explanation">
+    <rect x="920" y="120" width="260" height="200" rx="8" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2"/>
+    <text x="940" y="145" font-size="14" font-weight="bold" fill="#2c3e50">Pipeline 特徵：</text>
+
+    <text x="950" y="170" font-size="12" fill="#34495e">✓ 線性順序執行</text>
+    <text x="950" y="190" font-size="12" fill="#34495e">✓ 無並行處理</text>
+    <text x="950" y="210" font-size="12" fill="#34495e">✓ 前序依賴</text>
+    <text x="950" y="230" font-size="12" fill="#34495e">✓ 簡單透明</text>
+    <text x="950" y="250" font-size="12" fill="#e74c3c">⚠ 無法並行優化</text>
+    <text x="950" y="270" font-size="12" fill="#e74c3c">⚠ 總耗時 = 三步</text>
+    <text x="950" y="290" font-size="11" fill="#7f8c8d">之和</text>
+    <text x="950" y="310" font-size="11" fill="#7f8c8d">適用於：強制依賴</text>
+  </g>
+</svg>
+```
+
 ### 2. 同步聚合模式 (Synchronous Aggregation)
 * **核心概念**：多個 Agent 同時並行執行，最後將所有結果匯總到一個聚合 Agent 中進行統一處理。
 * **HR 應用場景**：**員工年終績效評估**。同時啟動「員工自我評價 Agent」、「同事互評 Agent」以及「主管評價 Agent」，三者並行工作，最後由「績效報告生成 Agent」融合成一份最終的績效卡片。

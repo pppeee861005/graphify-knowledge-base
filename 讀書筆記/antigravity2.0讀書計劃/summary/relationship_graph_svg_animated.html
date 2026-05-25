@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>人脈關係圖（SVG 動畫版）</title>
+<style>
+  body {
+    background:#121212;
+    color:#e0e0e0;
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0; padding:2rem;
+    display:flex; justify-content:center; align-items:center; min-height:100vh;
+  }
+  .container { max-width:900px; width:100%; background:rgba(0,0,0,0.45); padding:1.5rem; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.6); }
+  h1 { text-align:center; margin-bottom:1rem; }
+  svg { width:100%; height:auto; }
+  .node { cursor:pointer; }
+  .node circle { stroke:#fff; stroke-width:2; }
+  .node-uk circle { fill:#1e90ff; }
+  .node-fr circle { fill:#ff7f50; }
+  .node-de circle { fill:#32cd32; }
+  .node text { fill:#f0f0f0; font-size:12px; dominant-baseline:middle; text-anchor:middle; }
+  .edge { fill:none; stroke:#aaa; stroke-width:2; marker-end:url(#arrowhead); stroke-dasharray:200; stroke-dashoffset:200; }
+  .edge.show { animation: draw 1s forwards; }
+  @keyframes draw { to { stroke-dashoffset:0; } }
+  /* Hover effect on nodes */
+  .node:hover circle { filter:brightness(1.3); }
+</style>
+<script>
+  // When a node is clicked, reveal edges incident to that node
+  function revealEdges(nodeId) {
+    const edges = document.querySelectorAll(`.edge[data-from='${nodeId}'], .edge[data-to='${nodeId}']`);
+    edges.forEach(e => e.classList.add('show'));
+  }
+  document.addEventListener('DOMContentLoaded', () => {
+    const nodes = document.querySelectorAll('.node');
+    nodes.forEach(n => {
+      n.addEventListener('click', () => revealEdges(n.id));
+    });
+  });
+</script>
+</head>
+<body>
+<div class="container">
+  <h1>人脈關係圖（SVG 動畫版）</h1>
+  <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#aaa"/>
+      </marker>
+    </defs>
+
+    <!-- Nodes -->
+    <g id="n1" class="node node-uk" data-name="英國合併節點" >
+      <circle cx="400" cy="120" r="45"/>
+      <text x="400" y="120" dy="-10">迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相</text>
+      <text x="400" y="120" dy="10">(英國)</text>
+    </g>
+    <g id="n2" class="node node-uk">
+      <circle cx="150" cy="300" r="35"/>
+      <text x="150" y="300" dy="-6">羅斯柴爾德</text>
+      <text x="150" y="300" dy="12">(英國)</text>
+    </g>
+    <g id="n3" class="node node-fr">
+      <circle cx="300" cy="350" r="35"/>
+      <text x="300" y="350" dy="-6">厄蘭路</text>
+      <text x="300" y="350" dy="12">(法國)</text>
+    </g>
+    <g id="n4" class="node node-fr">
+      <circle cx="550" cy="350" r="35"/>
+      <text x="550" y="350" dy="-6">貝列拉</text>
+      <text x="550" y="350" dy="12">(法國)</text>
+    </g>
+    <g id="n5" class="node node-de">
+      <circle cx="250" cy="520" r="35"/>
+      <text x="250" y="520" dy="-6">俾斯麥</text>
+      <text x="250" y="520" dy="12">(德國)</text>
+    </g>
+    <g id="n6" class="node node-de">
+      <circle cx="550" cy="520" r="35"/>
+      <text x="550" y="520" dy="-6">布雷斯勞德</text>
+      <text x="550" y="520" dy="12">(德國)</text>
+    </g>
+
+    <!-- Edges (initially hidden) -->
+    <path id="e1" class="edge" data-from="n2" data-to="n1" d="M185,300 C250,250 350,180 355,130"/>
+    <text x="260" y="250" class="label" fill="#e0e0e0">扶持</text>
+
+    <path id="e2" class="edge" data-from="n3" data-to="n2" d="M335,350 C310,340 260,320 200,300"/>
+    <text x="270" y="340" class="label" fill="#e0e0e0">背叛的門徒</text>
+
+    <path id="e3" class="edge" data-from="n3" data-to="n4" d="M335,350 C400,340 500,340 515,350"/>
+    <text x="420" y="340" class="label" fill="#e0e0e0">合作</text>
+
+    <path id="e4" class="edge" data-from="n2" data-to="n5" d="M185,300 C200,400 220,460 240,480"/>
+    <text x="210" y="380" class="label" fill="#e0e0e0">扶持</text>
+
+    <path id="e5" class="edge" data-from="n6" data-to="n5" d="M515,520 C400,520 300,520 260,520"/>
+    <text x="380" y="530" class="label" fill="#e0e0e0">融資</text>
+
+    <path id="e6" class="edge" data-from="n5" data-to="n6" d="M285,520 C340,520 470,520 500,520"/>
+    <text x="390" y="540" class="label" fill="#e0e0e0">普丹戰爭</text>
+    <text x="390" y="560" class="label" fill="#e0e0e0">鐵路私有化</text>
+
+    <path id="e7" class="edge" data-from="n2" data-to="n6" d="M185,300 C250,380 350,460 425,500"/>
+    <text x="300" y="420" class="label" fill="#e0e0e0">情報，代理</text>
+  </svg>
+  <p style="margin-top:1rem; font-size:0.9rem; text-align:center;">
+    產生時間：2026-05-24 18:24:50
+  </p>
+</div>
+</body>
+</html>

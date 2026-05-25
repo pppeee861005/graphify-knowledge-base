@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>人脈關係圖</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({startOnLoad:true, theme:'dark'});
+</script>
+<style>
+    body { background:#121212; color:#e0e0e0; font-family:Arial,Helvetica,sans-serif; padding:2rem; }
+    .container { max-width:900px; margin:auto; }
+    h1 { text-align:center; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>人脈關係圖</h1>
+    <div class="mermaid">
+flowchart LR
+    迪斯雷利首相___羅斯伯里首相___邱吉爾首相["迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相\n(英國)"]
+    羅斯柴爾德["羅斯柴爾德\n(英國)"]
+    厄蘭路["厄蘭路\n(法國)"]
+    羅斯柴爾德 -- 扶持 --\> 迪斯雷利首相___羅斯伯里首相___邱吉爾首相
+    厄蘭路 -- 背判的門徒 --\> 羅斯柴爾德
+    </div>
+    <p style="margin-top:1rem; font-size:0.9rem;">
+        產生時間：2026-05-24 17:44:23
+    </p>
+</div>
+</body>
+</html>

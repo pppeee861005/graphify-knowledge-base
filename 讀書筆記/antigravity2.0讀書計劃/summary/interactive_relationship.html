@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>互動節點圖（點擊顯示關係）</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  // 關閉自動渲染，我們將手動呼叫 render
+  mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+
+  // 只顯示節點的圖表（Mermaid 語法）
+  const nodeDiagram = `flowchart LR
+    n1["迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相\n(英國)"]
+    n2["羅斯柴爾德\n(英國)"]
+    n3["厄蘭路\n(法國)"]
+    n4["貝列拉\n(法國)"]
+    n5["俾斯麥\n(德國)"]
+    n6["布雷斯勞德\n(德國)"]
+    click n1 "showEdges()"
+    click n2 "showEdges()"
+    click n3 "showEdges()"
+    click n4 "showEdges()"
+    click n5 "showEdges()"
+    click n6 "showEdges()"`;
+
+  // 完整圖含所有關係與事件的圖表（Mermaid 語法）
+  const fullDiagram = `flowchart LR
+    n1["迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相\n(英國)"]
+    n2["羅斯柴爾德\n(英國)"]
+    n3["厄蘭路\n(法國)"]
+    n4["貝列拉\n(法國)"]
+    n5["俾斯麥\n(德國)"]
+    n6["布雷斯勞德\n(德國)"]
+    n2 -- 扶持 --> n1
+    n3 -- 背叛的門徒 --> n2
+    n3 -- 合作 --> n4
+    n2 -- 扶持 --> n5
+    n6 -- 融資 --> n5
+    n5 -- "普丹戰爭" --> n6
+    n5 -- "鐵路私有化" --> n6
+    n2 -- "情報，代理" --> n6`;
+
+  // 初始渲染節點圖
+  function renderNodeDiagram() {
+    const container = document.getElementById('graphDiv');
+    mermaid.render('nodeGraph', nodeDiagram, (svgCode) => {
+      container.innerHTML = svgCode;
+    });
+  }
+
+  // 點擊節點後顯示完整圖
+  function showEdges() {
+    const container = document.getElementById('graphDiv');
+    mermaid.render('fullGraph', fullDiagram, (svgCode) => {
+      container.innerHTML = svgCode;
+    });
+  }
+
+  // 網頁載入時渲染僅節點的圖
+  window.addEventListener('load', renderNodeDiagram);
+</script>
+<style>
+  body { background:#121212; color:#e0e0e0; font-family:Arial,Helvetica,sans-serif; padding:2rem; }
+  .container { max-width:900px; margin:auto; }
+  h1 { text-align:center; margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>點擊節點顯示關係圖</h1>
+  <div id="graphDiv"></div>
+</div>
+</body>
+</html>

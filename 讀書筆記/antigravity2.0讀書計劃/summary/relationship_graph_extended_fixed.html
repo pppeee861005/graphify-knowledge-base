@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>人脈關係圖（擴充版，語法修正）</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({startOnLoad:true, theme:'dark'});
+</script>
+<style>
+    body { background:#121212; color:#e0e0e0; font-family:Arial,Helvetica,sans-serif; padding:2rem; }
+    .container { max-width:1000px; margin:auto; }
+    h1 { text-align:center; margin-bottom:1rem; }
+    .node-uk { fill:#1e90ff; stroke:#ffffff; }
+    .node-fr { fill:#ff7f50; stroke:#ffffff; }
+    .node-de { fill:#32cd32; stroke:#ffffff; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>人脈關係圖（擴充版，語法修正）</h1>
+    <div class="mermaid">
+flowchart LR
+    %% Nodes with safe IDs
+    n1["迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相\n(英國)"]
+    n2["羅斯柴爾德\n(英國)"]
+    n3["厄蘭路\n(法國)"]
+    n4["貝列拉\n(法國)"]
+    n5["俾斯麥\n(德國)"]
+    n6["布雷斯勞德\n(德國)"]
+    %% Class assignments for colour
+    class n1,n2 node-uk;
+    class n3,n4 node-fr;
+    class n5,n6 node-de;
+    %% Edges (relationships)
+    n2 -- 扶持 --> n1
+    n3 -- 背判的門徒 --> n2
+    n3 -- 合作 --> n4
+    n2 -- 扶持 --> n5
+    n6 -- 融資 --> n5
+    n5 -- "普丹戰爭" --> n6
+    n5 -- "鐵路私有化" --> n6
+    %% Edge styling (optional)
+    classDef edgeStyle stroke:#aaaaaa,stroke-width:2px;
+    class n1,n2,n3,n4,n5,n6 edgeStyle;
+    </div>
+    <p style="margin-top:1rem; font-size:0.9rem;">
+        產生時間：

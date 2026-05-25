@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14" />
+      <stop offset="100%" stop-color="#121824" />
+    </linearGradient>
+
+    <!-- Layer 1 Gradients (AI) -->
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="aiBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+
+    <!-- Layer 2 Gradients (Human) -->
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="humanBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Layer 3 Gradients (Exception) -->
+    <linearGradient id="exceptionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c2d12" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.1" />
+    </linearGradient>
+    <linearGradient id="exceptionBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="accentGlowBlue" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 24px; font-weight: 800; fill: #ffffff; letter-spacing: 1px; }
+    .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6b7280; letter-spacing: 0.5px; }
+    .layer-title { font-family: system-ui, -apple-system, sans-serif; font-size: 17px; font-weight: 700; fill: #ffffff; }
+    .layer-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #9ca3af; }
+    .item-title { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 600; fill: #e5e7eb; }
+    .item-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9ca3af; }
+    .flow-label { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 700; fill: #6b7280; text-anchor: middle; }
+    .tag-ai { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; font-weight: 800; fill: #06b6d4; }
+    .tag-human { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; font-weight: 800; fill: #ec4899; }
+    .tag-ex { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; font-weight: 800; fill: #f59e0b; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="620" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern Overlay for Tech Aesthetic -->
+  <g opacity="0.05">
+    <path d="M 0,40 L 800,40 M 0,80 L 800,80 M 0,120 L 800,120 M 0,160 L 800,160 M 0,200 L 800,200 M 0,240 L 800,240 M 0,280 L 800,280 M 0,320 L 800,320 M 0,360 L 800,360 M 0,400 L 800,400 M 0,440 L 800,440 M 0,480 L 800,480 M 0,520 L 800,520 M 0,560 L 800,560" stroke="#ffffff" stroke-width="1"/>
+    <path d="M 40,0 L 40,620 M 80,0 L 80,620 M 120,0 L 120,620 M 160,0 L 160,620 M 200,0 L 200,620 M 240,0 L 240,620 M 280,0 L 280,620 M 320,0 L 320,620 M 360,0 L 360,620 M 400,0 L 400,620 M 440,0 L 440,620 M 480,0 L 480,620 M 520,0 L 520,620 M 560,0 L 560,620 M 600,0 L 600,620 M 640,0 L 640,620 M 680,0 L 680,620 M 720,0 L 720,620 M 760,0 L 760,620" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(40, 50)">
+    <text x="0" y="0" class="title">Human in the Loop 三層人機協同架構</text>
+    <text x="0" y="22" class="subtitle">AI 指揮官筆記 · S01E01 配圖</text>
+  </g>
+
+  <!-- ==================== LAYER 1 (AI) ==================== -->
+  <g transform="translate(40, 100)" filter="url(#glow)">
+    <!-- Container -->
+    <rect width="720" height="120" rx="12" fill="url(#aiGrad)" stroke="url(#aiBorder)" stroke-width="1.5" />
+    
+    <!-- Header Area -->
+    <g transform="translate(20, 25)">
+      <!-- AI Icon -->
+      <path d="M 0,2 A 5,5 0 0,1 5,-3 L 15,-3 A 5,5 0 0,1 20,2 L 20,12 A 5,5 0 0,1 15,17 L 5,17 A 5,5 0 0,1 0,12 Z M 5,4 L 7,4 M 13,4 L 15,4 M 7,10 Q 10,13 13,10" fill="none" stroke="#06b6d4" stroke-width="2" />
+      <text x="32" y="10" class="layer-title">第一層：AI 自動整理與預處理</text>
+      <text x="32" y="26" class="layer-desc">負責處理 80% 的繁瑣低價值工作</text>
+      
+      <!-- Tag -->
+      <rect x="580" y="-8" width="100" height="20" rx="4" fill="#06b6d4" fill-opacity="0.15" />
+      <text x="630" y="6" class="tag-ai" text-anchor="middle">AI 處理 80%</text>
+    </g>
+
+    <!-- Sub Process Flow -->
+    <g transform="translate(20, 75)">
+      <!-- Step 1 -->
+      <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+      <text x="15" y="20" class="item-title">1. 自動彙整申請</text>
+      <text x="105" y="20" class="item-desc">| Google Forms 自動建檔</text>
+
+      <!-- Step 2 -->
+      <g transform="translate(235, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">2. 背景資料檢索</text>
+        <text x="105" y="20" class="item-desc">| 比對請假天數與政策</text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(470, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">3. 生成決策建議</text>
+        <text x="105" y="20" class="item-desc">| Gemini 語意摘要與評估</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Flow Connector: Layer 1 to Layer 2 -->
+  <g>
+    <path d="M 400,220 L 400,260" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,4" />
+    <polygon points="400,263 396,256 404,256" fill="#3b82f6" />
+    <rect x="340" y="231" width="120" height="18" rx="9" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="400" y="244" class="flow-label">彙整決策資料包</text>
+  </g>
+
+  <!-- ==================== LAYER 2 (Human) ==================== -->
+  <g transform="translate(40, 265)" filter="url(#glow)">
+    <!-- Container -->
+    <rect width="720" height="120" rx="12" fill="url(#humanGrad)" stroke="url(#humanBorder)" stroke-width="1.5" />
+    
+    <!-- Header Area -->
+    <g transform="translate(20, 25)">
+      <!-- Human Icon -->
+      <path d="M 10,2 A 5,5 0 1,0 10,-8 A 5,5 0 1,0 10,2 Z M 0,14 A 10,10 0 0,1 20,14 Z" fill="none" stroke="#ec4899" stroke-width="2" />
+      <text x="32" y="10" class="layer-title">第二層：人類審核與最終決策</text>
+      <text x="32" y="26" class="layer-desc">主管專注 20% 的關鍵決策，承擔最終合規與管理責任</text>
+      
+      <!-- Tag -->
+      <rect x="580" y="-8" width="100" height="20" rx="4" fill="#ec4899" fill-opacity="0.15" />
+      <text x="630" y="6" class="tag-human" text-anchor="middle">人類決策 20%</text>
+    </g>
+
+    <!-- Sub Process Flow -->
+    <g transform="translate(20, 75)">
+      <!-- Step 1 -->
+      <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+      <text x="15" y="20" class="item-title">1. 快速查閱摘要</text>
+      <text x="105" y="20" class="item-desc">| 只需 30 秒掌握全局</text>
+
+      <!-- Step 2 -->
+      <g transform="translate(235, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">2. 人工一鍵決定</text>
+        <text x="105" y="20" class="item-desc">| 批准 / 駁回 / 退回</text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(470, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">3. 記錄決策日誌</text>
+        <text x="105" y="20" class="item-desc">| 確權定責，符合審計</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Flow Connector: Layer 2 to Layer 3 -->
+  <g>
+    <path d="M 400,385 L 400,425" stroke="#ec4899" stroke-width="2" stroke-dasharray="4,4" />
+    <polygon points="400,428 396,421 404,421" fill="#ec4899" />
+    <rect x="340" y="396" width="120" height="18" rx="9" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="400" y="409" class="flow-label">偵測到異常或例外</text>
+  </g>
+
+  <!-- ==================== LAYER 3 (Exception) ==================== -->
+  <g transform="translate(40, 430)" filter="url(#glow)">
+    <!-- Container -->
+    <rect width="720" height="120" rx="12" fill="url(#exceptionGrad)" stroke="url(#exceptionBorder)" stroke-width="1.5" />
+    
+    <!-- Header Area -->
+    <g transform="translate(20, 25)">
+      <!-- Warning Icon -->
+      <path d="M 10,-8 L 20,10 L 0,10 Z M 10,-2 L 10,3 M 10,6 L 10,7" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round" />
+      <text x="32" y="10" class="layer-title">第三層：例外處理與人工干預</text>
+      <text x="32" y="26" class="layer-desc">為非標準情境（病假急單、預算超支）提供彈性與同理心</text>
+      
+      <!-- Tag -->
+      <rect x="580" y="-8" width="100" height="20" rx="4" fill="#f59e0b" fill-opacity="0.15" />
+      <text x="630" y="6" class="tag-ex" text-anchor="middle">安全防線</text>
+    </g>
+
+    <!-- Sub Process Flow -->
+    <g transform="translate(20, 75)">
+      <!-- Step 1 -->
+      <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+      <text x="15" y="20" class="item-title">1. AI 自動標記</text>
+      <text x="105" y="20" class="item-desc">| 標示特殊個案與警示</text>
+
+      <!-- Step 2 -->
+      <g transform="translate(235, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">2. 流程自動升級</text>
+        <text x="105" y="20" class="item-desc">| 流轉至高階主管會辦</text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(470, 0)">
+        <rect width="210" height="32" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+        <text x="15" y="20" class="item-title">3. 記錄決策理由</text>
+        <text x="105" y="20" class="item-desc">| 手動補充特殊核准原因</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>《貨幣戰爭二》第一章 人脈關係圖</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({startOnLoad:true, theme:'dark'});
+</script>
+<style>
+  body {font-family: Arial, Helvetica, sans-serif; background:#121212; color:#e0e0e0; padding:1rem;}
+  h1 {text-align:center; margin-bottom:1rem;}
+  .container {max-width:800px; margin:auto;}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>《貨幣戰爭二》第一章 人脈關係圖</h1>
+  <div class="mermaid">
+    flowchart LR
+      %% 人物與勢力節點
+      B[老布雷施勞德]:::person --> R[羅斯柴爾德家族]:::family
+      O[奧本海默]:::person --> B
+      B --> Bismarck[俾斯麥]:::person
+      R --> O
+      Bismarck --> Railway[科隆—明登鐵路]:::project
+      Bismarck --> War[普法之戰]:::event
+      War --> Repayment[50億法郎賠款]:::event
+      %% 樣式定義
+      classDef person fill:#ffcc99,stroke:#333,stroke-width:2px;
+      classDef family fill:#c2e0ff,stroke:#333,stroke-width:2px;
+      classDef project fill:#a0e7a0,stroke:#333,stroke-width:2px;
+      classDef event fill:#ffd9b3,stroke:#333,stroke-width:2px;
+  </div>
+  <p style="margin-top:1rem;">此圖示概括了《貨幣戰爭二》第一章中提及的核心人物與事件關係，主要聚焦於德國金融家族（羅斯柴爾德）與其代理人老布雷施勞德、科隆金融霸主奧本海默，以及政治領袖俾斯麥之間的互動。</p>
+</div>
+</body>
+</html>

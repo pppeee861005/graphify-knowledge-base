@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>人脈關係圖（趣味版）</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+</script>
+<style>
+  /* 背景漸層 + 微動畫 */
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #3b6cb0);
+    background-size: 400% 400%;
+    animation: gradientMove 20s ease infinite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f0f0f0;
+  }
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  .container {
+    width: 95%;
+    max-width: 1100px;
+    background: rgba(0,0,0,0.45);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+  }
+  h1 { text-align:center; margin-bottom:1rem; font-size:2rem; }
+  .mermaid { background: transparent; }
+  /* 自訂節點顏色與動畫 */
+  .node-uk { fill:#1e90ff; stroke:#fff; stroke-width:2px; }
+  .node-fr { fill:#ff7f50; stroke:#fff; stroke-width:2px; }
+  .node-de { fill:#32cd32; stroke:#fff; stroke-width:2px; }
+  .node-uk:hover, .node-fr:hover, .node-de:hover {
+    filter: brightness(1.4);
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.07); }
+    100% { transform: scale(1); }
+  }
+  .edgeStyle { stroke:#ddd; stroke-width:2px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>人脈關係圖（趣味版）</h1>
+  <div class="mermaid">
+flowchart LR
+    %% Nodes
+    UKNode["迪斯雷利首相 / 羅斯伯里首相 / 邱吉爾首相\n(英國)"]
+    Rothschild["羅斯柴爾德\n(英國)"]
+    Erlanger["厄蘭路\n(法國)"]
+    Beller["貝列拉\n(法國)"]
+    Bismarck["俾斯麥\n(德國)"]
+    Brels["布雷斯勞德\n(德國)"]
+    %% Classes
+    class UKNode,Rothschild node-uk;
+    class Erlanger,Beller node-fr;
+    class Bismarck,Brels node-de;
+    %% Edges
+    Rothschild -- 扶持 --> UKNode
+    Erlanger -- 背判的門徒 --> Rothschild
+    Erlanger -- 合作 --> Beller
+    Rothschild -- 扶持 --> Bismarck
+    Brels -- 融資 --> Bismarck
+    Bismarck -- "普丹戰爭" --> Brels
+    Bismarck -- "鐵路私有化" --> Brels
+    %% Edge style
+    class UKNode,Rothschild,Erlanger,Beller,Bismarck,Brels edgeStyle;
+  </div>
+  <p style="margin-top:1rem; font-size:0.9rem; text-align:center;">
+    產生時間：2026-05-24 18:02:39
+  </p>
+</div>
+</body>
+</html>

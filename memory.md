@@ -695,9 +695,89 @@ Memory 不只是技術，更是 Agent 與人類關係的基礎。
 
 ---
 
+## 📚 學習計劃導航
+
+**完整的學習規劃中心 - 為 Agent 提供結構化的知識沉澱和技能提升路徑**
+
+### 🎯 Claude Code Workflow 學習計劃
+
+**位置**：`learning_plans/Claude_Code_Workflow/`
+**狀態**：✅ 已完成（5 階段 + 1 可選）
+**學習投入**：36-42 小時
+**難度級別**：中高級
+
+#### 📖 快速導航
+
+| 資源 | 描述 | 用途 |
+|-----|------|------|
+| **[README.md](learning_plans/README.md)** | 導航中心，全局概覽 | 了解計劃整體結構 |
+| **[0_核心速查.md](learning_plans/Claude_Code_Workflow/0_核心速查.md)** | 快速參考手冊 | 隨時查閱概念定義 |
+| **[1_理論基礎.md](learning_plans/Claude_Code_Workflow/1_理論基礎.md)** | 第 1 階段（5-6h）| 理解 Workflow 核心概念 |
+| **[2_基礎編碼.md](learning_plans/Claude_Code_Workflow/2_基礎編碼.md)** | 第 2 階段（6-7h）| 學習 JavaScript 編碼 |
+| **[3_進階模式.md](learning_plans/Claude_Code_Workflow/3_進階模式.md)** | 第 3 階段（8-9h）| 掌握 6 種執行模式 |
+| **[4_企業級應用.md](learning_plans/Claude_Code_Workflow/4_企業級應用.md)** | 第 4 階段（10-12h）| 設計企業級系統 |
+| **[5_認證與深化.md](learning_plans/Claude_Code_Workflow/5_認證與深化.md)** | 第 5 階段（7-8h，可選）| 成為架構師級別 |
+| **[進度追蹤.md](learning_plans/Claude_Code_Workflow/進度追蹤.md)** | 實時進度表 | 追蹤學習進度 |
+
+#### 🎓 學習路徑
+
+```
+第 1 階段（理論）→ 第 2 階段（基礎編碼 + 項目1）
+    ↓
+第 3 階段（進階模式 + 項目2-3）→ 第 4 階段（企業級應用 + 項目4-5）
+    ↓
+第 5 階段（認證深化 + 項目6，可選）
+    ↓
+成為 Workflow 認證工程師 / 企業架構師
+```
+
+#### 🎯 核心成果
+
+✅ **完成後能夠**：
+- 理解 Workflow 的三大範式轉變（指令式→聲明式、黑箱→透明盒、一次性→資產化）
+- 用 JavaScript 編寫多 Agent 協作的 Workflow
+- 掌握 6 種核心執行模式與應用場景
+- 設計企業級 Workflow（含衝突檢測、升級機制、異常處理）
+- 使用 `/workflows` 監控和優化系統性能
+- 建立企業內部的 Workflow 資產庫
+
+#### 📚 相關資源
+
+- **核心參考**：`memory/claude_code_workflow_essentials.md`（核心速查手冊）
+- **實踐案例**：`系列文章/Agent系列/AGENT_S01E04_Workflow工作流編排_Part1&2.md`
+- **成功分析**：`出版管理/AGENT_S01E04_成功分析報告.md`
+
+---
+
+### 🔮 規劃中的計劃
+
+| 計劃 | 預期啟動 | 難度 | 投入 |
+|-----|---------|------|------|
+| **Agent 系列深度學習** | 2026-06-16 | 高級 | 25-30h |
+| **Software 3.0 實戰應用** | 2026-07-01 | 高級 | 30-40h |
+| **Human-in-the-Loop 系列** | 2026-07-15 | 中高級 | 20-25h |
+
+---
+
 ## 📅 工作日誌索引
 
 **最新更新優先排序**
+
+### 2026年5月26日 - Claude Code Workflow 學習計劃完成
+- **文件**：`work_log_20260526.md`
+- **主要成果**：
+  - ✅ AGENT_S01E04 成功分析報告（5,800+ 字，深度解析）
+  - ✅ Claude Code Workflow 完整學習計劃（方案2：詳細版）
+  - ✅ 8 個 Markdown 文件（~30,000+ 字）
+  - ✅ 5 個學習階段 + 6 個實踐項目 + 進度追蹤系統
+- **核心亮點**：
+  - 277% 訂閱增長的完整拆解與可複製公式
+  - 企業級學習規劃體系建立
+  - 為後續 Agent、Software 3.0 計劃設立範本
+- **時間投入**：7.5 小時（報告 5.5h + 計劃 2h）
+- **參考**：[work_log_20260526.md](memory/work_log_20260526.md)
+
+
 
 ### 2026年5月22日（完整工作總結）
 - **文件**：`work_log_20260522_final.md`

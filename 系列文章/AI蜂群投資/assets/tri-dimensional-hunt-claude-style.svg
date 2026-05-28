@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <!-- Claude 風格漸層 -->
+    <linearGradient id="claudeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97757;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8956E;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="fundamentalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B8DEF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3D6BC7;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="technicalGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF7A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E8B57;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="chipGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5A623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4891C;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="scoreGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A202C;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 陰影效果 -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#FAFAF9"/>
+
+  <!-- 裝飾性網格點 -->
+  <g opacity="0.1">
+    <circle cx="50" cy="50" r="3" fill="#D97757"/>
+    <circle cx="100" cy="50" r="3" fill="#D97757"/>
+    <circle cx="150" cy="50" r="3" fill="#D97757"/>
+    <circle cx="50" cy="100" r="3" fill="#D97757"/>
+    <circle cx="750" cy="450" r="3" fill="#D97757"/>
+    <circle cx="700" cy="450" r="3" fill="#D97757"/>
+    <circle cx="650" cy="450" r="3" fill="#D97757"/>
+    <circle cx="750" cy="400" r="3" fill="#D97757"/>
+  </g>
+
+  <!-- 連接線 - 從分析師到 Lead Agent -->
+  <g stroke-width="3" fill="none" opacity="0.6">
+    <!-- 基本面到Lead -->
+    <path d="M 200 320 Q 250 200 400 130" stroke="#5B8DEF" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- 技術面到Lead -->
+    <path d="M 400 320 L 400 160" stroke="#4CAF7A" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    <!-- 籌碼面到Lead -->
+    <path d="M 600 320 Q 550 200 400 130" stroke="#F5A623" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- 連接線 - 從 Lead Agent 到評分 -->
+  <path d="M 400 160 L 400 230" stroke="#D97757" stroke-width="3" fill="none" opacity="0.6" stroke-dasharray="8,4">
+    <animate attributeName="stroke-dashoffset" from="0" to="24" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Lead Agent 中央節點 -->
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="95" r="55" fill="url(#claudeGradient)"/>
+    <circle cx="400" cy="95" r="45" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Lead Agent 圖標 - 大腦/AI -->
+  <g fill="white">
+    <ellipse cx="400" cy="90" rx="20" ry="18"/>
+    <path d="M 385 90 Q 380 80 390 75 Q 400 70 410 75 Q 420 80 415 90" fill="none" stroke="white" stroke-width="2"/>
+    <path d="M 388 95 Q 400 105 412 95" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="393" cy="88" r="3" fill="url(#claudeGradient)"/>
+    <circle cx="407" cy="88" r="3" fill="url(#claudeGradient)"/>
+  </g>
+
+  <text x="400" y="135" text-anchor="middle" fill="#2D3748" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600">Lead Agent (Opus)</text>
+
+  <!-- 統一評分區塊 -->
+  <g filter="url(#shadow)">
+    <rect x="320" y="230" width="160" height="60" rx="12" fill="url(#scoreGradient)"/>
+  </g>
+  <text x="400" y="255" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500">統一評分</text>
+  <text x="400" y="278" text-anchor="middle" fill="#D97757" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">0-100 分</text>
+
+  <!-- 三個分析師節點 -->
+
+  <!-- 基本面分析師 -->
+  <g filter="url(#shadow)">
+    <rect x="100" y="320" width="180" height="130" rx="16" fill="white"/>
+    <rect x="100" y="320" width="180" height="8" rx="4" fill="url(#fundamentalGradient)"/>
+  </g>
+  <circle cx="140" cy="365" r="20" fill="#EBF4FF"/>
+  <text x="140" y="371" text-anchor="middle" fill="#5B8DEF" font-size="20">📊</text>
+  <text x="210" y="362" text-anchor="middle" fill="#2D3748" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">基本面分析師</text>
+  <text x="210" y="380" text-anchor="middle" fill="#718096" font-family="system-ui, -apple-system, sans-serif" font-size="11">Fundamental</text>
+  <g fill="#5B8DEF" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+    <text x="120" y="410">• 財報分析</text>
+    <text x="120" y="428">• 營收成長</text>
+    <text x="120" y="446">• 負債風險</text>
+  </g>
+
+  <!-- 技術面分析師 -->
+  <g filter="url(#shadow)">
+    <rect x="310" y="320" width="180" height="130" rx="16" fill="white"/>
+    <rect x="310" y="320" width="180" height="8" rx="4" fill="url(#technicalGradient)"/>
+  </g>
+  <circle cx="350" cy="365" r="20" fill="#E6F7EE"/>
+  <text x="350" y="371" text-anchor="middle" fill="#4CAF7A" font-size="20">📈</text>
+  <text x="420" y="362" text-anchor="middle" fill="#2D3748" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">技術面分析師</text>
+  <text x="420" y="380" text-anchor="middle" fill="#718096" font-family="system-ui, -apple-system, sans-serif" font-size="11">Technical</text>
+  <g fill="#4CAF7A" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+    <text x="330" y="410">• 趨勢判斷</text>
+    <text x="330" y="428">• 支撐壓力</text>
+    <text x="330" y="446">• 量價背離</text>
+  </g>
+
+  <!-- 籌碼面分析師 -->
+  <g filter="url(#shadow)">
+    <rect x="520" y="320" width="180" height="130" rx="16" fill="white"/>
+    <rect x="520" y="320" width="180" height="8" rx="4" fill="url(#chipGradient)"/>
+  </g>
+  <circle cx="560" cy="365" r="20" fill="#FEF6E7"/>
+  <text x="560" y="371" text-anchor="middle" fill="#F5A623" font-size="20">🎯</text>
+  <text x="630" y="362" text-anchor="middle" fill="#2D3748" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600">籌碼面分析師</text>
+  <text x="630" y="380" text-anchor="middle" fill="#718096" font-family="system-ui, -apple-system, sans-serif" font-size="11">Chip/Position</text>
+  <g fill="#D4891C" font-family="system-ui, -apple-system, sans-serif" font-size="11">
+    <text x="540" y="410">• 主力追蹤</text>
+    <text x="540" y="428">• 法人動向</text>
+    <text x="540" y="446">• 籌碼集中度</text>
+  </g>
+
+  <!-- 評分標準說明 -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="11">
+    <rect x="580" y="230" width="140" height="60" rx="8" fill="white" filter="url(#shadow)"/>
+    <circle cx="600" cy="245" r="6" fill="#4CAF7A"/>
+    <text x="615" y="249" fill="#2D3748">≥80 → 買入</text>
+    <circle cx="600" cy="263" r="6" fill="#F5A623"/>
+    <text x="615" y="267" fill="#2D3748">60-79 → 觀望</text>
+    <circle cx="600" cy="281" r="6" fill="#E53E3E"/>
+    <text x="615" y="285" fill="#2D3748">&lt;60 → 回避</text>
+  </g>
+
+  <!-- 標題 -->
+  <text x="400" y="35" text-anchor="middle" fill="#2D3748" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700">三維獵殺系統</text>
+  <text x="400" y="55" text-anchor="middle" fill="#718096" font-family="system-ui, -apple-system, sans-serif" font-size="12">Tri-Dimensional Hunt System</text>
+
+  <!-- Claude 品牌標記 -->
+  <g opacity="0.6">
+    <text x="760" y="485" text-anchor="end" fill="#D97757" font-family="system-ui, -apple-system, sans-serif" font-size="10">Powered by Claude</text>
+  </g>
+</svg>

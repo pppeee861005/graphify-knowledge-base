@@ -211,7 +211,7 @@ const swarm = {
 | :--- | :--- |
 | **理解 Workflow 的底層設計哲學** | 🔗 [Agent E04《Workflow：蜂群的編程語言 — 理論篇》](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/Agent%E7%B3%BB%E5%88%97/AGENT_S01E04_Workflow%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%B7%A8%E6%8E%92_Part1_%E7%90%86%E8%AB%96%E7%AF%87.md)<br>🔗 [Agent E04《Workflow：蜂群的編程語言 — 實踐篇》](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/Agent%E7%B3%BB%E5%88%97/AGENT_S01E04_Workflow%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%B7%A8%E6%8E%92_Part2_%E5%AF%A6%E8%B8%AF%E7%AF%87.md) |
 | **回顧散戶基礎設施的最初架構** | 🔗 [SW3 E01《Software 3.0 的散戶基礎設施》](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/Software3.0%E7%B3%BB%E5%88%97/SW3_S01E01_%E6%95%A3%E6%88%B6%E5%9F%BA%E7%A4%B0%E8%A8%AD%E6%96%BD_published.md) |
-| **繼續跟隨霸總的實戰商戰故事** | 🔗 [AI蜂群投資 #2：《三維獵殺》](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/AI%E8%9C%82%E7%BE%A4%E6%8A%95%E8%B3%87/02_%E4%B8%89%E7%B6%AD%E7%8D%B5%E6%AE%BA.md) (下週發布) |
+| **繼續跟隨霸總的實戰商戰故事** | 🔗 [AI蜂群投資 #2：《三維獵殺》](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/AI%E8%9C%82%E7%BE%A4%E6%8A%95%E8%B3%87/SWARM_S01E02_%E4%B8%89%E7%B6%AD%E7%8D%B5%E6%AE%BA.md) |
 | **親手打造屬於妳的量化蜂群** | 🔗 [Learning Plans 學習計劃中心](file:///D:/%E6%95%B8%E4%BD%8D%E8%B3%87%E7%94%A2/graphify%E5%80%8B%E4%BA%BA%E7%9F%A5%E8%AD%98%E5%BA%AB/learning_plans/README.md) |
 
 > 💡 **想從讀者蛻變為系統建造者？**

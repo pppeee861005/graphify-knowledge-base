@@ -20,6 +20,18 @@ date: 2026-05-26
 
 ---
 
+## ⚡ 版本更新日誌
+
+**最後更新**：2026-05-29
+**更新內容**：
+- ✅ 更新Claude Code Workflow啟動方式（新版）
+- ✅ 將 `CLAUDE_CODE_WORKFLOWS_ENABLED` 改為 `CLAUDE_CODE_WORKFLOWS`
+- ✅ 添加 `DISABLE_GROWTHBOOK=1` 環境變量
+- ✅ 將 `ultraWork` 命令改為 `workflow`
+- ✅ 更新環境驗證步驟
+
+---
+
 ## 📋 任務清單
 
 ### 任務 2.1：設置 Claude Code Workflow 環境
@@ -39,22 +51,38 @@ claude --version
 # 應顯示 v2.1.47 或更新
 ```
 
-**Step 2：啟用 Workflow 功能**
+**Step 2：啟用 Workflow 功能（新版啟動方式）**
 ```bash
-export CLAUDE_CODE_WORKFLOWS_ENABLED=1
+# 設置環境變量
+export CLAUDE_CODE_WORKFLOWS=1
+export DISABLE_GROWTHBOOK=1
+source ~/.zshrc
+
+# 驗證環境變量已設置
+echo "$CLAUDE_CODE_WORKFLOWS / $DISABLE_GROWTHBOOK"
+# 應輸出：1 / 1
+
+# 完全退出舊的 Claude（如果正在運行）
+/exit  # 或按 Ctrl+D
+
+# 啟動新的 Claude Code
 claude
 ```
 
 **Step 3：驗證啟用成功**
 - 啟動後，Claude Code 應顯示彩虹漸層的魔法入口
-- 輸入 `ultraWork` 應該能觸發 Workflow 入口
+- 輸入 `workflow` 應該能觸發 Workflow 入口
 
 #### 檢查項
 - [ ] Claude Code 版本 ≥ 2.1.47
-- [ ] 成功設置 `CLAUDE_CODE_WORKFLOWS_ENABLED=1`
-- [ ] 能看到 Workflow 入口
+- [ ] 成功設置 `CLAUDE_CODE_WORKFLOWS=1` 和 `DISABLE_GROWTHBOOK=1`
+- [ ] `echo "$CLAUDE_CODE_WORKFLOWS / $DISABLE_GROWTHBOOK"` 輸出為 `1 / 1`
+- [ ] 在 Claude Code 中輸入 `workflow` 能看到 Workflow 入口
 
 #### 驗收標準
+✅ 環境變量已設置：`CLAUDE_CODE_WORKFLOWS=1` 和 `DISABLE_GROWTHBOOK=1`
+✅ 驗證命令輸出正確：`echo "$CLAUDE_CODE_WORKFLOWS / $DISABLE_GROWTHBOOK"` → `1 / 1`
+✅ 在Claude Code中輸入 `workflow` 命令可用
 ✅ 環境設置完成，Workflow 功能可用
 
 ---

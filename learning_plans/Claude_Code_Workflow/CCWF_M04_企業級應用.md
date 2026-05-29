@@ -295,7 +295,7 @@ module.exports = { metadata, execute };
 
 1. **測試執行**
    ```bash
-   claude ultraWork < test_input.json
+   workflow < test_input.json
    ```
 
 2. **檢查輸出**
@@ -365,7 +365,7 @@ module.exports = { metadata, execute };
 
 ## 快速使用
 ```bash
-claude ultraWork < input.json
+workflow < input.json
 ```
 
 ## 主要 Agent

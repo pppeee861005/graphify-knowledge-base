@@ -14,14 +14,23 @@ priority: 核心參考
 
 ---
 
-## ⚡ 啟用方式
+## ⚡ 啟用方式（新版 v2.1.47+）
 
 ```bash
-export CLAUDE_CODE_WORKFLOWS_ENABLED=1
+# 設置環境變量
+export CLAUDE_CODE_WORKFLOWS=1
+export DISABLE_GROWTHBOOK=1
+source ~/.zshrc
+
+# 驗證環境變量已設置
+echo "$CLAUDE_CODE_WORKFLOWS / $DISABLE_GROWTHBOOK"
+# 應輸出：1 / 1
+
+# 啟動新版 Claude Code
 claude
 ```
 
-啟用後，Claude Code 會顯示彩虹漸層的魔法入口：**ultraWork [你的任務]**
+啟用後，Claude Code 會顯示彩虹漸層的魔法入口：**workflow [你的任務]**
 
 ---
 

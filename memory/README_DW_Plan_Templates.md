@@ -347,10 +347,13 @@
 
 ## 🔗 相關快速鏈接
 
-- 📄 [DW_Plan_Development_Index.md](DW_Plan_Development_Index.md) — 完整導航
-- 📖 [DW_Plan_Template_Guide.md](DW_Plan_Template_Guide.md) — 詳細指南
-- ⚡ [DW_Plan_Quick_Template.md](DW_Plan_Quick_Template.md) — 快速模版
-- 📁 [DW_Plan_Development_Template_Directory.md](DW_Plan_Development_Template_Directory.md) — 目錄結構
+**模版體系目錄**：`memory/DW_Plan_Templates/`
+
+- 📄 [DW_Plan_Development_Index.md](DW_Plan_Templates/DW_Plan_Development_Index.md) — 完整導航
+- 📖 [DW_Plan_Template_Guide.md](DW_Plan_Templates/DW_Plan_Template_Guide.md) — 詳細指南
+- ⚡ [DW_Plan_Quick_Template.md](DW_Plan_Templates/DW_Plan_Quick_Template.md) — 快速模版
+- 📁 [DW_Plan_Development_Template_Directory.md](DW_Plan_Templates/DW_Plan_Development_Template_Directory.md) — 目錄結構
+- 📚 [DW_Plan_Templates/README.md](DW_Plan_Templates/README.md) — 模版體系導航
 - 🛠️ [工具和模板](../工具和模板/) — DW通用工具
 - 🎯 [計劃1示範](../計劃1_新世界HR系統/) — HR場景示範
 - 📊 [計劃7示範](../計劃7_AI蜂群投資Workflow/) — 投資決策示範

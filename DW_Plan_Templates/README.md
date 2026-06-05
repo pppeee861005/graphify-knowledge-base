@@ -135,15 +135,21 @@ DW 適用於任何決策場景。這裡是 5 個核心應用：
 
 ---
 
-## ⚡ DW 與 Claude Code Ultracode
+## ⚡ DW 在 Claude Code 中的實現：Ultracode
 
-### 核心區別
+### 核心要點
 
-**DW（Decision Workflow）** 是決策框架理念，強調「定義書 + 預算書 + 計畫確認」。
+**DW（Dynamic Workflow）** 是決策框架理念。
 
-**Ultracode** 是 Claude Code 的技術功能，用多個 Agent 並行執行複雜任務。
+在 Claude Code 中，DW 通過 **Ultracode**（多 Agent 工作流系統）來執行。
 
-兩者可以結合，但不完全相同。
+**Ultracode** 提供：
+- 多個 Agent 並行執行
+- 實時監控進度
+- 自動化決策過程
+- /workflows 進度管理
+
+**結果**：DW 的定義書 + 預算書 通過 Ultracode 自動實現。
 
 ---
 

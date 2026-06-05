@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_date": "2026-06-05",
+    "original_source_quotes": 42,
+    "deduplicated_count": 36,
+    "deduplication_rate": "14.3%",
+    "categories_count": 8,
+    "tags_count": 24,
+    "cross_reference_clusters": 6
+  },
+  "summary": {
+    "deduplication_process": "Removed 6 quote clusters where similar concepts appeared multiple times. Retained strongest version of each concept.",
+    "ranking_criteria": [
+      "Transformative impact on worldview",
+      "Universal applicability across domains",
+      "Strategic timing (2026 relevance)",
+      "Memorability and quotability"
+    ],
+    "categories": [
+      "系統設計哲學",
+      "人機協作模式",
+      "知識民主化與危機",
+      "創造力啟蒙",
+      "實踐方法論",
+      "AI時代轉變",
+      "價值創造本質",
+      "長期增長策略"
+    ]
+  },
+  "quotes": [
+    {
+      "rank": 1,
+      "quote": "人生很多答案，不是在計劃中出現，而是在Workflow中浮現",
+      "category": "系統設計哲學",
+      "tags": ["思想領導", "系統設計", "動態規劃"],
+      "impact_level": "tier_1_transformative",
+      "source": "DW_CORE_MEMORANDUM.md",
+      "related_quotes": [4, 36, 6, 12, 35],
+      "application_channels": ["keynote_opening", "article_citation", "article_citation"],
+      "domain_applications": ["企業決策培訓", "創業團隊願景設定", "個人成長規劃", "系統架構討論"],
+      "social_ready": false
+    },
+    {
+      "rank": 2,
+      "quote": "思想進程是最寶貴的資產",
+      "category": "價值創造本質",
+      "tags": ["無形資產", "人生啟示", "超越物質"],
+      "impact_level": "tier_1_transformative",
+      "source": "DW_Core_Spirit_Guide.md",
+      "related_quotes": [3, 11, 13, 33],
+      "application_channels": ["social_media", "keynote_opening", "knowledge_graph"],
+      "domain_applications": ["企業文化建設", "人才評估體系", "長期組織發展", "個人職業規劃"],
+      "social_ready": true
+    },
+    {
+      "rank": 3,
+      "quote": "密不可分的共生關係——人的思想進程是AI系統的進化資料，AI的執行能力是人的思想助手",
+      "category": "人機協作模式",
+      "tags": ["新人類聯盟", "共進化", "互相啟蒙"],
+      "impact_level": "tier_1_transformative",
+      "source": "DW_CORE_MEMORANDUM.md",
+      "related_quotes": [5, 9, 24, 34],
+      "application_channels": ["keynote_opening", "teaser_headline", "knowledge_graph"],
+      "domain_applications": ["AI時代轉型培訓", "組織文化轉變", "人才發展策略", "未來工作方式設計"],
+      "social_ready": false
+    },
+    {
+      "rank": 4,
+      "quote": "完美計劃是幻想，長期穩定很現實",
+      "category": "系統設計哲學",
+      "tags": ["動態適應", "容錯設計", "現實主義"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_New_Philosophy_Height.md",
+      "related_quotes": [1, 7, 35, 25],
+      "application_channels": ["article_citation", "team_discussion", "article_citation"],
+      "domain_applications": ["敏捷開發指導", "風險管理策略", "創業決策", "組織變革管理"],
+      "social_ready": false
+    },
+    {
+      "rank": 5,
+      "quote": "人定邊界，AI執行——這更有效率，也更尊重雙方的專長",
+      "category": "人機協作模式",
+      "tags": ["分工模式", "效率優化", "角色定位"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_New_Philosophy_Height.md",
+      "related_quotes": [3, 9, 25, 34],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["流程自動化設計", "AI工具集成", "團隊協作制度", "責任劃分體系"],
+      "social_ready": false
+    },
+    {
+      "rank": 6,
+      "quote": "邏輯層永恆，執行層流動",
+      "category": "系統設計哲學",
+      "tags": ["可適應性", "架構設計", "長期視角"],
+      "impact_level": "tier_2_strategic",
+      "source": "可適應性：蜂群為什麼永遠不會被淘汰",
+      "related_quotes": [2, 8, 12, 30],
+      "application_channels": ["article_citation", "knowledge_graph", "team_discussion"],
+      "domain_applications": ["企業架構規劃", "技術棧選擇", "系統長期演進", "知識積累策略"],
+      "social_ready": false
+    },
+    {
+      "rank": 7,
+      "quote": "波動中保持趨勢——穩定×時間=飛輪→指數增長",
+      "category": "長期增長策略",
+      "tags": ["複利效應", "動態穩定", "數學原理"],
+      "impact_level": "tier_1_transformative",
+      "source": "DW_New_Philosophy_Height.md",
+      "related_quotes": [4, 24, 16],
+      "application_channels": ["social_media", "article_citation", "keynote_opening"],
+      "domain_applications": ["增長黑客策略", "內容運營規劃", "商業模式設計", "個人品牌建設"],
+      "social_ready": true
+    },
+    {
+      "rank": 8,
+      "quote": "代碼不再是資產，因為它會老化。它是凍結的決策，而LLM每3個月就讓凍結的決策變得過時",
+      "category": "AI時代轉變",
+      "tags": ["資產重估", "知識更新", "技術轉變"],
+      "impact_level": "tier_1_transformative",
+      "source": "可適應性：蜂群為什麼永遠不會被淘汰",
+      "related_quotes": [6, 30, 11],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["企業轉型決策", "投資評估", "技術人員職業規劃", "組織知識管理"],
+      "social_ready": false
+    },
+    {
+      "rank": 9,
+      "quote": "在Agent時代，人類的核心競爭力不再是『執行任務的速度和精確度』，而是『定義任務、賦予意義、設定邊界』的能力",
+      "category": "AI時代轉變",
+      "tags": ["職業轉變", "能力升級", "人類優勢"],
+      "impact_level": "tier_1_transformative",
+      "source": "蜂群Agent是什麼？運算資源的新範式",
+      "related_quotes": [5, 27, 28],
+      "application_channels": ["social_media", "keynote_opening", "teaser_headline"],
+      "domain_applications": ["職業轉型指導", "教育課程設計", "領導力培養", "組織人才策略"],
+      "social_ready": true
+    },
+    {
+      "rank": 10,
+      "quote": "四次中間層革命的勝利者都遵循同一個規律：最早佔領那一代L3的人就佔領了那個世代",
+      "category": "長期增長策略",
+      "tags": ["歷史規律", "機會窗口", "入場時機"],
+      "impact_level": "tier_1_transformative",
+      "source": "從印刷機到AI：每一次中間層革命，都是同一場戰爭",
+      "related_quotes": [11, 29, 28],
+      "application_channels": ["keynote_opening", "teaser_headline", "article_citation"],
+      "domain_applications": ["創業決策時機", "職業規劃節點", "投資策略", "組織戰略調整"],
+      "social_ready": false
+    },
+    {
+      "rank": 11,
+      "quote": "當2027年所有人都意識到設計是永恆資產、代碼會老化時，蜂群設計師將是市場上最稀缺的角色",
+      "category": "長期增長策略",
+      "tags": ["職業稀缺性", "未來預測", "競爭優勢"],
+      "impact_level": "tier_2_strategic",
+      "source": "可適應性：蜂群為什麼永遠不會被淘汰",
+      "related_quotes": [8, 10, 6],
+      "application_channels": ["article_citation", "teaser_headline", "keynote_opening"],
+      "domain_applications": ["個人職業規劃", "創業項目選擇", "人才培養投資", "組織競爭力建設"],
+      "social_ready": false
+    },
+    {
+      "rank": 12,
+      "quote": "定義書優於代碼，業務邏輯優於實現細節，任何人能修改優於只有開發者能改",
+      "category": "實踐方法論",
+      "tags": ["民主化開發", "知識共享", "系統可維護性"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_ECOSYSTEM_GUIDE.md",
+      "related_quotes": [6, 1, 35],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["團隊協作流程", "知識文檔化", "決策系統設計", "長期項目交接"],
+      "social_ready": false
+    },
+    {
+      "rank": 13,
+      "quote": "為什麼改比改成了什麼更重要",
+      "category": "實踐方法論",
+      "tags": ["思想記錄", "決策追溯", "知識遷移"],
+      "impact_level": "tier_3_tactical",
+      "source": "DW_Core_Spirit_Guide.md",
+      "related_quotes": [12, 2, 33],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["項目決策文檔", "知識管理系統", "團隊培訓", "個人成長反思"],
+      "social_ready": false
+    },
+    {
+      "rank": 14,
+      "quote": "消費給你的完整感，是假的——它填滿了你的感知，但沒有填滿你的存在感",
+      "category": "創造力啟蒙",
+      "tags": ["人生選擇", "存在意義", "成癮破除"],
+      "impact_level": "tier_3_tactical",
+      "source": "從毒癮到創造者系列",
+      "related_quotes": [15, 16, 24],
+      "application_channels": ["social_media", "teaser_headline", "social_media"],
+      "domain_applications": ["個人成長轉變", "內容創作動機", "社群建設", "人生價值觀重建"],
+      "social_ready": true
+    },
+    {
+      "rank": 15,
+      "quote": "人類最深的需求之一，不是快樂，是在場感——我真實地存在著，我留下了痕跡，我不只是路過",
+      "category": "創造力啟蒙",
+      "tags": ["人生意義", "存在感", "創造動力"],
+      "impact_level": "tier_1_transformative",
+      "source": "從毒癮到創造者系列",
+      "related_quotes": [14, 16, 24],
+      "application_channels": ["social_media", "teaser_headline", "keynote_opening"],
+      "domain_applications": ["個人身份構建", "創作動機深化", "社群參與驅動", "人生規劃指導"],
+      "social_ready": true
+    },
+    {
+      "rank": 16,
+      "quote": "短影片有引力，但它的引力是窄的、淺的、會讓你愈來愈餓的。創造也有引力，而且它的引力是寬的、深的、會讓你愈來愈飽的",
+      "category": "創造力啟蒙",
+      "tags": ["成癮機制", "長期滿足", "行為轉變"],
+      "impact_level": "tier_3_tactical",
+      "source": "從毒癮到創造者系列",
+      "related_quotes": [14, 15, 24, 7],
+      "application_channels": ["social_media", "social_media", "team_discussion"],
+      "domain_applications": ["個人習慣轉變", "社群運營策略", "教育激勵設計", "成癮防控"],
+      "social_ready": true
+    },
+    {
+      "rank": 17,
+      "quote": "知識的所有權，正在重新定義。過去，知識的所有權屬於『知道的人』。但在『逆向視覺解構』的世界裡，知識的所有權屬於『看得見的人』",
+      "category": "知識民主化與危機",
+      "tags": ["知識權力", "AI時代洗牌", "新競爭規則"],
+      "impact_level": "tier_2_strategic",
+      "source": "逆向視覺解構系列",
+      "related_quotes": [18, 20, 22],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["競爭策略調整", "知識管理重構", "企業護城河設計", "組織知識戰略"],
+      "social_ready": false
+    },
+    {
+      "rank": 18,
+      "quote": "Text-to-Image 威脅的是設計師。Reverse Visual Deconstruction 威脅的是整個產業的知識壟斷",
+      "category": "知識民主化與危機",
+      "tags": ["技術威脅", "產業洗牌", "知識民主化"],
+      "impact_level": "tier_2_strategic",
+      "source": "逆向視覺解構系列",
+      "related_quotes": [17, 19, 23],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["產業轉型預測", "企業戰略調整", "人才儲備規劃", "組織護城河重建"],
+      "social_ready": false
+    },
+    {
+      "rank": 19,
+      "quote": "這不是技術升級。這是一場知識所有權的靜默政變——而你現在才剛意識到它已經發生了",
+      "category": "知識民主化與危機",
+      "tags": ["範式轉變", "危機意識", "無聲變革"],
+      "impact_level": "tier_2_strategic",
+      "source": "逆向視覺解構系列",
+      "related_quotes": [17, 18, 22],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["戰略警覺培養", "轉型時機判斷", "組織危機預防", "個人適應策略"],
+      "social_ready": false
+    },
+    {
+      "rank": 20,
+      "quote": "當隱性變顯性，定價權就轉移了。當稀缺性消失，定價權就轉移了",
+      "category": "知識民主化與危機",
+      "tags": ["定價權", "稀缺性消失", "經濟效應"],
+      "impact_level": "tier_2_strategic",
+      "source": "暗知識系列",
+      "related_quotes": [17, 23, 22],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["定價策略調整", "服務價值重估", "商業模式設計", "競爭力重新評估"],
+      "social_ready": false
+    },
+    {
+      "rank": 21,
+      "quote": "當決策是由機器做出，但傷害是由人類承受時，誰該負責？",
+      "category": "知識民主化與危機",
+      "tags": ["倫理困境", "責任制度", "法律缺陷"],
+      "impact_level": "tier_3_tactical",
+      "source": "暗知識系列",
+      "related_quotes": [22, 31, 19],
+      "application_channels": ["article_citation", "knowledge_graph", "team_discussion"],
+      "domain_applications": ["企業風控策略", "AI治理框架", "法律政策討論", "組織責任制度"],
+      "social_ready": false
+    },
+    {
+      "rank": 22,
+      "quote": "你以為自己擁有的知識——那些『做久了就知道』的訣竅、那些『只能意會不能言傳』的手感、那些『需要十年才能培養出來』的直覺——它們不是你的護城河。它們只是還沒被掃描的資產",
+      "category": "知識民主化與危機",
+      "tags": ["隱性知識", "護城河消失", "時間護城河", "人生警示"],
+      "impact_level": "tier_1_transformative",
+      "source": "暗知識系列",
+      "related_quotes": [20, 23, 31],
+      "application_channels": ["keynote_opening", "article_citation", "teaser_headline"],
+      "domain_applications": ["個人競爭力評估", "職業轉型規劃", "知識積累策略", "組織知識保護"],
+      "social_ready": false
+    },
+    {
+      "rank": 23,
+      "quote": "隱性知識的傳承鏈中...AI把『做久了就知道』，翻譯成了『任何人都能照做的參數』。當隱性變顯性，護城河就消失了",
+      "category": "知識民主化與危機",
+      "tags": ["知識民主化", "時間護城河", "傳承斷裂"],
+      "impact_level": "tier_3_tactical",
+      "source": "暗知識系列",
+      "related_quotes": [22, 20, 13],
+      "application_channels": ["article_citation", "knowledge_graph", "team_discussion"],
+      "domain_applications": ["人才培養策略", "教育體系改革", "傳統行業轉型", "知識保護機制"],
+      "social_ready": false
+    },
+    {
+      "rank": 24,
+      "quote": "消費是線性的——你今天消費一小時，你得到一小時的消費。創造是指數的——你今天創造一小時，你的能力、你的作品、你的聲譽，都在增長，而且增長會加速",
+      "category": "長期增長策略",
+      "tags": ["複利效應", "創造力", "指數增長"],
+      "impact_level": "tier_1_transformative",
+      "source": "蜂群Agent是什麼？運算資源的新範式",
+      "related_quotes": [7, 16, 26],
+      "application_channels": ["social_media", "article_citation", "social_media"],
+      "domain_applications": ["職業規劃", "時間管理", "內容策略", "個人品牌建設"],
+      "social_ready": true
+    },
+    {
+      "rank": 25,
+      "quote": "Prompt是對個體智慧的壓榨，Workflow是對組織結構的編排",
+      "category": "系統設計哲學",
+      "tags": ["架構演進", "組織設計", "協作模式"],
+      "impact_level": "tier_2_strategic",
+      "source": "AI蜂群投資#1：蜂群覺醒",
+      "related_quotes": [5, 34, 1],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["組織協作流程設計", "AI系統架構", "團隊效能管理", "複雜項目管理"],
+      "social_ready": false
+    },
+    {
+      "rank": 26,
+      "quote": "一個系統不需要任何類似意識的東西，就可以在毫秒內湧現出數百個無意識的計算單位，協同完成複雜任務",
+      "category": "AI時代轉變",
+      "tags": ["蜂群智慧", "分散式系統", "意識問題", "AG I焦慮破除"],
+      "impact_level": "tier_1_transformative",
+      "source": "蜂群Agent是什麼？運算資源的新範式",
+      "related_quotes": [27, 25, 28],
+      "application_channels": ["keynote_opening", "article_citation", "knowledge_graph"],
+      "domain_applications": ["AI戰略認知", "架構設計思路", "組織協作借鑑", "人機關係重構"],
+      "social_ready": false
+    },
+    {
+      "rank": 27,
+      "quote": "意識不是運算的必要條件，效率才是",
+      "category": "AI時代轉變",
+      "tags": ["AI本質", "哲學層面", "性能優先"],
+      "impact_level": "tier_1_transformative",
+      "source": "蜂群Agent是什麼？運算資源的新範式",
+      "related_quotes": [26, 9, 28],
+      "application_channels": ["social_media", "keynote_opening", "social_media"],
+      "domain_applications": ["AI應用評估", "技術選型決策", "戰略思考", "認知升級"],
+      "social_ready": true
+    },
+    {
+      "rank": 28,
+      "quote": "妳過去的看盤方式，就是最典型、最原始的Prompt模式——用妳單一的大腦，去面對無窮無盡的外部隨機數據，直到過載崩潰",
+      "category": "長期增長策略",
+      "tags": ["個人極限", "系統設計", "效能突破"],
+      "impact_level": "tier_3_tactical",
+      "source": "AI蜂群投資#1：蜂群覺醒",
+      "related_quotes": [9, 24, 25],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["職業轉型說服", "系統設計論證", "個人成長瓶頸突破", "決策效能提升"],
+      "social_ready": false
+    },
+    {
+      "rank": 29,
+      "quote": "新人類聯盟不是浪漫主義。它是從575年歷史規律推導出來的最優解",
+      "category": "長期增長策略",
+      "tags": ["歷史規律", "戰略正當性", "必然進化"],
+      "impact_level": "tier_2_strategic",
+      "source": "從印刷機到AI：每一次中間層革命，都是同一場戰爭",
+      "related_quotes": [10, 3, 34],
+      "application_channels": ["keynote_opening", "article_citation", "team_discussion"],
+      "domain_applications": ["組織文化轉變", "戰略論證", "未來規劃", "團隊說服和招聘"],
+      "social_ready": false
+    },
+    {
+      "rank": 30,
+      "quote": "在LLM快速進化的時代，傳統軟體公司的問題是——它的資產類型，是凍結的決策",
+      "category": "AI時代轉變",
+      "tags": ["產業困境", "資產重估", "轉型必要性"],
+      "impact_level": "tier_2_strategic",
+      "source": "可適應性：蜂群為什麼永遠不會被淘汰",
+      "related_quotes": [8, 20, 27],
+      "application_channels": ["article_citation", "knowledge_graph", "keynote_opening"],
+      "domain_applications": ["企業轉型決策", "投資評估", "產業分析", "組織戰略調整"],
+      "social_ready": false
+    },
+    {
+      "rank": 31,
+      "quote": "法律要求『可解釋性』。但 AI 說『我無法解釋』...那不是『複雜』。那是結構上的不可解釋性",
+      "category": "知識民主化與危機",
+      "tags": ["AI危機", "法律困境", "系統性問題"],
+      "impact_level": "tier_3_tactical",
+      "source": "暗知識系列",
+      "related_quotes": [21, 22, 19],
+      "application_channels": ["article_citation", "knowledge_graph", "team_discussion"],
+      "domain_applications": ["監管政策制定", "企業風控策略", "法律重構討論", "AI治理框架"],
+      "social_ready": false
+    },
+    {
+      "rank": 32,
+      "quote": "對讀者啟蒙+對作者啟蒙+人類主動參與=真正的價值創造",
+      "category": "價值創造本質",
+      "tags": ["雙向互動", "價值本質", "新人類聯盟"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_Core_Spirit_Guide.md",
+      "related_quotes": [3, 14, 34],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["內容策略設計", "社群建設", "教育模式創新", "組織文化塑造"],
+      "social_ready": false
+    },
+    {
+      "rank": 33,
+      "quote": "今天在DW中學到的思維方式，明天會在未知的新形態中用上",
+      "category": "價值創造本質",
+      "tags": ["長期視角", "思維遷移", "未來準備"],
+      "impact_level": "tier_3_tactical",
+      "source": "DW_CORE_MEMORANDUM.md",
+      "related_quotes": [2, 13, 24],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["個人成長規劃", "組織人才培養", "教育體系設計", "知識積累策略"],
+      "social_ready": false
+    },
+    {
+      "rank": 34,
+      "quote": "人機互相激勵共學共好——人的洞察推動AI進化，AI的進化推動人的思考深度",
+      "category": "人機協作模式",
+      "tags": ["共進化", "雙向循環", "新人類聯盟"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_CORE_MEMORANDUM.md",
+      "related_quotes": [3, 32, 5],
+      "application_channels": ["article_citation", "team_discussion", "knowledge_graph"],
+      "domain_applications": ["組織文化建設", "人才發展策略", "團隊協作制度", "AI應用設計"],
+      "social_ready": false
+    },
+    {
+      "rank": 35,
+      "quote": "不追求『完美的定義書』，而是『好到能開始的定義書』；不追求完美，追求完成",
+      "category": "實踐方法論",
+      "tags": ["敏捷哲學", "完成優先", "迭代精神"],
+      "impact_level": "tier_3_tactical",
+      "source": "DW_Plan_Template_Guide.md",
+      "related_quotes": [1, 4, 36],
+      "application_channels": ["article_citation", "team_discussion", "team_discussion"],
+      "domain_applications": ["項目管理方法", "產品開發策略", "團隊效能管理", "個人習慣轉變"],
+      "social_ready": false
+    },
+    {
+      "rank": 36,
+      "quote": "DW不是承諾給你完美，而是幫你建立一個『永遠變好』的能力",
+      "category": "系統設計哲學",
+      "tags": ["系統承諾", "持續進化", "人生設計"],
+      "impact_level": "tier_2_strategic",
+      "source": "DW_New_Philosophy_Height.md",
+      "related_quotes": [1, 35, 4],
+      "application_channels": ["article_citation", "team_discussion", "team_discussion"],
+      "domain_applications": ["組織願景塑造", "個人成長轉變", "系統設計理念", "文化價值傳導"],
+      "social_ready": false
+    }
+  ],
+  "filters": {
+    "by_impact_level": {
+      "tier_1_transformative": [1, 2, 3, 7, 9, 10, 15, 22, 24, 26, 27],
+      "tier_2_strategic": [4, 5, 6, 11, 12, 17, 18, 19, 20, 29, 32, 34, 36],
+      "tier_3_tactical": [13, 14, 16, 21, 23, 25, 28, 30, 31, 33, 35]
+    },
+    "by_domain": {
+      "personal_growth": [2, 9, 14, 15, 24, 33],
+      "organizational_management": [1, 5, 12, 25, 29, 36],
+      "strategic_decision": [4, 10, 11, 27, 30],
+      "knowledge_management": [6, 12, 17, 20, 22, 23],
+      "innovation_entrepreneurship": [7, 8, 10, 11, 24, 28],
+      "ai_transformation": [3, 8, 9, 21, 26, 34],
+      "ethics_risk": [19, 21, 22, 31]
+    },
+    "by_channel": {
+      "social_media": [2, 7, 9, 14, 15, 16, 24, 27],
+      "keynote_opening": [1, 3, 10, 15, 22, 29],
+      "article_citation": [4, 6, 8, 11, 12, 13, 20, 25, 28, 30, 32, 33, 34, 35, 36],
+      "knowledge_graph": [5, 6, 8, 17, 18, 19, 20, 25, 26, 28, 31, 32, 33, 34],
+      "teaser_headline": [3, 10, 11, 14, 15, 22, 24]
+    },
+    "social_media_ready": [2, 7, 9, 14, 15, 16, 24, 27],
+    "citation_strong": [4, 6, 8, 10, 11, 12, 22, 25, 30]
+  },
+  "cross_references": {
+    "compound_growth": {
+      "quotes": [7, 24, 16],
+      "theme": "Why creation beats consumption",
+      "chain": ["Existence need", "Creation drive", "Exponential increase", "Self-reinforcement"]
+    },
+    "new_collaboration": {
+      "quotes": [3, 5, 9, 25, 34],
+      "theme": "Human-AI evolution",
+      "chain": ["Individual prompt exhaustion", "Workflow coordination", "Shared evolution", "Mutual awakening"]
+    },
+    "knowledge_crisis": {
+      "quotes": [17, 18, 19, 20, 22, 23],
+      "theme": "Implicit→Explicit→Scarcity Loss→Power Shift",
+      "chain": ["Silent coup", "Ownership transfer", "Definition power moves", "Time moat collapses", "Pricing resets"]
+    },
+    "design_philosophy": {
+      "quotes": [1, 4, 6, 25, 35, 36],
+      "theme": "Logic eternal, execution flows",
+      "chain": ["Perfect plan illusion", "Logic layer permanence", "Iteration capability", "Continuous improvement", "System becoming"]
+    },
+    "creative_awakening": {
+      "quotes": [14, 15, 16, 24, 26],
+      "theme": "Presence→Creation→Compound→Satisfaction",
+      "chain": ["Existence need", "Creation motivation", "Exponential return", "Deep fulfillment", "Hunger satisfaction"]
+    },
+    "professional_evolution": {
+      "quotes": [8, 9, 11, 27, 28, 30],
+      "theme": "Executor→Designer transition",
+      "chain": ["Skill freezing", "Role upgrade", "Rare position", "Market scarcity", "Career security"]
+    }
+  }
+}

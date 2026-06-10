@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <!-- ========== 定義區（整合自 3 個 Subagent） ========== -->
+  <defs>
+    <!-- 綠色漸層（主控節點） -->
+    <linearGradient id="controlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+    <!-- 藍色漸層（Session 節點） -->
+    <linearGradient id="bgAgentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
+    </linearGradient>
+    <!-- 青色漸層（Attach 區） -->
+    <linearGradient id="attachBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#164E63;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0E7490;stop-opacity:0.3" />
+    </linearGradient>
+    <!-- 陰影 -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.25"/>
+    </filter>
+    <!-- 箭頭標記 -->
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#10B981" />
+    </marker>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#06B6D4" />
+    </marker>
+  </defs>
+
+  <!-- ========== 背景 ========== -->
+  <rect width="900" height="650" fill="#0F172A"/>
+
+  <!-- ========== 頂部區域（Sub1 回報） ========== -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">L1.5 Agent View 監控層</text>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#94A3B8">多廚房監控台模式 — 人類監督多個並行 Session</text>
+
+  <!-- 主控節點 -->
+  <rect x="325" y="75" width="250" height="65" rx="30" fill="url(#controlGradient)" filter="url(#shadow)"/>
+  <text x="450" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F0FDFA">人類監控</text>
+  <text x="450" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">你（控制台）</text>
+  <text x="450" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F0FDFA">可見 3+ 個 session</text>
+
+  <!-- ========== 中間區域（Sub2 回報） ========== -->
+  <!-- 向下連接線 -->
+  <line x1="350" y1="140" x2="200" y2="200" stroke="#10B981" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+  <line x1="450" y1="140" x2="450" y2="200" stroke="#10B981" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+  <line x1="550" y1="140" x2="700" y2="200" stroke="#10B981" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
+
+  <!-- Session A（意大利面） -->
+  <rect x="100" y="210" width="200" height="120" rx="10" fill="url(#bgAgentGradient)" filter="url(#shadow)"/>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Session A</text>
+  <text x="200" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E0E7FF">🍝 意大利面</text>
+
+  <!-- Running 標籤 -->
+  <rect x="135" y="280" width="130" height="28" rx="6" fill="#10B981" opacity="0.9"/>
+  <text x="200" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">⏱️ Running</text>
+
+  <text x="200" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">獨立 session</text>
+
+  <!-- Session B（日本料理） -->
+  <rect x="350" y="210" width="200" height="120" rx="10" fill="url(#bgAgentGradient)" filter="url(#shadow)"/>
+  <text x="450" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Session B</text>
+  <text x="450" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E0E7FF">🍣 日本料理</text>
+
+  <!-- Running 標籤 -->
+  <rect x="385" y="280" width="130" height="28" rx="6" fill="#10B981" opacity="0.9"/>
+  <text x="450" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">⏱️ Running</text>
+
+  <text x="450" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">獨立 session</text>
+
+  <!-- Session C（中餐） -->
+  <rect x="600" y="210" width="200" height="120" rx="10" fill="url(#bgAgentGradient)" filter="url(#shadow)"/>
+  <text x="700" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">Session C</text>
+  <text x="700" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#E0E7FF">🥡 中餐</text>
+
+  <!-- Running 標籤 -->
+  <rect x="635" y="280" width="130" height="28" rx="6" fill="#10B981" opacity="0.9"/>
+  <text x="700" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">⏱️ Running</text>
+
+  <text x="700" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#94A3B8">獨立 session</text>
+
+  <!-- ========== Attach 機制區 ========== -->
+  <!-- 標題 -->
+  <text x="450" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#06B6D4">
+    📌 Attach 機制 — 隨時進入任一 Session
+  </text>
+
+  <!-- 虛線箭頭指向操作台 -->
+  <path d="M 200,330 L 200,420" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+  <path d="M 450,330 L 450,420" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+  <path d="M 700,330 L 700,420" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+
+  <!-- 操作台 -->
+  <rect x="325" y="425" width="250" height="60" rx="10" fill="url(#attachBg)" stroke="#06B6D4" stroke-width="2.5"/>
+  <text x="450" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">你可以 Attach 進去</text>
+  <text x="450" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#22D3EE">直接和任一 Session 對話</text>
+
+  <!-- ========== 底部特徵說明區（Sub3 回報） ========== -->
+  <rect x="60" y="510" width="780" height="125" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+
+  <text x="85" y="535" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">核心特徵 — L1.5 Agent View 監控層</text>
+
+  <text x="85" y="562" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 多個獨立 session 同時運行（不互相干擾）</text>
+  <text x="85" y="585" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 人類決定監控哪個、何時 attach 進去對話</text>
+  <text x="85" y="608" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 不需要 session 間直接通訊（各自獨立執行）</text>
+
+  <text x="520" y="562" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• Token 效率：<tspan fill="#F59E0B" font-weight="bold">⭐⭐⭐⭐ 中等</tspan></text>
+  <text x="520" y="585" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 適用場景：多個長期任務 + 可視化監控</text>
+  <text x="520" y="608" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 版本要求：v2.1.139+ 支持 attach 功能</text>
+
+  <!-- 分隔線 -->
+  <line x1="480" y1="545" x2="480" y2="620" stroke="#334155" stroke-width="1"/>
+</svg>

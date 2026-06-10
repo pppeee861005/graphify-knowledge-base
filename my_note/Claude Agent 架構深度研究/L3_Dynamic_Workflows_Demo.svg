@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <!-- ========== 定義區（整合自 3 個 Subagent） ========== -->
+  <defs>
+    <!-- 紫紅色漸層（Script 主節點） -->
+    <linearGradient id="scriptGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D946EF;stop-opacity:1" />
+    </linearGradient>
+    <!-- 紅色漸層（Agent 執行節點） -->
+    <linearGradient id="agentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F43F5E;stop-opacity:1" />
+    </linearGradient>
+    <!-- 質檢區域背景 -->
+    <linearGradient id="qaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C2D12;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#BE123C;stop-opacity:0.15" />
+    </linearGradient>
+    <!-- 成品報告背景 -->
+    <linearGradient id="reportBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C4A6E;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#0E7490;stop-opacity:0.15" />
+    </linearGradient>
+    <!-- 陰影 -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.25"/>
+    </filter>
+    <!-- 箭頭標記 -->
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#A855F7" />
+    </marker>
+    <marker id="arrowPink" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#EC4899" />
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0EA5E9" />
+    </marker>
+  </defs>
+
+  <!-- ========== 背景 ========== -->
+  <rect width="1000" height="750" fill="#0F172A"/>
+
+  <!-- ========== 頂部區域（Sub1 回報） ========== -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">L3 Dynamic Workflows 規模層</text>
+  <text x="500" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#94A3B8">工廠自動化模式 — 代碼持有計畫，自動執行</text>
+
+  <!-- Script 主節點 -->
+  <rect x="375" y="75" width="250" height="70" rx="30" fill="url(#scriptGradient)" filter="url(#shadow)"/>
+  <text x="500" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F3E8FF">完全自動化</text>
+  <text x="500" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Script（代碼程式）</text>
+
+  <!-- 節點下方標示 -->
+  <circle cx="410" cy="150" r="3" fill="#EF4444"/>
+  <text x="425" y="155" font-family="Arial, sans-serif" font-size="11" fill="#EF4444">計畫寫死了</text>
+
+  <circle cx="590" cy="150" r="3" fill="#F97316"/>
+  <text x="605" y="155" font-family="Arial, sans-serif" font-size="11" fill="#F97316">無人決策</text>
+
+  <!-- ========== 中間區域（Sub2 回報）：工廠流水線 ========== -->
+  <!-- 向下虛線 -->
+  <line x1="500" y1="145" x2="500" y2="200" stroke="#A855F7" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowPurple)"/>
+
+  <!-- 工廠流水線標題 -->
+  <text x="500" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#EC4899">🏭 工廠流水線 — 100+ Agents 並行執行</text>
+
+  <!-- 網格工作線 - 第一層 -->
+  <g id="agentGrid1">
+    <rect x="80" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="140" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="200" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="260" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="320" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="380" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="440" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="500" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="560" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="620" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="680" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="740" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="800" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+    <rect x="860" y="260" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.8"/>
+  </g>
+
+  <!-- 網格工作線 - 第二層 -->
+  <g id="agentGrid2">
+    <rect x="80" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="140" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="200" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="260" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="320" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="380" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="440" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="500" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="560" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="620" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="680" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="740" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="800" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+    <rect x="860" y="310" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.7"/>
+  </g>
+
+  <!-- 網格工作線 - 第三層 -->
+  <g id="agentGrid3">
+    <rect x="80" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="140" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="200" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="260" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="320" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="380" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="440" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="500" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="560" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="620" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="680" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="740" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="800" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+    <rect x="860" y="360" width="50" height="35" rx="4" fill="url(#agentGradient)" opacity="0.6"/>
+  </g>
+
+  <!-- 規模指標 -->
+  <rect x="70" y="415" width="180" height="50" rx="6" fill="#FEF3C7" stroke="#EF4444" stroke-width="2"/>
+  <text x="160" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#DC2626">⚠️ 並發上限</text>
+  <text x="160" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#DC2626">16 agents</text>
+
+  <rect x="280" y="415" width="180" height="50" rx="6" fill="#DCFCE7" stroke="#10B981" stroke-width="2"/>
+  <text x="370" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#059669">✅ 總容量</text>
+  <text x="370" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">1,000 agents</text>
+
+  <rect x="490" y="415" width="180" height="50" rx="6" fill="#FEE2E2" stroke="#EC4899" stroke-width="2"/>
+  <text x="580" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#BE123C">🏃 Running</text>
+  <text x="580" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#BE123C">Executing</text>
+
+  <rect x="700" y="415" width="180" height="50" rx="6" fill="#F3E8FF" stroke="#A855F7" stroke-width="2"/>
+  <text x="790" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7C3AED">📦 狀態</text>
+  <text x="790" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7C3AED">無中間產物</text>
+
+  <!-- ========== 底部區域（Sub3 回報）：質檢 + 成品 ========== -->
+  <!-- 虛線指向質檢區 -->
+  <line x1="500" y1="475" x2="500" y2="510" stroke="#EC4899" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowPink)"/>
+
+  <!-- 質檢機制標題 -->
+  <text x="500" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#EC4899">質檢機制 — 對抗審查</text>
+
+  <!-- 左側質檢機器人 -->
+  <rect x="100" y="520" width="160" height="65" rx="8" fill="url(#qaBg)" stroke="url(#agentGradient)" stroke-width="2.5"/>
+  <text x="180" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">質檢機器人 A</text>
+  <text x="180" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FCA5D0">驗證邏輯正確性</text>
+
+  <!-- 對抗箭頭 -->
+  <path d="M 260,552 L 320,552" stroke="#EC4899" stroke-width="2.5" fill="none" marker-end="url(#arrowPink)"/>
+  <text x="290" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#F97316" font-weight="bold">對抗</text>
+
+  <!-- 右側質檢機器人 -->
+  <rect x="740" y="520" width="160" height="65" rx="8" fill="url(#qaBg)" stroke="url(#agentGradient)" stroke-width="2.5"/>
+  <text x="820" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">質檢機器人 B</text>
+  <text x="820" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#FCA5D0">驗證執行完整性</text>
+
+  <!-- 質檢向下箭頭 -->
+  <path d="M 180,585 L 180,615" stroke="#EC4899" stroke-width="2" stroke-dasharray="4,2" fill="none" marker-end="url(#arrowPink)"/>
+  <path d="M 820,585 L 820,615" stroke="#EC4899" stroke-width="2" stroke-dasharray="4,2" fill="none" marker-end="url(#arrowPink)"/>
+
+  <!-- 最終成品報告 -->
+  <rect x="150" y="620" width="700" height="95" rx="10" fill="url(#reportBg)" stroke="#0EA5E9" stroke-width="3"/>
+
+  <text x="500" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0EA5E9">✓ 最終成品報告</text>
+
+  <text x="220" y="670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#10B981">✅ 成功統計</text>
+  <text x="220" y="688" font-family="Arial, sans-serif" font-size="11" fill="#D1FAE5">通過驗證 N 個</text>
+
+  <text x="460" y="670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#EF4444">❌ 失敗隔離</text>
+  <text x="460" y="688" font-family="Arial, sans-serif" font-size="11" fill="#FEE2E2">自動隔離+重做</text>
+
+  <text x="720" y="670" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3B82F6">📊 性能指標</text>
+  <text x="720" y="688" font-family="Arial, sans-serif" font-size="11" fill="#BFDBFE">吞吐量/準確率/耗時</text>
+
+  <!-- ========== 底部特徵說明區 ========== -->
+  <rect x="80" y="730" width="840" height="125" rx="8" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+
+  <text x="105" y="755" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#F59E0B">核心特徵 — L3 Dynamic Workflows 規模層</text>
+
+  <text x="105" y="780" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 計畫寫在代碼裡（完全可預測）</text>
+  <text x="105" y="800" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 規模：100+ agents，並發限制 16 個</text>
+  <text x="105" y="820" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 無人干預自動執行</text>
+  <text x="105" y="840" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 質量保證：對抗審查機制 + 持久化報告</text>
+
+  <text x="540" y="780" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• Token 成本：<tspan fill="#EF4444" font-weight="bold">🚀 最貴（大規模）</tspan></text>
+  <text x="540" y="800" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 適用場景：內容批量生成、大規模研究</text>
+  <text x="540" y="820" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 版本要求：v2.1.154+ Dynamic Workflows</text>
+  <text x="540" y="840" font-family="Arial, sans-serif" font-size="12" fill="#94A3B8">• 中間產物：只存 script 變數，不佔 context</text>
+
+  <!-- 分隔線 -->
+  <line x1="480" y1="765" x2="480" y2="845" stroke="#334155" stroke-width="1"/>
+</svg>

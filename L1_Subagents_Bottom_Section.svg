@@ -1,0 +1,72 @@
+<!-- L1 Subagents 架構圖 - 底部區域 SVG -->
+<svg width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#8B5CF6" />
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="240" fill="#F9FAFB" />
+
+  <!-- ============ 回報箭頭（三個Subagent向下） ============ -->
+  <!-- 從 x=150 的 Subagent 下來的箭頭 -->
+  <path d="M 150,280 L 150,350" stroke="#8B5CF6" stroke-width="2.5" fill="none" marker-end="url(#arrowPurple)" />
+
+  <!-- 從 x=400 的 Subagent 下來的箭頭 -->
+  <path d="M 400,280 L 400,350" stroke="#8B5CF6" stroke-width="2.5" fill="none" marker-end="url(#arrowPurple)" />
+
+  <!-- 從 x=650 的 Subagent 下來的箭頭 -->
+  <path d="M 650,280 L 650,350" stroke="#8B5CF6" stroke-width="2.5" fill="none" marker-end="url(#arrowPurple)" />
+
+  <!-- ============ 結果匯總區框 ============ -->
+  <rect x="100" y="100" width="600" height="70" rx="8" fill="#EFF6FF" stroke="#1E40AF" stroke-width="2.5" />
+
+  <!-- 匯總區標題 -->
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1E40AF" text-anchor="middle">
+    結果匯總區
+  </text>
+
+  <!-- 匯總區副標題 -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="14" fill="#1E3A8A" text-anchor="middle">
+    回報到 Claude Context Window
+  </text>
+
+  <!-- 匯總區說明 -->
+  <text x="400" y="168" font-family="Arial, sans-serif" font-size="12" fill="#3F51B5" text-anchor="middle" font-style="italic">
+    (所有 Subagent 結果並行匯總)
+  </text>
+
+  <!-- ============ 特徵說明區 ============ -->
+  <!-- 說明區背景 -->
+  <rect x="60" y="190" width="680" height="120" rx="6" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1.5" />
+
+  <!-- 說明區標題 -->
+  <text x="70" y="215" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">
+    L1 架構特徵：
+  </text>
+
+  <!-- 特徵 1: 單向指揮鏈 -->
+  <text x="85" y="240" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    <tspan>• 單向指揮鏈</tspan>
+  </text>
+
+  <!-- 特徵 2: 逐回合決策 -->
+  <text x="85" y="260" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    <tspan>• 逐回合決策</tspan>
+  </text>
+
+  <!-- 特徵 3: Token 效率（帶星標） -->
+  <text x="85" y="280" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    <tspan>• Token 效率最高</tspan>
+  </text>
+  <text x="295" y="280" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" font-weight="bold">
+    <tspan>⭐⭐⭐⭐⭐</tspan>
+  </text>
+
+  <!-- 特徵 4: 適合場景 -->
+  <text x="85" y="300" font-family="Arial, sans-serif" font-size="13" fill="#374151">
+    <tspan>• 適合：短期複雜任務</tspan>
+  </text>
+
+</svg>

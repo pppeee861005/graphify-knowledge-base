@@ -1,0 +1,105 @@
+<!-- L1.5 Agent View 架構圖 - 底部區域（Attach 機制） -->
+<defs>
+  <!-- Cyan 邊框和箭頭的漸層 -->
+  <linearGradient id="cyanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#22D3EE;stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Attach 區域背景漸層 -->
+  <linearGradient id="attachBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#164E63;stop-opacity:0.3" />
+    <stop offset="100%" style="stop-color:#0E7490;stop-opacity:0.3" />
+  </linearGradient>
+
+  <!-- 虛線箭頭標記 -->
+  <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#06B6D4" />
+  </marker>
+
+  <!-- 標題陰影 -->
+  <filter id="titleShadowAttach">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+    <feOffset dx="0" dy="2" result="offsetblur"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.4"/>
+    </feComponentTransfer>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- 文字陰影（用於特徵說明） -->
+  <filter id="textGlow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="0.5"/>
+  </filter>
+</defs>
+
+<!-- 背景矩形 -->
+<rect width="900" height="260" fill="#0F172A"/>
+
+<!-- ============ 標題區域 ============ -->
+<text x="450" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#06B6D4" filter="url(#titleShadowAttach)" font-family="Arial, sans-serif">
+  Attach 機制 — 隨時進入任一 Session
+</text>
+
+<!-- ============ 虛線箭頭（從上方 3 個 Session 指向下方） ============ -->
+
+<!-- Session A 箭頭（x=180） -->
+<path d="M 180,50 L 180,140" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+
+<!-- Session B 箭頭（x=450） -->
+<path d="M 450,50 L 450,140" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+
+<!-- Session C 箭頭（x=720） -->
+<path d="M 720,50 L 720,140" stroke="#06B6D4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrowCyan)" opacity="0.8"/>
+
+<!-- ============ 中央人類操作台（你） ============ -->
+<rect x="350" y="145" width="200" height="55" rx="10" fill="url(#attachBg)" stroke="#06B6D4" stroke-width="2.5"/>
+
+<!-- 你的文字 -->
+<text x="450" y="168" font-size="16" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif">
+  你（操作台）
+</text>
+
+<!-- Attach 標籤 -->
+<text x="450" y="190" font-size="11" text-anchor="middle" fill="#22D3EE" font-family="Arial, sans-serif" font-style="italic">
+  可 Attach 進任一 Session
+</text>
+
+<!-- ============ 特徵說明區（y=220-450） ============ -->
+<rect x="60" y="220" width="780" height="115" rx="8" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1.5"/>
+
+<!-- 說明區標題 -->
+<text x="80" y="245" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">
+  L1.5 Agent View 特徵（Attach 模式）：
+</text>
+
+<!-- 特徵 1 -->
+<text x="95" y="270" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+  <tspan>• 多個獨立 session 同時運行（可見 3+ 個）</tspan>
+</text>
+
+<!-- 特徵 2 -->
+<text x="95" y="290" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+  <tspan>• 人類決定監控哪個、何時 attach 進去對話</tspan>
+</text>
+
+<!-- 特徵 3 -->
+<text x="95" y="310" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+  <tspan>• 不需要 session 間的直接通訊（各自獨立執行）</tspan>
+</text>
+
+<!-- 特徵 4: Token 效率（帶星標） -->
+<text x="95" y="330" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+  <tspan>• Token 效率：</tspan>
+</text>
+<text x="280" y="330" font-family="Arial, sans-serif" font-size="13" fill="#EF4444" font-weight="bold">
+  <tspan>⭐⭐⭐⭐ 中等</tspan>
+</text>
+
+<!-- 特徵 5 -->
+<text x="95" y="350" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+  <tspan>• 適用場景：並行多任務 + 可視化監控 + 人類決策</tspan>
+</text>

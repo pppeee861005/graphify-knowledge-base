@@ -4,3 +4,6 @@
 [submodule "計劃12_watering"]
 	path = 計劃12_watering
 	url = https://github.com/pppeee861005/watering-agent-system.git
+[submodule "計劃14_取得憲法"]
+	path = 計劃14_取得憲法
+	url = https://github.com/pppeee861005/lease-guard-constitution.git

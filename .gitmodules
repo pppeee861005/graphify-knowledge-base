@@ -1,3 +1,6 @@
 [submodule "計劃13_租約哨兵"]
 	path = 計劃13_租約哨兵
 	url = https://github.com/pppeee861005/lease-guard-wf.git
+[submodule "計劃12_watering"]
+	path = 計劃12_watering
+	url = https://github.com/pppeee861005/watering-agent-system.git

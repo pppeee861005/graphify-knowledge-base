@@ -1,0 +1,237 @@
+{
+  "publication_date": "2026-06-05",
+  "publication_time": "10:00 AM EDT",
+  "task_phase": "Step 5: Substack Publication & Social Media Launch",
+
+  "substack_settings": {
+    "post_title": "穿衣焦慮的終結：為什麼 AI Agent 會成為你的衣櫃管理員",
+    "post_subtitle": "每天 5 分鐘的穿衣決策焦慮，正在被 AI 改寫。這次，我們從個人體驗出發，看 AI Agent 如何變成你的私人時尚顧問",
+    "series_name": "個人時尚助理系列",
+    "post_image": {
+      "recommendation": "1200×630px 社交分享圖（建議：用 Kling API 生成的虛擬穿衣圖作為封面，用戶作為模特）",
+      "filename": "PSA_E01_cover_1200x630.png",
+      "alt_text": "AI 時尚助理推薦界面展示"
+    },
+    "tags": [
+      "效率優化",
+      "AI Agent",
+      "生活黑客",
+      "決策優化",
+      "個人助理",
+      "科技應用",
+      "Substack"
+    ],
+    "section": "個人時尚助理系列",
+    "scheduled_publish": {
+      "timezone": "Eastern Daylight Time (EDT)",
+      "date": "2026-06-05",
+      "time": "10:00 AM"
+    }
+  },
+
+  "content_markdown_structure": {
+    "status": "⏳ 待寫入完整 Markdown",
+    "outline_sections": [
+      {
+        "section": "【開場】",
+        "word_count": 500,
+        "key_points": [
+          "每天早晨 5 分鐘的穿衣決策焦慮",
+          "涉及因素：天氣、日程、衣櫃、審美",
+          "問題：這 5 分鐘浪費了多少認知資源？",
+          "預告：AI Agent 如何徹底解決"
+        ]
+      },
+      {
+        "section": "【第一部分：時尚助理能做什麼】",
+        "word_count": 800,
+        "key_points": [
+          "每天 8:00 自動推薦（無需主動查詢）",
+          "5 套推薦，適應不同場景",
+          "AR 虛擬穿衣（看效果）",
+          "一鍵購買缺失衣服"
+        ]
+      },
+      {
+        "section": "【第二部分：怎麼做到的】",
+        "word_count": 1000,
+        "key_points": [
+          "感知層：天氣、日程、衣櫃掃描",
+          "決策層：搭配算法",
+          "執行層：虛擬穿衣生成",
+          "用普通話講述技術原理（為 Agent E04 做鋪墊）"
+        ]
+      },
+      {
+        "section": "【第三部分：用戶體驗故事】",
+        "word_count": 700,
+        "key_points": [
+          "早晨 8:00 推送場景",
+          "點開看 5 套方案",
+          "選擇 + 虛擬穿衣 + 購買",
+          "15 分鐘的糾結變成 10 秒決策"
+        ]
+      },
+      {
+        "section": "【第四部分：心理轉變】",
+        "word_count": 500,
+        "key_points": [
+          "不再焦慮，反而期待",
+          "衣櫃利用率提升",
+          "購衣更理性",
+          "對未來生活方式的思考"
+        ]
+      },
+      {
+        "section": "【結尾】",
+        "word_count": 300,
+        "key_points": [
+          "這是 AI 最好的應用",
+          "下次看虛擬穿衣和購物的未來",
+          "號召讀者分享自己的穿衣焦慮"
+        ]
+      }
+    ],
+    "total_word_count_target": "3500-4000字"
+  },
+
+  "formatting_checklist": {
+    "mobile_preview": "✅ 需檢查手機端預覽無破損",
+    "markdown_validation": "✅ 確認所有 Markdown 排版正常",
+    "image_integration": "✅ 社交分享圖是否正確插入",
+    "link_validation": "✅ 所有超連結是否有效",
+    "formatting_rules": [
+      "標題層級：# H1（文章標題）| ## H2（主要章節）| ### H3（小標題）",
+      "強調：**粗體** 用於核心觀點，*斜體* 用於例子",
+      "列表：使用 - 或 1. 清晰層級化內容",
+      "引用：> 用於重要金句或用戶評論",
+      "代碼或數據：使用 ``` 代碼框或表格"
+    ]
+  },
+
+  "social_media_copy": {
+    "threads": {
+      "platform": "Threads",
+      "copy": "早上 8 點，你的手機推送來 5 套穿衣方案。不用再糾結 15 分鐘——直接選、虛擬穿衣預覽、一鍵購買缺失的衣服。\n\n這不是幻想。AI Agent 正在重新定義日常決策。\n\n從穿衣焦慮到穿衣自由，只需要一個聰明的助理。\n\n今天發布：《穿衣焦慮的終結》，看 AI 如何成為你的衣櫃管理員。\n\n🔗 link.substack.com/psa-e01",
+      "structure": "痛點故事 → 解決方案 → 行動號召",
+      "character_limit": "500",
+      "hashtags": ["AI", "效率優化", "生活黑客"]
+    },
+
+    "linkedin": {
+      "platform": "LinkedIn",
+      "copy": "📌 穿衣焦慮的終結：AI Agent 如何改變日常決策\n\n每個人都有過這樣的經歷：\n• 早上對著衣櫃不知道穿什麼\n• 看天氣預報還要重新考慮搭配\n• 發現衣服不搭又懊悔買錯了\n• 同樣的衣服，利用率卻不高\n\n這不只是時尚問題——這是認知負擔問題。\n\n新文章深度分析：\n✅ AI Agent 如何替代人工決策\n✅ 虛擬穿衣+一鍵購物的工作流程\n✅ 為什麼這樣的 AI 應用最有價值\n✅ 個人時尚助理的商業模式未來\n\n現在就讀：《穿衣焦慮的終結》",
+      "structure": "專業標題 → 問題列表 → 核心優勢 → 企業案例 → 號召",
+      "character_limit": "3000",
+      "hashtags": ["AI", "DigitalTransformation", "ProductiveEfficiency"]
+    },
+
+    "facebook_group": {
+      "platform": "Facebook 社團",
+      "copy": "各位姐妹們和兄弟們👋\n\n我發現了一個超有趣的現象：每個人都在因為「穿什麼」而浪費時間和認知資源。\n\n特別是妳們，每天早上面對衣櫃的 5 分鐘決策焦慮。\n\n但現在有個更聰明的方式：\n\n✨ 每天 8:00，AI 自動推薦 5 套穿衣方案\n✨ 看虛擬穿衣效果（用妳自己的照片）\n✨ 缺什麼衣服？一鍵購買\n✨ 越用越聰明，AI 學習妳的風格\n\n最關鍵的是——這不再是科幻，而是現在就能用的 AI Agent 應用。\n\n我新發的文章《穿衣焦慮的終結》詳細講了工作原理和背後的故事。\n\n有興趣的，歡迎點進去看～\n\n🔗 [Substack 連結]",
+      "structure": "共鳴場景 → 痛點 → 解決方案 → 對比 → 號召",
+      "character_limit": "2000",
+      "hashtags": ["時尚", "AI助手", "生活優化"]
+    }
+  },
+
+  "social_distribution_schedule": {
+    "phase": "社團排期安排",
+    "core_groups": [
+      {
+        "group_name": "AI 指揮官社群",
+        "platform": "Facebook / Slack",
+        "post_time": "下午 6:00",
+        "copy_version": "facebook_group",
+        "frequency": "1次"
+      },
+      {
+        "group_name": "科技愛好者社群",
+        "platform": "Discord",
+        "post_time": "下午 6:00",
+        "copy_version": "threads",
+        "frequency": "1次"
+      },
+      {
+        "group_name": "個人成長社群",
+        "platform": "Telegram / 微信",
+        "post_time": "下午 6:00",
+        "copy_version": "facebook_group",
+        "frequency": "1次"
+      }
+    ],
+    "cross_promotion": {
+      "substack_to_social": "發布後 2 小時內分享到各平台",
+      "social_to_substack": "評論引流 Substack 專版",
+      "hashtag_strategy": "統一使用 #AI #效率優化 #生活黑客"
+    }
+  },
+
+  "publication_checklist": {
+    "pre_publication": [
+      "✅ 完整文章內容已撰寫（3500-4000 字）",
+      "⏳ Markdown 排版已檢查（手機端預覽無破損）",
+      "⏳ 社交分享圖已準備（1200×630px）",
+      "⏳ 所有超連結已驗證有效",
+      "⏳ Tags 已確認正確"
+    ],
+    "publication_day": [
+      "📅 Substack 後台排程時間：2026-06-05 10:00 AM EDT",
+      "📝 確認 Title + Subtitle + Section 信息",
+      "📸 上傳社交分享圖到 Substack",
+      "🔗 測試所有內部與外部連結",
+      "📱 手機端最終預覽檢查"
+    ],
+    "post_publication": [
+      "⏰ 發布後立即分享到 Threads（自動）",
+      "⏰ 10 分鐘後分享到 LinkedIn（專業版本）",
+      "⏰ 20 分鐘後分享到 Facebook 社團（共鳴版本）",
+      "💬 回覆評論並引流（前 2 小時最活躍）",
+      "📊 監控數據：打開率、點擊率、分享數"
+    ],
+    "follow_up": [
+      "📧 E02 文章開始撰寫（發布後 1 天）",
+      "📊 整理讀者反饋和問題（發布後 3 天）",
+      "🔄 根據反饋調整 E02 內容方向（發布後 5 天）"
+    ]
+  },
+
+  "metadata": {
+    "task_id": "PSA_E01_Publication_Step5",
+    "status": "準備完成，待內容寫入",
+    "estimated_completion": "2026-06-05 10:00 AM EDT",
+    "responsible_person": "AI 指揮官",
+    "review_checklist": "https://substack.com/settings/publication",
+    "notes": "此 JSON 為 Step 5 的完整規格文檔。E01 文章內容需在 2026-06-01 前完成撰寫。"
+  },
+
+  "integration_points": {
+    "previous_step": "Step 4 - 審核通過（已完成）",
+    "next_step": "Step 6 - 數據監控與反饋收集（發布後執行）",
+    "series_context": [
+      "PSA E01：穿衣焦慮的終結（2026-06-05 發布）",
+      "PSA E02：虛擬穿衣+一鍵購物（2026-06-12 發布）",
+      "PSA E03：個人時尚助理 Pro（2026-06-19 發布）"
+    ],
+    "knowledge_graph_integration": "與 Agent 系列 E04、Software 3.0 E03 的融合點已在大綱中標註"
+  },
+
+  "success_metrics": {
+    "publication_metrics": [
+      "✅ 按時發布（2026-06-05 10:00 AM EDT）",
+      "✅ 社交媒體全覆蓋（Threads、LinkedIn、Facebook）",
+      "✅ Markdown 排版無破損（手機端預覽）"
+    ],
+    "engagement_targets": [
+      "📊 開啟率：>25%（相對於訂閱數）",
+      "📊 點擊率：>5%（內部和外部連結）",
+      "📊 分享數：>10 次（跨平台）",
+      "💬 評論數：>20 條（讀者互動）"
+    ],
+    "downstream_impact": [
+      "🔗 E02 預期閱讀量：↑30%（基於 E01 熱度）",
+      "📈 訂閱數淨增：20-30 人（目標）",
+      "🎯 核心讀者互動率：>40%（回覆評論比例）"
+    ]
+  }
+}

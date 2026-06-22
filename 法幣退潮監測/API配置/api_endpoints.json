@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "project": "法幣退潮監測",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "description": "五層信號監測所需的 API 端點與配置"
+  },
+  "layer_1_price_decoupling": {
+    "description": "第一層：價格層面的脫鉤（DXY vs Gold 相關性）",
+    "endpoints": [
+      {
+        "name": "美元指數(DXY)",
+        "api_provider": "Alpha Vantage",
+        "endpoint": "https://www.alphavantage.co/query",
+        "method": "GET",
+        "params": {
+          "function": "FX_DAILY",
+          "from_symbol": "DXY",
+          "to_symbol": "USD",
+          "outputsize": "full"
+        },
+        "auth": "API_KEY",
+        "rate_limit": "5 calls/min (free), 500 calls/min (premium)",
+        "data_frequency": "daily",
+        "required_fields": ["time", "close"]
+      },
+      {
+        "name": "黃金價格",
+        "api_provider": "Metals-API",
+        "endpoint": "https://metals-api.com/api/timeseries",
+        "method": "GET",
+        "params": {
+          "start_date": "YYYY-MM-DD",
+          "end_date": "YYYY-MM-DD",
+          "base": "USD",
+          "symbols": "XAU"
+        },
+        "auth": "API_KEY",
+        "rate_limit": "100 requests/day (free), unlimited (premium)",
+        "data_frequency": "daily",
+        "required_fields": ["date", "rates.XAU"]
+      },
+      {
+        "name": "白銀價格",
+        "api_provider": "Metals-API",
+        "endpoint": "https://metals-api.com/api/timeseries",
+        "method": "GET",
+        "params": {
+          "start_date": "YYYY-MM-DD",
+          "end_date": "YYYY-MM-DD",
+          "base": "USD",
+          "symbols": "XAG"
+        },
+        "auth": "API_KEY",
+        "rate_limit": "100 requests/day (free), unlimited (premium)",
+        "data_frequency": "daily",
+        "required_fields": ["date", "rates.XAG"]
+      },
+      {
+        "name": "加密貨幣價格（BTC/ETH）",
+        "api_provider": "Coinbase Pro API",
+        "endpoint": "https://api.exchange.coinbase.com/products/{product_id}/candles",
+        "method": "GET",
+        "params": {
+          "product_id": "BTC-USD or ETH-USD",
+          "granularity": 86400
+        },
+        "auth": "不需要認證（公開數據）",
+        "rate_limit": "10 requests/sec",
+        "data_frequency": "hourly, daily",
+        "required_fields": ["time", "close"]
+      }
+    ],
+    "calculation": {
+      "correlation_coefficient": {
+        "formula": "cov(DXY, Gold) / (σ_DXY × σ_Gold)",
+        "window": "30 days rolling",
+        "target": "> -0.2 (decouple threshold)"
+      },
+      "same_direction_ratio": {
+        "formula": "(days_both_up) / total_trading_days",
+        "window": "90 days rolling",
+        "target": "> 30% (decouple signal)"
+      }
+    }
+  },
+  "layer_2_gold_silver_ratio": {
+    "description": "第二層：金銀比的結構性收斂（Gold-Silver Ratio）",
+    "endpoints": [
+      {
+        "name": "黃金價格（用於金銀比計算）",
+        "api_provider": "Metals-API",
+        "endpoint": "https://metals-api.com/api/latest",
+        "method": "GET",
+        "params": {
+          "base": "USD",
+          "symbols": "XAU"
+        },
+        "auth": "API_KEY",
+        "rate_limit": "100 requests/day (free)",
+        "data_frequency": "daily",
+        "required_fields": ["rates.XAU"]
+      },
+      {
+        "name": "白銀價格（用於金銀比計算）",
+        "api_provider": "Metals-API",
+        "endpoint": "https://metals-api.com/api/latest",
+        "method": "GET",
+        "params": {
+          "base": "USD",
+          "symbols": "XAG"
+        },
+        "auth": "API_KEY",
+        "rate_limit": "100 requests/day (free)",
+        "data_frequency": "daily",
+        "required_fields": ["rates.XAG"]
+      }
+    ],
+    "calculation": {
+      "gold_silver_ratio": {
+        "formula": "Gold($/oz) / Silver($/oz)",
+        "window": "daily value, 30-month MA trend",
+        "target": "< 40 (convergence threshold)",
+        "refute": "> 80 (rebound signal)"
+      },
+      "trend_slope": {
+        "formula": "(MA_1month - MA_30month) / 30",
+        "interpretation": "< -1.0 (strong downtrend)"
+      }
+    }
+  },
+  "layer_3_physical_paper_tear": {
+    "description": "第三層：實物與紙面的撕裂（COMEX庫存、實物溢價）",
+    "endpoints": [
+      {
+        "name": "COMEX 白銀庫存",
+        "api_provider": "COMEX Official",
+        "endpoint": "https://www.cmegroup.com/reports/inventory",
+        "method": "WEB_SCRAPE",
+        "description": "COMEX 官方每日發布庫存報告",
+        "data_frequency": "daily",
+        "required_fields": ["date", "silver_inventory"],
+        "note": "可能需要网络爬虫，或从数据聚合商获取"
+      },
+      {
+        "name": "LBMA 白銀庫存",
+        "api_provider": "LBMA Official",
+        "endpoint": "https://www.lbma.org.uk/silver-data-centre",
+        "method": "WEB_SCRAPE",
+        "description": "LBMA 官方每日發布庫存報告",
+        "data_frequency": "daily",
+        "required_fields": ["date", "lbma_inventory"]
+      },
+      {
+        "name": "實物白銀溢價（經銷商調查）",
+        "api_provider": "Manual Survey",
+        "method": "MANUAL",
+        "description": "每月調查 3-5 家本地珠寶/金幣經銷商的報價",
+        "survey_targets": [
+          "Local jewelry dealer A",
+          "Local jewelry dealer B",
+          "Silver coin supplier"
+        ],
+        "frequency": "monthly",
+        "required_fields": ["date", "dealer_name", "silver_price", "premium_%"]
+      },
+      {
+        "name": "COMEX 白銀期貨現貨價格",
+        "api_provider": "Metals-API / Quandl",
+        "endpoint": "https://metals-api.com/api/latest",
+        "method": "GET",
+        "params": {
+          "base": "USD",
+          "symbols": "XAG"
+        },
+        "auth": "API_KEY",
+        "required_fields": ["rates.XAG", "timestamp"]
+      }
+    ],
+    "calculation": {
+      "physical_premium": {
+        "formula": "(Physical_Price - COMEX_Spot) / COMEX_Spot × 100%",
+        "target": "> 10% (tear signal)",
+        "strong_signal": "> 20%"
+      },
+      "inventory_change_rate": {
+        "formula": "(Current_Inventory - Previous_Month) / Previous_Month × 100%",
+        "target": "< -5% monthly (decline signal)"
+      }
+    }
+  },
+  "layer_4_official_pricing": {
+    "description": "第四層：官方計價單位的轉變（國家政策、BRICS、貿易合同）",
+    "endpoints": [
+      {
+        "name": "新聞與政策監測",
+        "api_provider": "NewsAPI / Reuters API / Bloomberg",
+        "endpoint": "https://newsapi.org/v2/everything",
+        "method": "GET",
+        "keywords": [
+          "silver-backed bond",
+          "BRICS currency silver",
+          "silver settlement",
+          "commodity pricing silver"
+        ],
+        "auth": "API_KEY",
+        "frequency": "daily",
+        "required_fields": ["title", "description", "source", "publishedAt"]
+      },
+      {
+        "name": "官方公告監測",
+        "api_provider": "Manual Monitoring",
+        "method": "MANUAL",
+        "description": "監測各國央行、政府財政部官方公告",
+        "targets": [
+          "U.S. Federal Reserve",
+          "ECB",
+          "People's Bank of China",
+          "Russian Central Bank",
+          "BRICS Summit announcements"
+        ],
+        "frequency": "as-announced"
+      },
+      {
+        "name": "國際貿易合同監測",
+        "api_provider": "Manual Monitoring + News",
+        "method": "MANUAL",
+        "description": "掃描國際貿易新聞，尋找「銀計價」合同",
+        "sources": [
+          "Reuters Trade News",
+          "Bloomberg Commodity Trading",
+          "Government trade data"
+        ],
+        "frequency": "weekly"
+      }
+    ]
+  },
+  "layer_5_legal_institution": {
+    "description": "第五層：制度與法律層面（稅法、貨幣地位、繳稅認可）",
+    "endpoints": [
+      {
+        "name": "稅法變更監測",
+        "api_provider": "Manual Monitoring",
+        "method": "MANUAL",
+        "description": "監測各國稅務機構的官方通告",
+        "targets": [
+          "U.S. IRS (Internal Revenue Service)",
+          "各國稅務機構官網"
+        ],
+        "keywords": ["capital gains tax precious metals", "precious metals exemption"],
+        "frequency": "quarterly"
+      },
+      {
+        "name": "法定貨幣地位監測",
+        "api_provider": "Manual Monitoring",
+        "method": "MANUAL",
+        "description": "監測各國央行貨幣政策文件",
+        "targets": [
+          "Central Bank policy documents",
+          "Government legislation"
+        ],
+        "keywords": ["legal tender gold silver", "monetary status"],
+        "frequency": "quarterly"
+      },
+      {
+        "name": "稅收支付認可監測",
+        "api_provider": "Manual Monitoring",
+        "method": "MANUAL",
+        "description": "監測是否允許用金銀支付稅款",
+        "targets": [
+          "IRS announcements",
+          "Treasury Department",
+          "各國稅務機構"
+        ],
+        "keywords": ["pay taxes with gold silver", "bullion tax payment"],
+        "frequency": "quarterly"
+      }
+    ]
+  },
+  "API_credentials": {
+    "note": "請在 credentials.env 中配置，不要提交到 Git",
+    "required_keys": {
+      "ALPHA_VANTAGE_API_KEY": "https://www.alphavantage.co/",
+      "METALS_API_KEY": "https://metals-api.com/",
+      "NEWSAPI_KEY": "https://newsapi.org/",
+      "COINBASE_API_KEY": "https://developers.coinbase.com/",
+      "LOCAL_DEALER_CONTACTS": "manual setup"
+    }
+  },
+  "testing_checklist": {
+    "date_started": "2026-06-22",
+    "tests": [
+      {
+        "name": "Alpha Vantage DXY Query",
+        "status": "pending",
+        "result": "[ ]"
+      },
+      {
+        "name": "Metals-API Gold/Silver Query",
+        "status": "pending",
+        "result": "[ ]"
+      },
+      {
+        "name": "COMEX Inventory Scrape",
+        "status": "pending",
+        "result": "[ ]"
+      },
+      {
+        "name": "NewsAPI Golden/Silver Policy News",
+        "status": "pending",
+        "result": "[ ]"
+      },
+      {
+        "name": "Correlation Calculation (DXY vs Gold)",
+        "status": "pending",
+        "result": "[ ]"
+      },
+      {
+        "name": "Gold-Silver Ratio Calculation",
+        "status": "pending",
+        "result": "[ ]"
+      }
+    ]
+  },
+
+  "notes": {
+    "free_tier_limitations": [
+      "Alpha Vantage free: 5 calls/min, 500 calls/day",
+      "Metals-API free: 100 requests/day",
+      "NewsAPI free: 100 requests/day",
+      "COMEX/LBMA: 免費公開，但可能需要網絡爬蟲或付費數據服務"
+    ],
+    "recommended_premium_upgrades": [
+      "Alpha Vantage Premium: 更高频率、更多历史数据",
+      "Metals-API Premium: 无限制请求，分钟级数据更新",
+      "Quandl: COMEX庫存數據聚合（可能需付費）"
+    ],
+    "alternative_data_sources": [
+      "Trading View API: 歷史數據、技術分析",
+      "IEX Cloud: 多資產類別數據",
+      "Web scraping tools: Selenium, Beautiful Soup（用於爬取公開數據）"
+    ]
+  }
+}

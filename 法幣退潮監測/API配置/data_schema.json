@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "project": "法幣退潮監測",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "description": "五層信號的數據結構定義與驗證規則"
+  },
+
+  "layer_1_price_decoupling": {
+    "description": "第一層：價格層面的脫鉤",
+    "schema": {
+      "date": {
+        "type": "string",
+        "format": "YYYY-MM-DD",
+        "required": true
+      },
+      "dxy": {
+        "type": "number",
+        "description": "美元指數當日收盤價",
+        "unit": "index points",
+        "required": true
+      },
+      "dxy_change_pct": {
+        "type": "number",
+        "description": "美元指數環比變化(%)",
+        "unit": "%",
+        "example": 2.8
+      },
+      "gold_price_usd": {
+        "type": "number",
+        "description": "黃金價格",
+        "unit": "$/oz",
+        "required": true
+      },
+      "gold_change_pct": {
+        "type": "number",
+        "description": "黃金環比變化(%)",
+        "unit": "%"
+      },
+      "silver_price_usd": {
+        "type": "number",
+        "description": "白銀價格",
+        "unit": "$/oz",
+        "required": true
+      },
+      "silver_change_pct": {
+        "type": "number",
+        "description": "白銀環比變化(%)",
+        "unit": "%"
+      },
+      "correlation_coefficient": {
+        "type": "number",
+        "description": "30天滾動相關係數（DXY vs Gold）",
+        "range": [-1, 1],
+        "target_threshold": -0.2,
+        "interpretation": "< -0.2 = 脫鉤信號"
+      },
+      "same_direction_ratio": {
+        "type": "number",
+        "description": "90天滾動 DXY上升且Gold上升的日數比例",
+        "unit": "%",
+        "target_threshold": 30,
+        "interpretation": "> 30% = 脫鉤信號"
+      },
+      "trend_status": {
+        "type": "enum",
+        "enum": ["strengthen", "stable", "weaken", "rupture"],
+        "description": "本層信號趨勢判斷",
+        "required": true
+      }
+    }
+  },
+
+  "layer_2_gold_silver_ratio": {
+    "description": "第二層：金銀比的結構性收斂",
+    "schema": {
+      "date": {
+        "type": "string",
+        "format": "YYYY-MM-DD",
+        "required": true
+      },
+      "gold_silver_ratio": {
+        "type": "number",
+        "description": "金銀比（黃金價格 / 白銀價格）",
+        "example": 85.4,
+        "required": true
+      },
+      "gsr_change": {
+        "type": "number",
+        "description": "金銀比環比變化",
+        "unit": "ratio points"
+      },
+      "gsr_change_pct": {
+        "type": "number",
+        "description": "金銀比環比變化(%)",
+        "unit": "%"
+      },
+      "gsr_30d_ma": {
+        "type": "number",
+        "description": "30天移動平均",
+        "example": 84.2
+      },
+      "gsr_trend_slope": {
+        "type": "number",
+        "description": "30個月移動平均的斜率",
+        "formula": "(MA_1m - MA_30m) / 30",
+        "interpretation": "< -1.0 = 強下降趨勢"
+      },
+      "target_threshold": {
+        "type": "number",
+        "value": 40,
+        "description": "24個月內目標跌破值"
+      },
+      "refute_threshold": {
+        "type": "number",
+        "value": 80,
+        "description": "若反彈至此值，信號被證偽"
+      },
+      "baseline_gsr": {
+        "type": "number",
+        "description": "項目啟動時的基線 GSR（用於長期對比）",
+        "note": "需在首次數據收集時設定"
+      },
+      "trend_status": {
+        "type": "enum",
+        "enum": ["strengthen", "stable", "weaken", "rupture"],
+        "description": "本層信號趨勢判斷",
+        "required": true
+      }
+    }
+  },
+
+  "layer_3_physical_paper_tear": {
+    "description": "第三層：實物與紙面的撕裂",
+    "schema": {
+      "date": {
+        "type": "string",
+        "format": "YYYY-MM-DD",
+        "required": true
+      },
+      "comex_inventory_oz": {
+        "type": "number",
+        "description": "COMEX 白銀庫存（盎司）",
+        "unit": "million oz",
+        "required": true
+      },
+      "comex_inventory_change_pct": {
+        "type": "number",
+        "description": "COMEX 庫存月度變化(%)",
+        "unit": "%",
+        "target_threshold": -5,
+        "interpretation": "< -5% = 下降信號"
+      },
+      "lbma_inventory_oz": {
+        "type": "number",
+        "description": "LBMA 白銀庫存（盎司）",
+        "unit": "million oz"
+      },
+      "lbma_inventory_change_pct": {
+        "type": "number",
+        "description": "LBMA 庫存月度變化(%)",
+        "unit": "%"
+      },
+      "physical_premium_pct": {
+        "type": "number",
+        "description": "實物白銀溢價",
+        "unit": "%",
+        "formula": "(Physical_Price - COMEX_Spot) / COMEX_Spot × 100%",
+        "target_threshold": 10,
+        "strong_signal_threshold": 20,
+        "required": true
+      },
+      "physical_premium_source": {
+        "type": "array",
+        "description": "實物溢價數據來源（經銷商調查）",
+        "items": {
+          "date": "YYYY-MM-DD",
+          "dealer_name": "string",
+          "silver_price": "number ($/oz)",
+          "premium_pct": "number (%)"
+        }
+      },
+      "delivery_difficulties": {
+        "type": "array",
+        "description": "交割困難或違約事件記錄",
+        "items": {
+          "date": "YYYY-MM-DD",
+          "event_type": "enum: ['delivery_delay', 'cash_settlement_alternative', 'quality_downgrade', 'other']",
+          "description": "事件描述",
+          "duration_days": "integer",
+          "source": "news source or official announcement"
+        }
+      },
+      "trend_status": {
+        "type": "enum",
+        "enum": ["strengthen", "stable", "weaken", "rupture"],
+        "description": "本層信號趨勢判斷",
+        "required": true
+      },
+      "note": "此層需監測 3 個子指標的聯動：庫存、溢價、違約事件"
+    }
+  },
+
+  "layer_4_official_pricing": {
+    "description": "第四層：官方計價單位的轉變",
+    "schema": {
+      "date": {
+        "type": "string",
+        "format": "YYYY-MM-DD",
+        "required": true
+      },
+      "silver_backed_bonds": {
+        "type": "array",
+        "description": "白銀計價主權債券",
+        "items": {
+          "date": "YYYY-MM-DD",
+          "issuer_country": "string",
+          "bond_name": "string",
+          "term": "string (e.g., 10-year)",
+          "face_value_oz": "number (silver oz)",
+          "coupon_rate": "number (%)",
+          "source": "official announcement"
+        }
+      },
+      "brics_silver_incorporation": {
+        "type": "object",
+        "description": "BRICS 結算單位納入白銀",
+        "properties": {
+          "status": {
+            "type": "enum",
+            "enum": ["proposed", "announced", "implemented"],
+            "required": true
+          },
+          "silver_allocation_pct": "number (%) - if implemented",
+          "date_announced": "YYYY-MM-DD",
+          "date_implemented": "YYYY-MM-DD - if applicable",
+          "source": "official BRICS announcement"
+        }
+      },
+      "trade_contracts_silver_priced": {
+        "type": "array",
+        "description": "國際貿易合同以白銀計價",
+        "items": {
+          "date": "YYYY-MM-DD",
+          "trade_parties": "string (country1 - country2)",
+          "commodity": "string (e.g., crude oil, soybeans)",
+          "pricing_unit": "string (e.g., x kg silver per unit)",
+          "contract_value": "number (in silver oz equivalent)",
+          "source": "trade announcement or news report"
+        }
+      },
+      "trend_status": {
+        "type": "enum",
+        "enum": ["strengthen", "stable", "rupture"],
+        "description": "本層信號趨勢判斷",
+        "required": true,
+        "note": "此層基本為零，無法『減弱』，只有『強化』或『保持為零（判定為證偽）』"
+      }
+    }
+  },
+
+  "layer_5_legal_institution": {
+    "description": "第五層：制度與法律層面",
+    "schema": {
+      "date": {
+        "type": "string",
+        "format": "YYYY-MM-DD",
+        "required": true
+      },
+      "capital_gains_tax_exemption": {
+        "type": "array",
+        "description": "取消貴金屬交易的資本利得稅",
+        "items": {
+          "date_announced": "YYYY-MM-DD",
+          "country": "string",
+          "jurisdiction": "string (federal/state/local)",
+          "precious_metals": "array [gold, silver, platinum, ...]",
+          "tax_rate_before": "number (%) or 'standard capital gains'",
+          "tax_rate_after": "number (%) or 'exempted'",
+          "effective_date": "YYYY-MM-DD",
+          "source": "official tax authority"
+        }
+      },
+      "legal_tender_restoration": {
+        "type": "array",
+        "description": "恢復金銀的法定貨幣地位",
+        "items": {
+          "date_announced": "YYYY-MM-DD",
+          "country": "string",
+          "precious_metals": "array [gold, silver]",
+          "legal_status_change": "string (e.g., 'from commodity to legal tender')",
+          "effective_date": "YYYY-MM-DD",
+          "source": "central bank or government legislation"
+        }
+      },
+      "tax_payment_acceptance": {
+        "type": "array",
+        "description": "允許以金銀支付稅款",
+        "items": {
+          "date_announced": "YYYY-MM-DD",
+          "country": "string",
+          "tax_type": "string (income tax, property tax, ...)",
+          "precious_metals_accepted": "array [gold, silver]",
+          "conversion_method": "string (e.g., 'spot price on payment date')",
+          "effective_date": "YYYY-MM-DD",
+          "source": "tax authority official"
+        }
+      },
+      "trend_status": {
+        "type": "enum",
+        "enum": ["strengthen", "rupture"],
+        "description": "本層信號趨勢判斷",
+        "required": true,
+        "note": "此層也基本為零，無法『減弱』，只有『強化』或『保持為零（判定為證偽）』"
+      }
+    }
+  },
+
+  "daily_monitoring_log": {
+    "description": "每日監測日誌的總體結構",
+    "file_naming": "每日數據_YYYYMMDD.md",
+    "schema": {
+      "metadata": {
+        "date": "YYYY-MM-DD",
+        "execution_time": "HH:MM UTC+8",
+        "data_freshness": "all data within 24 hours",
+        "status": "enum [completed, partial, error]"
+      },
+      "layer_1": {
+        "description": "價格脫鉤",
+        "indicators": ["correlation_coefficient", "same_direction_ratio", "trend_status"]
+      },
+      "layer_2": {
+        "description": "金銀比",
+        "indicators": ["gold_silver_ratio", "gsr_30d_ma", "gsr_trend_slope", "trend_status"]
+      },
+      "layer_3": {
+        "description": "實物撕裂",
+        "indicators": ["comex_inventory", "physical_premium_pct", "delivery_difficulties", "trend_status"]
+      },
+      "layer_4": {
+        "description": "官方計價",
+        "indicators": ["silver_backed_bonds", "brics_status", "trade_contracts", "trend_status"]
+      },
+      "layer_5": {
+        "description": "制度法律",
+        "indicators": ["capital_gains_tax", "legal_tender_status", "tax_payment", "trend_status"]
+      },
+      "anomalies": {
+        "type": "array",
+        "description": "異常警報清單（環比變化 > 5%）",
+        "items": {
+          "layer": "integer (1-5)",
+          "indicator": "string",
+          "anomaly_type": "enum [price_spike, inventory_drop, policy_news, ...]",
+          "severity": "enum [low, medium, high, critical]",
+          "description": "詳細描述"
+        }
+      },
+      "summary": {
+        "overall_status": "enum [strengthen, stable, weaken, rupture]",
+        "notes": "人工觀察備註"
+      }
+    }
+  },
+
+  "monthly_report_structure": {
+    "description": "月度報告的數據結構",
+    "file_naming": "月度監測報告_YYYYMM.md",
+    "sections": {
+      "signal_status_matrix": {
+        "description": "五層信號狀態矩陣（可視化表格）",
+        "columns": ["layer", "indicator", "baseline", "month_avg", "month_end", "trend", "status"]
+      },
+      "refute_condition_check": {
+        "description": "證偽條件檢查",
+        "items": [
+          {
+            "condition": "金銀比反彈回 80 以上",
+            "status": "checked",
+            "result": "pass or fail"
+          },
+          {
+            "condition": "實物溢價跌回 < 5%",
+            "status": "checked",
+            "result": "pass or fail"
+          },
+          {
+            "condition": "第四五層保持為零超過時間閾值",
+            "status": "monitored",
+            "days_remaining": "integer"
+          }
+        ]
+      },
+      "cross_layer_correlation": {
+        "description": "跨層信號關聯分析",
+        "analysis": "多層信號的聯動機制"
+      },
+      "forecast_and_risks": {
+        "description": "30-60天風險預警",
+        "items": ["expected_key_points", "refute_signals_to_watch"]
+      }
+    }
+  },
+
+  "validation_rules": {
+    "data_freshness": "所有數據需在 24 小時內",
+    "price_changes": "環比變化超過 5% 需標記為異常",
+    "missing_data": "若 API 無響應，記錄為 'data_unavailable' 並標註時間",
+    "calculation_precision": "相關係數精確到 0.01，百分比精確到 0.1%",
+    "time_zone": "所有時間戳使用 UTC+8（台北時間）"
+  }
+}

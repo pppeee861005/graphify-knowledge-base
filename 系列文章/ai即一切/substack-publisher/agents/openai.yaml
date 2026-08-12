@@ -1,0 +1,7 @@
+interface:
+  display_name: "Substack Publisher"
+  short_description: "從 Markdown 安全建立並驗證 Substack 草稿"
+  default_prompt: "使用 $substack-publisher 將指定 Markdown 建立為已驗證的 Substack 草稿。"
+
+policy:
+  allow_implicit_invocation: true

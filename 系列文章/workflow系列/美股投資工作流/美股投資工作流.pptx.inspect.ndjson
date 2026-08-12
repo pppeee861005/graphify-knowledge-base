@@ -1,0 +1,84 @@
+{"kind":"deck","id":"pr/q3o2ed","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Two Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Three Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Four Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master"},{"name":"text placeholder 2","textPreview":"Click to edit Master"},{"name":"body","type":"body","textPreview":"Click to edit Master"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","placeholders":[{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Footer Only","placeholders":[{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Blank"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"美股投資","textShapes":3}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"Title 3","placeholder":"title","text":"美股投資\n工作流","textPreview":"美股投資 | 工作流","textChars":8,"textLines":2,"bbox":[59.22,213.3,1161.56,261.57]}
+{"kind":"textbox","id":"sh/vmdcj2xw","slide":1,"name":"Subtitle 12","placeholder":"subtitle","text":"讓 AI 搬運資料，讓投資者專注於二階思考與決策","textPreview":"讓 AI 搬運資料，讓投資者專注於二階思考與決策","textChars":24,"textLines":1,"bbox":[251.86,529.67,776.27,83.41]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"name":"Subtitle 4","text":"AI 投資研究","textPreview":"AI 投資研究","textChars":7,"textLines":1,"bbox":[340.67,142.02,598.67,37.98]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":""}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"美股投資工作流","textShapes":5}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"Footer Placeholder 5","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/d4zm9cn2","slide":2,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/s36l076h","slide":2,"name":"Google Shape;533;p58","placeholder":"title","text":"投資研究的瓶頸\n不是資訊不足，而是資料搬運","textPreview":"投資研究的瓶頸 | 不是資訊不足，而是資料搬運","textChars":21,"textLines":2,"bbox":[165.9,163.13,948.2,132.5]}
+{"kind":"textbox","id":"sh/f6h4b25s","slide":2,"name":"Google Shape;534;p58","text":"新聞、財報、逐字稿與社群訊號散落在不同工具裡。\n傳統流程把時間消耗在搜尋、複製、整理與存檔；AI 工作流則把這些重複工作串成管線。\n研究者因此能把注意力移回假設、矛盾、風險與決策。","textPreview":"新聞、財報、逐字稿與社群訊號散落在不同工具裡。 | 傳統流程把時間消耗在搜尋、複製、整理與存檔；AI 工作流則把這些重複工作串成管線。 | 研究者因此能把注意力移回假設、矛盾、風險與決策。","textChars":90,"textLines":3,"bbox":[225.43,349.58,829.13,274.68]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"Subtitle 4","text":"核心問題","textPreview":"核心問題","textChars":4,"textLines":1,"bbox":[340.67,105.18,598.67,37.98]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":""}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"美股投資工作流","textShapes":10}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"Footer Placeholder 2","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/4zex8bux","slide":3,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/507y1gbi","slide":3,"name":"Google Shape;533;p58","placeholder":"title","text":"AI 改變的不是資訊量，而是研究時間的配置","textPreview":"AI 改變的不是資訊量，而是研究時間的配置","textChars":21,"textLines":1,"bbox":[41.33,36.12,1197.33,55.77]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"Google Shape;534;p58","text":"傳統研究依賴手動搜尋與零散筆記，容易造成資訊過載。自動監測、來源整合與結構化存檔，讓研究者從資料搬運轉向判斷。","textPreview":"傳統研究依賴手動搜尋與零散筆記，容易造成資訊過載。自動監測、來源整合與結構化存檔，讓研究者從資料搬運轉向判斷。","textChars":55,"textLines":1,"bbox":[41.33,120.76,662.26,146.67]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"Content Placeholder 9","text":"2 天","textPreview":"2 天","textChars":3,"textLines":1,"bbox":[48.32,412.96,278.57,94.88]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"name":"Content Placeholder 15","text":"傳統方式研究一檔股票的時間","textPreview":"傳統方式研究一檔股票的時間","textChars":13,"textLines":1,"bbox":[48.32,522.38,278.57,94.88]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"name":"Content Placeholder 9","text":"1.5 小時","textPreview":"1.5 小時","textChars":6,"textLines":1,"bbox":[431.11,412.96,278.57,94.88]}
+{"kind":"textbox","id":"sh/x8nml0ra","slide":3,"name":"Content Placeholder 15","text":"AI 工作流的單檔研究目標","textPreview":"AI 工作流的單檔研究目標","textChars":13,"textLines":1,"bbox":[431.11,522.38,278.57,94.88]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"Content Placeholder 9","text":"3 工具","textPreview":"3 工具","textChars":4,"textLines":1,"bbox":[813.89,412.96,278.57,94.88]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"name":"Content Placeholder 15","text":"偵察、消化與存檔形成完整閉環","textPreview":"偵察、消化與存檔形成完整閉環","textChars":14,"textLines":1,"bbox":[813.89,522.38,278.57,94.88]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"美股投資工作流","textShapes":7}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"Footer Placeholder 3","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[41.33,659.31,374.67,25.33]}
+{"kind":"textbox","id":"sh/p0rel8vu","slide":4,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/ozydc3u9","slide":4,"name":"Google Shape;533;p58","placeholder":"title","text":"三項工具各司其職，組成可追溯的研究系統","textPreview":"三項工具各司其職，組成可追溯的研究系統","textChars":19,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"textbox","id":"sh/fapwfyds","slide":4,"name":"Google Shape;534;p58","text":"Gemini\n即時監測新聞、社群情緒與市場異動；Gems 扮演專屬金融分析師，建立報告骨架。","textPreview":"Gemini | 即時監測新聞、社群情緒與市場異動；Gems 扮演專屬金融分析師，建立報告骨架。","textChars":46,"textLines":2,"bbox":[41.33,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"Content Placeholder 1","text":"Notion\n結構化保存分析結果、投資假設與覆盤紀錄，逐步建立個人化投資資料庫。","textPreview":"Notion | 結構化保存分析結果、投資假設與覆盤紀錄，逐步建立個人化投資資料庫。","textChars":40,"textLines":2,"bbox":[864,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"Content Placeholder 2","text":"NotebookLM\n在封閉來源環境消化 10-K、10-Q 與法說會逐字稿，提供可點擊的精準引註。","textPreview":"NotebookLM | 在封閉來源環境消化 10-K、10-Q 與法說會逐字稿，提供可點擊的精準引註。","textChars":50,"textLines":2,"bbox":[452.67,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"name":"Google Shape;534;p58","text":"工具不是彼此替代，而是分工協作：先擴大偵察範圍，再鎖定可信來源，最後把洞察沉澱成可覆盤的資產。","textPreview":"工具不是彼此替代，而是分工協作：先擴大偵察範圍，再鎖定可信來源，最後把洞察沉澱成可覆盤的資產。","textChars":47,"textLines":1,"bbox":[41.33,120.76,662.26,146.67]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":""}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"美股投資工作流","textShapes":10}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"Footer Placeholder 3","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[41.33,659.31,374.67,25.33]}
+{"kind":"textbox","id":"sh/1wza1kj6","slide":5,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/0vq98fil","slide":5,"name":"Google Shape;533;p58","placeholder":"title","text":"一條管線，把市場訊號轉成可執行決策","textPreview":"一條管線，把市場訊號轉成可執行決策","textChars":17,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"textbox","id":"sh/nyhs3u1c","slide":5,"name":"Google Shape;534;p58","text":"每一步都有明確輸入、輸出與責任工具","textPreview":"每一步都有明確輸入、輸出與責任工具","textChars":17,"textLines":1,"bbox":[41.33,180.83,581.33,90.83]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"Content Placeholder 10","text":"01  偵察 Scout｜Gemini Gems","textPreview":"01  偵察 Scout｜Gemini Gems","textChars":24,"textLines":1,"bbox":[828,313.94,410.67,57.61]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"Google Shape;340;p61","bbox":[788.21,316.55,22.32,22.31]}
+{"kind":"textbox","id":"sh/ahkvi1cb","slide":5,"name":"TextBox 11","text":"Gemini 先擴大視野；NotebookLM 再把結論鎖回原始文件；Canvas 合成報告；五象限模型負責篩選；Notion 保存假設與後續覆盤。","textPreview":"Gemini 先擴大視野；NotebookLM 再把結論鎖回原始文件；Canvas 合成報告；五象限模型負責篩選；Notion 保存假設與後續覆盤。","textChars":74,"textLines":1,"bbox":[41.33,306.41,581.33,306.93]}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"name":"Content Placeholder 10","text":"02  消化 Digest｜NotebookLM","textPreview":"02  消化 Digest｜NotebookLM","textChars":24,"textLines":1,"bbox":[828,377.94,410.67,57.61]}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"name":"Google Shape;340;p61","bbox":[788.21,380.55,22.32,22.31]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"name":"Content Placeholder 10","text":"03  創作 Create｜Gemini Canvas","textPreview":"03  創作 Create｜Gemini Canvas","textChars":27,"textLines":1,"bbox":[828,442.5,410.67,57.61]}
+{"kind":"shape","id":"sh/tcfel0vu","slide":5,"name":"Google Shape;340;p61","bbox":[788.21,445.1,22.32,22.31]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"name":"Content Placeholder 10","text":"04  評分 Score｜五象限模型","textPreview":"04  評分 Score｜五象限模型","textChars":18,"textLines":1,"bbox":[828,506.49,410.67,57.61]}
+{"kind":"shape","id":"sh/gfi5grih","slide":5,"name":"Google Shape;340;p61","bbox":[788.21,509.1,22.32,22.31]}
+{"kind":"textbox","id":"sh/ud0ne10b","slide":5,"name":"Content Placeholder 10","text":"05  存檔 Archive｜Notion","textPreview":"05  存檔 Archive｜Notion","textChars":21,"textLines":1,"bbox":[828,571.83,410.67,57.61]}
+{"kind":"shape","id":"sh/pkr6tgjy","slide":5,"name":"Google Shape;340;p61","bbox":[788.21,574.44,22.32,22.31]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":""}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"美股投資工作流","textShapes":10}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"Footer Placeholder 3","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[41.33,659.31,374.67,25.33]}
+{"kind":"textbox","id":"sh/q9gz25wb","slide":6,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1184.18,659.24,54.48,25.33]}
+{"kind":"textbox","id":"sh/rapgbaxw","slide":6,"name":"Google Shape;533;p58","placeholder":"title","text":"五象限評分，讓標的篩選不再只靠感覺","textPreview":"五象限評分，讓標的篩選不再只靠感覺","textChars":17,"textLines":1,"bbox":[41.33,36.12,1197.33,109.97]}
+{"kind":"textbox","id":"sh/47yh0ve5","slide":6,"name":"Google Shape;534;p58","text":"同一套尺度比較不同公司，迫使投資假設接受檢驗","textPreview":"同一套尺度比較不同公司，迫使投資假設接受檢驗","textChars":22,"textLines":1,"bbox":[41.33,180.83,581.33,90.83]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"Content Placeholder 10","text":"成長性｜營收與需求能否延續","textPreview":"成長性｜營收與需求能否延續","textChars":13,"textLines":1,"bbox":[828,313.94,410.67,57.61]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"Google Shape;340;p61","bbox":[788.21,316.55,22.32,22.31]}
+{"kind":"textbox","id":"sh/v2tcn650","slide":6,"name":"TextBox 11","text":"評分模型不是替代判斷，而是把判斷顯性化。每個象限都要留下依據、分數與反證，才能在價格與基本面變化後重新校準。","textPreview":"評分模型不是替代判斷，而是把判斷顯性化。每個象限都要留下依據、分數與反證，才能在價格與基本面變化後重新校準。","textChars":54,"textLines":1,"bbox":[41.33,306.41,581.33,306.93]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"name":"Content Placeholder 10","text":"獲利性｜成長能否轉成現金與利潤","textPreview":"獲利性｜成長能否轉成現金與利潤","textChars":15,"textLines":1,"bbox":[828,377.94,410.67,57.61]}
+{"kind":"shape","id":"sh/i54bylor","slide":6,"name":"Google Shape;340;p61","bbox":[788.21,380.55,22.32,22.31]}
+{"kind":"textbox","id":"sh/twfux0ne","slide":6,"name":"Content Placeholder 10","text":"護城河｜優勢是否難以複製","textPreview":"護城河｜優勢是否難以複製","textChars":12,"textLines":1,"bbox":[828,442.5,410.67,57.61]}
+{"kind":"shape","id":"sh/svmt4v6t","slide":6,"name":"Google Shape;340;p61","bbox":[788.21,445.1,22.32,22.31]}
+{"kind":"textbox","id":"sh/cbe5g3ih","slide":6,"name":"Content Placeholder 10","text":"估值水平｜價格是否透支預期","textPreview":"估值水平｜價格是否透支預期","textChars":13,"textLines":1,"bbox":[828,506.49,410.67,57.61]}
+{"kind":"shape","id":"sh/dcnm98zm","slide":6,"name":"Google Shape;340;p61","bbox":[788.21,509.1,22.32,22.31]}
+{"kind":"textbox","id":"sh/bq547yhw","slide":6,"name":"Content Placeholder 10","text":"價格動能｜市場是否開始驗證敘事","textPreview":"價格動能｜市場是否開始驗證敘事","textChars":15,"textLines":1,"bbox":[828,571.83,410.67,57.61]}
+{"kind":"shape","id":"sh/0fy5k3id","slide":6,"name":"Google Shape;340;p61","bbox":[788.21,574.44,22.32,22.31]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"美股投資工作流","textShapes":5}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"Footer Placeholder 5","placeholder":"footer","text":"美股投資工作流","textPreview":"美股投資工作流","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/sra9kfyx","slide":7,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/tsjad0z2","slide":7,"name":"Google Shape;533;p58","placeholder":"title","text":"把 AI 用在蒐集與整合\n把最終判斷留給投資者","textPreview":"把 AI 用在蒐集與整合 | 把最終判斷留給投資者","textChars":23,"textLines":2,"bbox":[165.9,163.13,948.2,132.5]}
+{"kind":"textbox","id":"sh/etsrm5gn","slide":7,"name":"Google Shape;534;p58","text":"自動化能提高速度，但不能承擔投資責任。\n每項結論都必須回到原始引註，每個分數都必須保留依據，每次決策都必須能在 Notion 中覆盤。\n真正的效率，不是更快得到答案，而是更快看見自己可能錯在哪裡。","textPreview":"自動化能提高速度，但不能承擔投資責任。 | 每項結論都必須回到原始引註，每個分數都必須保留依據，每次決策都必須能在 Notion 中覆盤。 | 真正的效率，不是更快得到答案，而是更快看見自己可能錯在哪裡。","textChars":98,"textLines":3,"bbox":[225.43,349.58,829.13,274.68]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"Subtitle 4","text":"落地原則","textPreview":"落地原則","textChars":4,"textLines":1,"bbox":[340.67,105.18,598.67,37.98]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":""}

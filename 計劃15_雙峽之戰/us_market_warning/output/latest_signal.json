@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-25",
+  "hormuz_risk": 3,
+  "red_sea_risk": 2,
+  "brent_daily_change_pct": -3.9,
+  "us10y_change_bp": -2.0,
+  "hormuz_score": 6.0,
+  "red_sea_score": 3.0,
+  "oil_score": -1,
+  "treasury_score": 0,
+  "total_score": 8.0,
+  "warning_level": "Risk-Off",
+  "reasons": [
+    "霍爾木茲已出現實際攻擊、改道或嚴重通行中斷風險。",
+    "紅海／曼德海峽出現威脅、警告或零星攻擊。",
+    "Brent單日回落，暫時抵銷部分能源衝擊分數。",
+    "總分已進入去風險區，但仍須確認油價與債市是否同步惡化。"
+  ]
+}

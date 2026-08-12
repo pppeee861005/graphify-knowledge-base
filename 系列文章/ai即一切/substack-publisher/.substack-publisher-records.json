@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://aiagentcommander.substack.com/publish/post/210590719",
+    "title": "Substack Publisher 端到端測試｜2026-08-10",
+    "source": "D:/數位資產/graphify個人知識庫/系列文章/ai即一切/substack-publisher/test-article.md",
+    "createdAt": "2026-08-10T11:55:15.784Z",
+    "status": "draft",
+    "saved": true,
+    "verification": {
+      "blockquotes": 1,
+      "bodyCharacters": 144,
+      "bodyEnd": "用來驗證 Substack 草稿工具的測試文章。\n\n如果這段文字是粗體，代表格式轉換成功。\n\n測試項目\n\n標題與副標題\n\nMarkdown 轉換\n\n清單格式\n\n草稿自動保存\n\n這是一段引用，用來確認引用格式是否保留。\n\n測試結束。這篇文章只能保存為草稿，不得發布、排程或寄送通知。",
+      "bodyStart": "這是一篇用來驗證 Substack 草稿工具的測試文章。\n\n如果這段文字是粗體，代表格式轉換成功。\n\n測試項目\n\n標題與副標題\n\nMarkdown 轉換\n\n清單格式\n\n草稿自動保存\n\n這是一段引用，用",
+      "h2": 0,
+      "h3": 1,
+      "horizontalRules": 1,
+      "lists": 1,
+      "subtitle": "驗證 Markdown、Playwright 與 Saved 狀態",
+      "title": "Substack Publisher 端到端測試｜2026-08-10"
+    }
+  },
+  {
+    "url": "https://aiagentcommander.substack.com/publish/post/210591638",
+    "title": "ex01測式草稿",
+    "saved": true,
+    "verification": {
+      "blockquotes": 0,
+      "bodyCharacters": 18,
+      "bodyEnd": "一隻小豬，在天上飛。\n\n這是測式用的",
+      "bodyStart": "一隻小豬，在天上飛。\n\n這是測式用的",
+      "h2": 0,
+      "h3": 0,
+      "horizontalRules": 0,
+      "lists": 0,
+      "subtitle": "",
+      "title": "ex01測式草稿"
+    },
+    "source": "D:/數位資產/graphify個人知識庫/系列文章/ai即一切/ex01測式草稿.md",
+    "createdAt": "2026-08-10T12:02:13.633Z",
+    "status": "draft"
+  }
+]

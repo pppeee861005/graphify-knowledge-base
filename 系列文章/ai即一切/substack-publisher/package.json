@@ -1,0 +1,8 @@
+{
+  "name": "substack-publisher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "draft:dry-run": "node substack-cli.mjs draft"
+  }
+}

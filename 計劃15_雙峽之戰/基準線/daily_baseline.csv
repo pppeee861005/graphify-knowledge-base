@@ -1,0 +1,2 @@
+baseline_date,market_data_date,hormuz_worldmonitor_score,hormuz_weekly_change_pct,hormuz_risk,red_sea_worldmonitor_score,red_sea_weekly_change_pct,red_sea_risk,brent_close_usd,brent_daily_change_pct,us10y_pct,us10y_change_bp,hormuz_weighted,red_sea_weighted,oil_score,treasury_score,total_score,warning_level,notes
+2026-07-25,2026-07-24,70,-20.6,3,40,24.3,2,96.78,-3.9,4.69,-2,6.0,3.0,-1,0,8.0,Risk-Off,"Day 0；核查後修正；Kpler顯示霍爾木茲通行量較正常下降約70%；至少一艘沙烏地油輪遇襲獲確認"
